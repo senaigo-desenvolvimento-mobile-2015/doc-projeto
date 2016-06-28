@@ -1,0 +1,520 @@
+\chapter{Fundamentação Teórica}
+\label{cap:fundamentacaoTeorica}
+
+\section{Engenharia de Software}
+\label{sec:engenhariaSoftware}
+A engenharia de software é um ramo da engenharia cujo foco é o desenvolvimento
+dentro de custos adequados de sistemas de softwares de alta qualidade. Software
+e abstrato e intangível. Não e limitado por materiais ou controlado por leis da
+física ou por processos de manufatura. De alguma maneira, isso simplifica a
+engenharia de software, pois não existem limitações físicas no potencial de
+software. Contudo, a falta de restrições naturais significa que o software pode
+facilmente se tornar extremamente complexo , portanto , muito difícil de ser
+compreendido \cite{sommerville:2008}.
+ 
+ 
+
+Engenharia de software é uma área da computação voltada à especificação,
+desenvolvimento e manutenção de sistemas de software, com aplicação de tecnologias e 
+práticas de gerência de projetos e outras disciplinas, visando organização, produtividade e 
+qualidade. Atualmente, essas tecnologias e práticas englobam linguagens de
+programação, banco de dados, ferramentas, plataformas, bibliotecas, padrões,
+processos e a questão da qualidade de software os fundamentos
+ científicos para a engenharia de software envolvem o uso de modelos abstratos e
+ precisos que permitem ao engenheiro especificar, projetar, implementar e manter
+  sistemas de software, avaliando e garantido suas qualidades. Além disto, a
+  engenharia de software deve oferecer mecanismos para se planejar e gerenciar o
+ processo de desenvolvimento \cite{carvalho:jucs07}.
+ 
+ No processo de desenvolvimento de software, todos os defeitos são humanos e,
+ apesar do uso dos melhores métodos de desenvolvimento, ferramenta ou
+ profissionais, permanecem presentes nos produtos,  o que torna a atividades de
+ teste fundamental durante o desenvolvimento de um software.  Devido à
+ quantidade de pessoas envolvidas no processo as chances de defeitos são altas. 
+ Assim, a ocorrência de falhas e inevitável. 
+ 
+\begin{figure}[h]
+\centering
+\includegraphics[width=15cm]{imagens/EngenhariaSoftware.png}
+%\includegraphics[scale=0.60]{imagens/EngenhariaSoftware.png}
+\caption{Diferentes Interpretações ao longo do ciclo de desenvolvimento de um software}
+\label{EngenhariaSoftware}
+\end{figure}
+
+O termo engenharia de software tornou-se conhecido após uma 
+conferência em 1968, quando as dificuldades e armadilhas de projetar sistemas 
+complexos foram discutidas francamente. A busca de soluções começou. Ela se concentrou em melhores metodologias e ferramentas. 
+As mais importantes foram as linguagens de programação que refletem os estilos procedimental, modular e, em seguida, orientado a objeto.
+ A engenharia de software está intimamente ligada ao aparecimento e aperfeiçoamento desses estilos. Também importantes foram os esforços de 
+ sistematização, automatização da documentação do programa e testes. Por último, a verificação analítica e provas de correção deveriam substituir os testes.
+ 
+ O rápido crescimento do poder computacional tornou possível aplicarades. A presença deles foi notada
+principalmente na engenharia e nas ciências naturais, mas também nos negócios,
+onde logo tornaram-se indispensál computação em tarefas cada vez mais complicadas. Esta tendência aumentou drasticamente as demandas por engenheiros de software. 
+Programas e sistemas se tornaram complexos e quase impossíveis de ser completamente compreendidos. O final dos anos 1950 como um período essencial da
+era da computação. Computadores de grande porte foram disponibilizados para instituições de pesquisa e universidades.
+
+O seu aparecimento, dos laboratórios fechados de engenheiros eletricistas para o domínio público, fez com que a sua utilização, em especial a sua programação, 
+se tornasse uma atividade para muitos. Uma nova profissão nasceu, mas os computadores de grande porte se tornaram ocultos, dentro de porões muito bem guardados. A programação foi conhecida por ser uma tarefa sofisticada que
+exige dedicação e pesquisas minuciosa,  para facilitar essa codificação, notações formais foram criadas. Nós agora as chamamos de linguagens de programação.
+A primeira linguagem amplamente conhecida, Fortran, foi lançada pela IBM (Backus, 1957), logo seguida pelo Algol (1958) e sua sucessora oficial em 1960.
+Em 1962, a linguagem Cobol foi lançada pelo Departamento de Defesa dos EUA para
+aplicações de negócios. Mas, como a capacidade de computação cresceu, assim também ocorreu com as exigências sobre os programas e programadores: tarefas tornaram-se mais e mais complicadas.
+ 
+  Como muitos elementos computacionais tiveram mudanças até hoje e continuam
+  tendo. Com este crescimento computacional, levam a criação de sistemas
+  perfeitos e problemas para quem desenvolve softwares complexos.  As
+  preocupações dos engenheiros de software para o desenvolvimento de softwares
+  sem defeitos e entregarem estes produtos no tempo marcado, assim leva a aplicação da disciplina de engenharia de software. Com o crescimento desse segmento muitas empresas possuem mais especialistas em TI em que cada um tem sua responsabilidade no desenvolvimento de software e é diferente de antigamente que era um único profissional de software que trabalhava sozinho numa sala.
+ 
+ No desenvolvimento de um projeto de software quanto mais complexo é o software, maior é o empenho que o engenheiro de software deve fazer para desenvolver e tem 
+que ter maior gerenciamento. A base da engenharia de software são conjuntos de
+atividades para o processo de desenvolvimento de software. A existência de vários tipos de processo de desenvolvimento de software e podemos dizer que para
+resolver o problema do software usam estas atividades tais como: analise de requisito, design do software, código, teste e etc.
+
+Com a aplicação da engenharia de software no desenvolvimento do software traz
+uma certa qualidade para o software que foi produzido onde divide o problema em pedaços e são tratados por vários especialistas em determinada atividade.
+
+\subsection{Engenharia de Software e Gestão de Projetos}
+\label{subsec:engenhariaDeSoftwareEGestaoDeProjetos}
+Para esclarecer, vamos dividir os assuntos Engenharia de Software e Gestão de Projetos organizados em áreas de processo, que é a nomenclatura comum do SEI (Software Engineering Institute).
+
+Áreas de Processo relacionadas à Gestão de Projetos;
+
+\begin{itemize}
+\item Planejamento do Projeto: Estabelecer e manter planos que definem as atividades do projeto.
+
+\item Acompanhamento e Monitoramento do Projeto: Estabelecer uma
+visão de progresso das atividades do projeto, provendo ações corretivas quando ocorrerem desvios significativos de planejamento.
+
+\item Gerenciamento de Acordos com Fornecedores: Gerenciar a aquisição de produtos e serviços de fornecedores, visando criar um acordo formal entre as partes.
+
+
+\item Gerenciamento de Riscos: Identificar possíveis problemas antes que ocorram com o propósito de minimizar impactos adversos que possam ocorrer ao planejamento.
+
+
+\item Gerenciamento Integrado de Projetos: Estabelecer e manter o
+gerenciamento do projeto prevendo o envolvimento de pessoas, integração de planos, visão compartilhada da integrações e estrutura da equipe que realizará os objetivos propostos pelo projeto.
+
+
+
+\end{itemize}
+
+Áreas de Processo relacionadas à Engenharia de Software;
+
+\begin{itemize}
+  
+ \item Gerenciamento de Requisitos: Gerenciar os requisitos e identificar inconsistências entre requisitos do projeto, o planejamento e produtos de trabalho.
+ 
+
+\item Desenvolvimento de Requisitos: Produzir e analisar requisitos do cliente, produto e componentes do produto.
+
+
+\item Solução técnica: Projetar, desenvolver e implementar soluções para atender os requisitos especificados.
+
+
+\item Integração de Produtos: Montar os produto e seus componentes garantindo que o produto, após integrado, funcione apropriadamente e seja entregue conforme esperado.
+
+\item Verificação: Garantir que os produtos estão de acordo com as
+especificações..
+
+\item Validação: Garantir que os produtos cumpra os objetivos pelos quais foi
+concebido, quando em seu ambiente pretendido.
+
+
+
+\end{itemize} 
+
+
+
+
+
+\section{Ciclo de vida de Software}
+\label{subsec:cicloDeVidaDeSoftware}
+Para alguns sistemas o ciclo de vida não é longo, portanto é necessário entender
+que um software nunca estará totalmente acabado; ele poderá estar pronto para
+uso, mas sempre sofrerá implementações e melhorias \cite{rezende2005engenharia}
+
+
+Este ciclo abrange algumas etapas: análise, projeto, implementação, testes e
+manutenção. O modelo cascata, mais conhecido como modelo de ciclo de vida, tem
+essas cinco fases denominada de uma forma diferente, como mostra a Figura
+abaixo.
+
+\begin{figure}[H]
+\centering
+%\includegraphics[scale=0.9]{imagens/cascata.png}
+\includegraphics[width=15cm]{imagens/ModeloCascata.png}
+\caption{Modelo Cascata}
+\label{Modelo Cascata }
+\end{figure}
+Para melhor especificação do sistema, é necessário recolher todos os requisitos e
+finalidades do sistema na primeira fase: Definição de Requisitos. Na segunda, é definida
+a arquitetura, tanto no aspecto software, com os requisitos funcionais, quanto no aspecto
+hardware, os requisitos não funcionais.
+Na terceira fase, o projeto, o software começa a ser
+implementado e testado na quarta etapa, de maneira a verificar se está atendendo
+a sua finalidade. Para verificar se todos os requisitos atendem as expectativas, na fase de Integração e Teste de
+Sistema, o software é testado como um todo que é feito na quinta etapa. E por
+último, na fase de implantação que é a sexta etapa, após a entrega do software,
+ele é requerido a novas alterações, relacionadas a erros não detectados nos testes \cite{SOMMERVILLE}.
+
+Assim, um software sempre estará em desenvolvimento, pois no decorrer de seu uso
+haverá sempre a necessidade de modificações \cite{brookshear2003computer}.
+A fase de Manutenção concentra-se nas:
+
+ *Correções: Mudanças que estão associadas à correção de defeitos
+(Manutenção Corretiva);
+
+ *Adaptações: São exigidas à medida que o ambiente do sistema evolui e
+(Manutenção Adaptativa);
+
+ *Melhoramento Funcional:Produzidas por exigências variáveis do cliente
+(Manutenção perfectiva).
+
+ *Prevenção: O software de computador se deteriora devido a modificações;
+
+Surge a manutenção preventiva, frequentemente chamada de
+reengenharia de software;
+
+Em essência, a manutenção preventiva faz modificações nos
+programas de computador, de modo que eles possam ser mais
+facilmente corrigidos, adaptados e melhorados;
+
+\begin{figure}[H]
+\centering
+%\includegraphics[scale=0.90]{imagens/cicloDeVida.png}
+\includegraphics[width=10cm]{imagens/cicloDeVida.png}
+%\includegraphics[width=0.90\textwidth]{imagens/cicloDeVida.png}
+%\includegraphics[width=\paperwidth]{imagens/cicloDeVida.png}
+\caption{Ciclo De Vida}
+\label{Ciclo De Vida}
+\end{figure}
+
+\section{Processo Unificado da Rational}
+\label{sec:processoUnificadoDaRational}
+
+O Rational Unified Process® - RUP que traduzido para o português significa
+Processo Unificado da Rational, é um processo de engenharia de software. Com o
+objetivo de garantir um software de alta qualidade que, dentro de um cronograma e um
+orçamento previsíveis, atendam às necessidades dos seus usuários finais, o RUP fornece
+uma abordagem disciplinada para a atribuição de tarefas e responsabilidades na
+organização do desenvolvimento. Utiliza a linguagem UML no desenvolvimento dos
+casos de uso e a orientação a objetos \cite{Kruchten}.
+
+O RUP sugere que o desenvolvedor adote uma abordagem iterativa, pois nela é
+necessário uma maior compreensão do problema através de melhoras sucessivas, para
+gerar gradativamente uma solução eficaz a cada iteração. A abordagem iterativa no
+desenvolvimento verifica os itens de maior risco em cada etapa do ciclo de vida,
+reduzindo significativamente o perfil de um projeto de risco.Pois cada iteração termina com uma versão executável, o desenvolvedor
+permanece focado em produzir resultados e a checagem de status frequentes ajudam a
+garantir que o projeto permaneça dentro do cronograma. Uma abordagem iterativa
+também torna mais fáceis as mudanças táticas nos requisitos, nas funcionalidades e/ou
+no cronograma. Sugere ao desenvolvedor uma excelente maneira de capturar os
+requisitos funcionais. Essa prática apresenta como obter, organizar o documento de
+funcionalidade e restrições; como acompanhar e documentar compromissos e decisões;
+e facilmente como capturar os requisitos de negócio. O processo concentra-se no desenvolvimento inicial de uma arquitetura robusta
+executável. Ele descreve como projetar uma arquitetura flexível, acomoda as
+mudança, é intuitivamente compreensível e promove a reutilização de software mais eficiente. O
+RUP apóia o desenvolvimento de software baseado em componentes. As abstrações
+visuais ajudam o desenvolvedor a se comunicar com os diferentes aspectos software; a ver comoos elementos do sistema se encaixam; manter a coerência
+entre um projeto e sua execução; e promover a comunicação inequívoca.
+
+\subsection{Uso de Arquitetura Baseada em Componentes}
+\label{sec:usoDeArquiteturaBaseadaEmComponentes}
+O processo concentra-se no desenvolvimento inicial de uma arquitetura robusta
+executável. Ele descreve como projetar uma arquitetura flexível, acomoda as
+mudança, é intuitivamente compreensível e promove a reutilização de software mais eficiente. O RUP apóia o desenvolvimento de software baseado em componentes.
+
+\section{Padrões de Projeto}
+\label{sec:padroesDeProjeto}
+Em uma definição mais recente, padrões de projeto não são projetos, como listas
+encadeadas e tabelas de acesso aleatório, que podem ser codificadas em classes e
+ser reutilizadas tais como então. Tampouco são projetos complexos, de domínio
+especifico, para uma aplicação inteira ou subsistemas. Padrões de Projeto
+são descrições de objetos e classes comunicantes que precisam ser personalizadas
+para resolver um problema geral de projeto num contexto particular.\cite{gamma2006padrões}
+
+Já o design adotado é o MVC ( Model View Controller) em português modelo
+visão e controle que separa a representação da informação da interação do
+usuário com ele. O modelo (model) consiste nos dados da aplicação, regras de negócios, lógica e funções.
+ Uma visão (view) pode ser qualquer saída de representação dos dados, como uma tabela ou um diagrama. É possível ter 
+ várias visões do mesmo dado, como um gráfico de barras para gerenciamento e uma visão tabular para contadores. 
+ O controlador (controller) faz a mediação da entrada, convertendo-a em comandos para o modelo ou visão. 
+ As ideias centrais por trás do MVC são a reusabilidade de código e separação de conceitos.
+ 
+ O padrão MVC (Model-View-Controller) é um padrão de arquitetura, ou seja, ele indica como
+deve ser a organização global do sistema. Ele sugere a separação entre o modelo,
+a visão e o controle de uma aplicação:
+
+ – O modelo corresponde às classes do domínio da
+aplicação.
+
+ – A visão corresponde às classes de interface gráfica da
+aplicação.
+
+ – Finalmente, o controle corresponde as classes que
+conectam o modelo à visão.
+
+
+ O padrão indica que as classes do modelo não devem conhecer as classes
+da visão. Isto diminui o acoplamento entre estes componentes, implicando que
+podemos mudar a interface do sistema (de gráfica para textual, por exemplo) sem
+afetar as classes do modelo. De maneira análoga, as classes da UI não
+devem implementar regras de negócio. As classes de controle são o
+mecanismo que integra as classes da UI com as classes do modelo. Elas
+encapsulam como os objetos interagem promovendo um baixo acoplamento entre elas
+e permitindo que suas implementações possam ser modificadas independentemente.
+
+ As classes de controle contém tipicamente
+informação de sequenciamento das operações. Deve-se tomar cuidado, pois as
+classes de controle \textit{não devem} executar tarefas que tipicamente
+pertençam às outras classes.
+
+ Expressam um esquema da organização global da estrutura do sistema. Eles
+provêem um conjunto de subsistemas pré-definidos, especificando os relacionamentos
+entre eles e estabelecendo regras para esses relacionamentos.
+
+Fornecem um esquema para refinar os subsistemas ou componentes do sistema de
+software. Esses padrões possuem um grau de granularidade considerado médio e são
+independentes de linguagem de programação. Padrões de projeto, geralmente, correspondem a uma
+abstração de duas, três ou um pequeno número de classes.
+ 
+Os padrões de projeto são descrições de objetos que se comunicam e classes que
+são customizadas para resolver um problema de projeto genérico em 
+um contexto específico.
+
+ O Reuso é o objetivo principal da engenharia de software baseada em
+componentes.
+ Não se trata somente de reutilização de código, pois abrange também os artefatos envolvidos durante o todas as etapas
+  de desenvolvimento. Com isso os riscos são menores ao usar um componente já
+  existente em relação ao desenvolvimento de algo a partir do zero. Também ocorre o aumento da produtividade, tendo em vista a redução de esforços pela equipe de 
+  desenvolvimento. Seguindo a idéia “Crie uma vez, use onde quiser”. Por sua vez, a qualidade e confiabilidade do produto 
+  são maiores, pois o componente reutilizado já foi testado e aprovado.
+
+ Ao fazer essa análise dos subconjuntos ou módulos do sistema, pode se
+fazer o uso de componentes já existentes, sendo componentes próprios ou
+comerciais. Segundo \cite{Desmond} um componente é um pacote
+coerente de artefatos de software que pode ser desenvolvido independentemente e entregue como unidade e que pode se composto, sem mudança, com outros componentes para construir algo maior.
+
+ O Sistema SGEP funciona juntamente com o sistema FATESG-API e
+ CORPORATUM, os três em conjuntos fazer a geração das provas que o objetivo do
+ sistema SGEP. 
+ 
+\section{Gestão de Projetos}
+\label{sec:gestaoProjeto}
+
+Mais especificamente, o que é um projeto? É um conjunto de atividades
+temporárias, realizadas em grupo, destinadas a produzir um produto, serviço ou resultado únicos.
+Um projeto é temporário no sentido de que tem um início e fim definidos no tempo, e, por isso, um escopo e recursos definidos.
+Um projeto é único no sentido de que não se trata de uma operação de rotina, mas
+um conjunto específico de operações destinadas a atingir um objetivo em particular.
+Assim, uma equipe de projeto inclui pessoas que geralmente não trabalham juntas – algumas vezes vindas de diferentes organizações e de múltiplas geografias.
+O Gerenciamento de Projetos, portanto, é a aplicação de conhecimentos, habilidades e técnicas para a execução de projetos de forma efetiva e eficaz. 
+Trata-se de uma competência estratégica para organizações, permitindo com que elas unam os resultados dos projetos com os objetivos do negócio – e, assim, 
+melhor competir em seus mercados.
+
+Vários autores abordam a gestão de projetos, com ligeiras variações de conceito:
+
+{kerznergestão}, a gestão de projeto de relativamente curto prazo que
+foi estabelecido para a concretização de objetivos específicos; 
+
+Refere que a gestão de projetos é um processo através do qual um projeto é
+levado a uma conclusão.
+Tem três dimensões: objetivos (âmbito, organização, qualidade, custo, tempo); processo de gestão (planejar, organizar, implementar, controlar);
+ níveis (integrativo, estratégico, táctico); PMI (Project Management Institute)
+ (2004), define gestão de projetos como sendo o processo através do qual se aplicam conhecimentos, capacidades, instrumentos e técnicas às atividades do projeto de forma a satisfazer as necessidades e expectativas dos diversos stakeholders que são indivíduos
+ ativamente envolvidos no projeto ou cujo resultado do mesmo poderá afetá-los positivamente ou negativamente;
+ 
+A gerência de projetos, pode ser aplicada como disciplina de manter os riscos
+ de fracasso em um nível tão baixo quanto necessário durante o ciclo de vida do projeto, potenciando, ao mesmo tempo, as oportunidades de ocorrência de eventos 
+ favoráveis do projecto. O risco de fracasso, decorrente da ocorrência de ameaças, aumenta de acordo com a presença de incerteza do evento, e da sua probabilidade
+ de ocorrência, durante todos os estágios do projeto. A variação da probabilidade  de ocorrência dos riscos (sob a forma de ameaças ou oportunidades) diminui, 
+ ao longo do ciclo de vida do projecto, aumentando o impacto  da possível ocorrência do mesmo, na razão inversa, sem que seja, necessariamente, na mesma proporção. 
+ A relação entre estas duas variáveis , é designada, na gestão dos riscos do projeto, como valor esperado, e consiste numa medida de avaliação da importância 
+ e influência do risco, para alcançar o objetivo do projeto em causa. Um ponto-de-vista alternativo diz que gerenciamento de projetos  defini e alcança objetivos ao mesmo tempo que se otimiza o uso de recursos (tempo, dinheiro, pessoas, espaço, etc).
+
+\subsection{O uso do Always beta}
+\label{subsec:oUsoDoAlwaysBeta}
+Nos últimos dez anos, tornou-se comum uma filosofia de prototipagem conhecida como “always beta”, ou sempre beta. Popular em empresas de internet, significa que o software será permanentemente um protótipo e que ele irá sendo melhorado de acordo com as necessidades do usuário.
+Funciona muito bem para empresas de internet, porque o tempo de interação é
+muito menor. Para empresas mais tradicionais pode ser perigoso se não for bem
+feito. É indicado que se analise a situação da sua empresa e o conhecimento dos seus desenvolvedores antes de se tornar “sempre beta“.
+
+\section{Principais problemas encontrados no Levantamento de Requisitos}
+\label{subsec:problemas}
+
+\subsection{Problemas com Stakeholders}
+\label{subsec:problemasStakeholders}
+Stakeholders refere-se ás partes interessadas do projeto, que podem ser pessoas,
+grupos ou mesmo outras empresas, cujos interesses podem ser afetados diretamente
+de forma positiva ou negativa com a execução e conclusão do projeto. Eles com
+certeza exercem influência sobre o projeto e seus resultados. A equipe de
+gerenciamento deve identificar os stakeholders, determinar suas necessidades e
+gerenciar isto, o resultado final seria um projeto bem-sucedido. Principais
+stakeholders: Gerente do projeto responsável pelo gerenciamento do projeto
+cliente pessoa ou organização que solicitou ou contratou o projeto membros da
+equipe	Pessoas que formam a equipe que desenvolverá o projeto organização
+executora empresa em que o projeto está sendo executado,patrocinador ou sponsor
+pessoa ou grupo de dentro ou fora da empresa que fornece os recursos financeiros
+e institucionais para a execução do projeto usuário pessoa ou organização que
+irá utilizar o produto ou serviço.
+
+A palavra vem de:
+\begin{itemize}
+  \item Stake: interesse, participação, risco
+  \item Holder: aquele que possui
+\end{itemize}
+
+  
+  Os primeiros stakeholders que imaginamos em um projeto são o Gerente de Projeto, o Patrocinador do Projeto, a Equipe de Projeto e o Cliente. Entretanto, na prática podem existir muitos outros:
+ \begin{itemize}
+   \item A comunidade
+   \item Outras áreas da empresa
+   \item Concorrentes
+   \item Fornecedores
+   \item Investidores e acionistas
+   \item Governo
+   \item As famílias da equipe de projeto
+ \end{itemize}
+
+Além disso, cada projeto pode ter alguns stakeholders que sejam específicos para sua realidade, e que não se apliquem a outros projetos.
+A importância de identificar os stakeholders é que além de serem afetados pelo projeto, eles podem ter uma influência direta ou indireta no seu resultado. Uma falha nesta identificação significará que o gerente de projeto não estará pensando nas necessidades de todos os envolvidos, e isto é um fator de risco para o projeto.
+
+Descobrir o ponto de equilíbrio é desafiador, evasivo e progressivo, porque o ponto de equilíbrio é dinâmico. Quando os sistemas evoluem, as necessidades dos Stakeholders
+ mudam, aparecem novas oportunidades, os riscos são resolvidos, novos riscos aparecem e a equipe de desenvolvimento descobre novas realidades sobre o sistema. 
+ Mudanças surgem em todo o ciclo de desenvolvimento. Os Stakeholders e os membros da equipe devem estar preparados para reavaliar seus compromissos, reduzir expectativas e
+  ajustar o planejamento conforme a evolução do sistema.
+
+\subsection{Problemas com Engenheiros e Desenvolvedores de Software}
+\label{subsec:problemasEngenheiros}
+Durante o processo de desenvolvimento de software, ocorrem enganos, interpretações
+errôneas e outras faltas (defeitos ou erros), principalmente provocados por problemas na
+comunicação e transformação da informação, que podem resultar em mau funcionamento do
+sistema produzido. Assim, é muito importante detectar esses defeitos o quanto antes,
+preferencialmente na atividade em que foram cometidos, como forma de diminuir retrabalho
+e, por conseguinte, custos de alterações. As atividades que se preocupam com essa questão
+são coletivamente denominadas atividades de garantia da qualidade de software e devem ser
+realizadas ao longo de todo o processo de desenvolvimento de software.
+
+Geralmente falta de entendimento entre o cliente e engenheiro, desenvolvedores,
+analista e etc, trazem grande problema no final do software pronto ou ate mesmo
+antes. Entretanto, o cenário de desenvolvimento de software atual e o cenário
+idealizado junto à engenharia de software ainda estão distantes. Vários fatores
+contribuem para isso, podemos citar três:
+
+\begin{itemize}
+  \item O não uso dos fundamentos da engenharia de software para apoiar as atividades
+do desenvolvimento;
+	\item O mau uso dos fundamentos da engenharia de software para apoiar as
+	atividades do desenvolvimento.
+	\item Tipo de Software (p.ex., sistema de informação, sistema de tempo real
+	etc), Paradigma (estruturado, orientado a objetos etc), Domínio da Aplicação, Tamanho e Complexidade, Características da Equipe etc.
+\end{itemize}
+
+Em um projeto de software, há várias pessoas envolvidas, exercendo diferentes papéis, tais como: Gerente de Projeto, Desenvolvedor (Analistas, Projetistas, Engenheiro de Software, Programadores, Engenheiros de Testes), Gerente da Qualidade, Clientes, Usuários. O número de papéis e suas denominações podem ser bastante diferentes dependendo da organização e até mesmo do projeto.
+Para a boa formação de equipes, devem ser definidos os papéis necessários e devem ser considerados aspectos fundamentais, a saber liderança, organização (estrutura da equipe) e coordenação. Além disso, há diversos fatores que afetam a formação de equipes: relacionamentos inter-pessoais, tipo do projeto, criatividade etc.
+No que se refere à organização e a estrutura das equipes, há diversos tipos de
+equipes, tais como os citados por \cite{pressman2006engenharia}.
+
+Por fim, na formação de equipes deve-se levar em conta o tamanho da equipe. Quanto maior o número de membros da equipe, maior a quantidade de caminhos possíveis de comunicação, o que pode ser um problema, uma vez que o número de pessoas que podem se comunicar com outras pode afetar a qualidade do produto resultante.
+
+
+\section{Requisitos:Funcionais e não Funcionais}
+\label{sec:regrasNegocio}
+O levantamento de requisitos é um processo de desenvolvimento de um sistema. 
+Visando a melhor condição para satisfazer e suprir as necessidades e expectativa do 
+cliente em seu negócio. Oferecendo melhorias e eficácia desde seu inicio ate o fim, 
+garantindo assim funcionalidade do sistema. 
+O levantamento de requisitos é umas das partes mais importantes do processo que 
+resultará no desenvolvimento de um sistema. Entender aquilo que o cliente deseja ou o 
+que o cliente acredita que precisa e as regras do negócio ou processos do negócio. Isso é 
+o  fator determinante que move essa importante função que faz parte da Engenharia de 
+Software (Engenharia de requisitos). 
+
+Aliado ao levantamento de requisitos, a metodologia de desenvolvimento e
+manutenção de sistemas modulares com existe e o mapeamento dos processos que é
+de vital importância para a melhoria dos resultados obtidos pelo levantamento de requisitos. Muitos sistemas são retardados em seu prazo 
+estipulado na fase de definição do escopo do projeto ou até mesmo morre durante seu 
+percurso, pois, a etapa de levantamento de requisitos é negligenciada ou simplesmente 
+feita de forma ineficaz, muitas empresas não adotam as políticas de elaboração de um 
+software, visando a urgência do cliente, acabam fazendo algo sem nenhuma 
+documentação, ou seja não passou pelo processo de qualidade de software, resultando 
+em um tempo de produção rápido, mas pecando as normas de qualidade, gerando muito 
+mas gasto no futuro com manutenção e futuros problemas causados pela não 
+estruturação do software. 
+
+Um software não é uma tarefa trivial, já que, além da habilidade em programação,
+também é necessário compreender a regra de negócio do cliente. Durante o desenvolvimento,
+ o nosso maior objetivo obviamente é satisfazer as necessidades pelas quais o sistema foi concebido.
+ Vale ressaltar que a complexidade de um sistema de software é determinada tanto por seus requisitos funcionais – o que ele faz –
+   quanto requisitos não funcionais - como ele faz. Tal distinção é baseada nas
+   seguintes definições \cite{Thayer}.
+   
+O problema é que, na preocupação de satisfazer as necessidades do cliente, os
+desenvolvedores esquecem que existem os requisitos não-funcionais, que também influenciam bastante na qualidade do software.
+São os requisitos relacionados ao uso da aplicação em termos de desempenho, usabilidade, confiabilidade, segurança, disponibilidade, manutenibilidade e tecnologias envolvidas. Não é preciso o cliente dizer sobre eles,
+pois eles são características mínimas de um software de qualidade, ficando a cargo do desenvolvedor optar por atender esses requisitos ou não.
+
+O software deve garantir a segurança dos dados, bem como as permissões de
+acesso às suas funcionalidades, como, por exemplo, usar criptografia em senhas e liberar acesso aos menus do sistema de acordo com a hierarquia do usuário. Um sistema fácil de operar e que dispense muitos recursos gráficos. Se   possível, adicione descrições das funções (hints) aos botões e configure teclas de atalho para as funções mais utilizadas.
+ Quanto mais simples for a usabilidade, maior será a aceitação dos usuários. A capacidade do sistema em lidar com eventos inesperados. A confiabilidade significa que o sistema deve ser capaz de tratar exceções e se recuperar de falhas, sem que haja perda de dados. A padronização de interface e código utilizada no desenvolvimento do software. É essencial para facilitar a manutenção e atualização do sistema.
+Este item também envolve conceitos de arquitetura, como utilizar MVC, padrões de projeto ou frameworks.
+
+
+
+
+\section{Arquitetura de Software}
+\label{arquiteturaSoftware}
+
+Nas palavras de Martin Fowler, ”O termo arquitetura envolve a noção dos
+principais elementos do sistema, as peças que são difíceis de mudar. Uma
+fundação na qual o resto precisa ser construído” . \cite{introdução}
+
+Essa fundação que constitui a arquitetura, na qual envolve os principais
+elementos do sistema, pode sim ser evolutiva e sofrer modificações ao passar do
+tempo, desde que seu design e implementação forme um modelo estritamente piramidal.
+Aquele arquiteto que fica distante do dia a dia do desenvolvimento do projeto, 
+sem profundo conhecimento técnico e de implementação sobre a ferramenta, que
+apenas toma as grandes decisões e despacha ordens e diagramas, há muito tempo
+está defasada. Martin Fowler diz” (...) o arquiteto deve ser como um guia (...)
+que é um experiente e capacitado membro da equipe que ensina aos outros se virar
+melhor, e ainda assim está sempre lá para as partes mais complicadas” e Larman
+diz que não perdoa o arquiteto que não vê o código: ”Um arquiteto que não esta
+a par da evolução do código do produto, não está conectado com a
+realidade” . \cite{introdução}
+
+ A mudança em arquitetura ou design e impossível
+diretamente, uma vez que ambos são interpretações do único bem existente: a implementação. Através da mudança
+na implementação, adquirir-se as características arquiteturais ou de design
+desejadas . o design e a arquitetura são interpretações, visões, leituras
+criticas de uma implementação. Na maneira de ver a implementação da arquitetura
+podemos analisar e compreender como uma mudança em determinado pontos do sistema
+afeta o sistema inteiro, e de todas as maneiras
+possíveis. \cite{introdução}
+
+
+
+\section{Design de Software}
+\label{designSoftware}
+
+Design é uma forma de interpretar a implementação, analisando e compreendendo
+as interações entre determinadas partes do sistema, como possíveis impactos que
+uma mudança em um ponto causa em outro componente que o acessa direta ou indiretamente.
+O Design poderia ser traduzido tanto por projeto como por desenho. Entretanto,
+estes dois termos não expressam exatamente o que é design. Projeto é um termo
+mais abrangente do que design, pois se aplica a projeto de pesquisa, projeto de
+desenvolvimento de um produto e envolve planejamento, metodologia, cronograma,
+recursos. No ponto de vista do design, importam características das interfaces
+de comunicação entre partes do sistema, seus componentes, em todos os níveis de
+abstração: desde até dois softwares distintos.\cite {introdução}
+
+Ao longo do tempo, o design e arquitetura são diferentes maneiras de
+interpretar a implementação, a traves de uma mudança na implementação que
+obtém-se as mudanças desejadas na visão de design ou na visão de arquitetura.
+A boa implementação tanto no design quanto na arquitetura e aquela que permite
+modificações causando somente um impacto considerado justo a outras partes do
+sistema, e ao mesmo tempo, diminuindo as ocorrências de tais situações, 
+minimizando o custo de desenvolvimento e manutenção.\cite{introdução}
+
+%%% descrever desing de softwre

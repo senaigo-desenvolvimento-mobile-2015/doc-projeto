@@ -1,0 +1,198 @@
+% Exemplo de dissertação do INF-UFG com texto em portugues formatado com LaTeX
+%\usepackage{algpseudocode}
+%\usepackage[utf8]{inputenc}
+% Opções da classe inf-ufg (ao usar mais de uma, separe por vírgulas)
+%   [tese]         -> Tese de doutorado.
+%   [dissertacao]  -> Dissertação de mestrado (padrão).
+%   [monografia]   -> Monografia de especialização.
+%   [relatorio]    -> Relatório final de graduação.
+%   [abnt]         -> Usa o estilo "abnt-alf" de citação bibliográfica.
+%   [nocolorlinks] -> Os links de navegação no texto ficam na cor preta.
+%                     Use esta opção para gerar o arquivo para impressão
+%                     da versão final do seu texto!!!
+\documentclass[monografia,abnt]{inf-ufg}
+
+\usepackage{longtable} 
+\usepackage{lscape}
+\usepackage{algorithm}
+\usepackage{algorithmic}
+\usepackage{alltt}
+\usepackage{amssymb}
+
+\usepackage{indentfirst}
+\usepackage{lineno}
+\usepackage{hyperref}
+\usepackage{cleveref}
+\usepackage{epsfig}
+\usepackage{setspace}
+\usepackage[T1]{fontenc}
+\usepackage{siunitx}
+\usepackage{float}
+\usepackage{booktabs}
+\usepackage{graphicx,times,amsmath}
+\usepackage{xcolor,color,colortbl,hhline,multirow,rotating,array,calc}
+
+% Definindo novas cores
+\definecolor{verde}{rgb}{0.25,0.5,0.35}
+\definecolor{jpurple}{rgb}{0.5,0,0.35}
+
+% Configurando layout para mostrar codigos Java
+\usepackage [none] {hyphenat}
+\usepackage{listings}
+\usepackage{nomencl}
+\makenomenclature
+
+\lstset{  
+  language=Java,
+  basicstyle=\ttfamily\small, 
+  keywordstyle=\color{jpurple}\bfseries,
+  stringstyle=\color{red},
+  commentstyle=\color{verde},
+  morecomment=[s][\color{blue}]{/**}{*/},
+  extendedchars=true, 
+  showspaces=false, 
+  showstringspaces=false, 
+  numbers=left,
+  numberstyle=\tiny,
+  breaklines=true, 
+  backgroundcolor=\color{cyan!10}, 
+  breakautoindent=true, 
+  captionpos=b,
+  xleftmargin=0pt,
+  tabsize=4
+}
+
+\renewcommand{\lstlistingname}{Código}
+\renewcommand{\lstlistlistingname}{Lista de Códigos}
+\renewcommand{\theequation}{
+   \arabic{chapter}.\arabic{equation}%
+}
+
+%Utilize o codigo abaixo para escrever algoritmos em JAVA
+%Copie a classe java (Classe.java) para dentro da pasta prog
+
+%\lstinputlisting[language=JAVA, label=recommenderIntro,
+%caption={Na linha 16 através da classe \textit{UserNeighborhood} é demonstrado
+% a
+%implementação da definição de um conjunto de vizinhos agrupados dois à
+%dois.}]{././prog/RecommenderIntro.java}
+
+
+%----------------------------------------------------- INICIO DO DOCUMENTO %
+\begin{document}
+
+%------------------------------------------ AUTOR, TÍTULO E DATA DE DEFESA %
+%Escolher umAutor, doisAutores ou tresAutores
+\setboolean{umAutor}{true}  
+\setboolean{doisAutores}{false}  
+\setboolean{tresAutores}{false}    
+ 
+ 
+\autor{Fabricio Nogueira dos Santos}
+\autorR{Santos, F. N.}
+
+%\autorD{nomeCompleto}
+%\autorDR{Silva, L. D.}
+   
+%\autorT{nomeCompleto}
+%\autorTR{Walczak, M. L.}
+  
+\titulo{Pré-projeto WebOS}
+%--------------Para incluir subtitulo do Trabalho---------%
+\subtitulo{Site para gerenciamento de Ordem de Serviço}
+  
+\cidade{Goiânia} % Nome da cidade 
+\dia{24} % Dia da apresentação / defesa do trabalho
+\mes{06} % Data da apresentação/defesa do trabalho
+\ano{2014} % Formato numérico: \dia{01}, \mes{01} e \ano{2009}
+
+%-------------------------------------------------------------- ORIENTADOR %
+\orientador{Edjalma Queiroz da Silva}
+\unidadeco{FACULDADE SENAI FATESG}
+\orientadorR{Silva, E. Q.}  
+% Use os comandos a seguir se for Orientadora e nao Orientador.
+%\orientadora{\textless Nome da Orientadora\textgreater}
+%\orientadoraR{\textless Nome Reverso da Orientadora\textgreater}
+
+% ----------- Use os comandos a seguir se for Co-orientador --------------%
+%\coorientador{João Caetano Neto}
+%\coorientadorR{Neto, J. C.}
+
+% ----------- Use os comandos a seguir se for Co-orientadora --------------%
+%\coorientadora{Kátia Aline Forville de Andrade}
+%\coorientadoraR{Andrade, K. A. F.}
+
+%-------------------------------------------------- INSTITUIÇÃO E PROGRAMA %
+\universidade{FACULDADE SENAI FATESG} % {Universidade Federal de Goiás}
+%\uni{FATESG}
+\unidade{PÓS GRADUAÇÃO EM PROJETO E DESENVOLVIMENTO DE SOFTWARE PARA
+DISPOSITIVOS MÓVEIS E INTERNET} %Instituto
+%\departamento{\textless Nome do Departamento\textgreater} %Unidades com mais de um depto.
+   
+
+%\universidadeco{FACULDADE SENAI}
+%\unico{FATESG}
+%\unidadeco{PÓS GRADUAÇÃO EM PROJETO E DESENVOLVIMENTO DE SOFTWARE PARA
+%DISPOSITIVOS MÓVEIS E INTERNET}   
+      
+\programa{Projeto e Desenvolvimento de Software para
+Dispositivos Móveis e Internet} 
+\concentracao{ANÁLISE E DESENVOLVIMENTO DE SISTEMAS}
+  
+%-------------------------------------------------- ELEMENTOS PRÉ-TEXTUAIS %
+\capa    % Gera o modelo da capa externa do trabalho
+\publica % Gera a autorização para publicação em formato eletrônico
+\rosto   % Primeira folha interna do trabalho
+\input{./pre/pre_aprovacao} 
+%\input{./pre/pre_direitos}
+%\input{./pre/pre_dedicatoria}  
+\input{./pre/pre_agradecimentos}
+%\input{./pre/pre_epigrafe}
+\input{./pre/pre_resumo}
+\input{./pre/pre_abstract}
+%\input{./pre/pre_sigla}
+\tabelas[figtabcod]
+%Opções: 
+%nada [] -> Gera apenas o sumário
+%fig     -> Gera o sumário e a lista de figuras
+%tab     -> Sumário e lista de tabelas
+%alg     -> Sumário e lista de algoritmos
+%cod     -> Sumário e lista de códigos de programas
+%
+% Pode-se usar qualquer combinação dessas opções.
+
+% Por exemplo:
+%  figtab       -> Sumário e listas de figuras e tabelas
+%  figtabcod    -> Sumário e listas de figuras, tabelas e
+%                  códigos de programas
+%  figtabalg    -> Sumário e listas de figuras, tabelas e algoritmos
+%  figtabalgcod -> Sumário e listas de figuras, tabelas, algoritmos e
+%                  códigos de programas
+
+\lstlistoflistings %Imprime e vincula a Lista de Programas
+\printnomenclature
+
+%--------------------------------------------------------------- CAPÍTULOS %
+\input{./tex/cap1/cap_I}				%capítulo I
+\input{./tex/cap2/cap_II}				%capítulo II
+\input{./tex/cap3/cap_III}				%Capítulo III
+\input{./tex/cap4/cap_IV}				%Capítulo IV
+\input{./tex/cap5/cap_V}				%Capítulo V
+\input{./tex/cap6/cap_VI}				%Capítulo VI
+%------------------------------------------------------------ BIBLIOGRAFIA %
+%\cleardoublepage
+%\nocite{*} %%% Retire esta linha para gerar a bibliografia com apenas as
+            %%% referências usadas no seu texto!
+\arial
+\bibliographystyle{plain}
+\bibliography{./bib/referencias} %%% Nomes dos seus arquivos .bib
+\label{ref-bib}
+%--------------------------------------------------------------- APÊNDICES %
+%\apendices
+%\input{./pos/apend_I}
+\end{document}
+
+
+%-------------------------------------------------------------------------%
+%        F I M  D O  A R Q U I V O :  m o d e l o - t e s e . t e x       %
+%-------------------------------------------------------------------------%

@@ -1,0 +1,686 @@
+\section{Diagramas da UML}
+\label{sec:diagramas}
+UML é uma linguagem que define uma série de artefatos que nos ajuda na tarefa de modelar e documentar os sistemas orientados a objetos que desenvolvemos. A maioria dos problemas encontrados em sistemas orientados a objetos tem sua origem na construção do modelo, no desenho do sistema.
+A UML não é uma metodologia de desenvolvimento, o que significa que ela não diz
+para você o que fazer primeiro e em seguida ou como projetar seu sistema, mas
+ela lhe auxilia a visualizar seu desenho e a comunicação entre objetos.\cite{d'souza:interface}
+
+A \textit{Unified Modeling Language}  - UML é uma especificação da Object
+Management Group - OMG (OMG, 1997 - 2011). É uma linguagem gráfica de modelagem para visualizar, especificar, construir e documentar os artefatos de sistemas de objetos distribuídos (UML, 2011).
+A UML possui treze modelos gráficos que estão divididos em duas categorias, os
+diagramas de aplicações estáticas que representam a estrutura e os diagramas de
+comportamentos, no entanto dentro desta última categoria, existe uma
+subcategoria que compõe os diagramas de interação \cite{Silva:2007:CiSE}.
+
+A categoria de diagramas de Estrutura inclui diagrama de classe, diagrama de
+objeto, diagrama de componentes, diagrama de estrutura composta, diagrama de
+pacote e diagrama de utilização\cite{Silva:2007:CiSE}.
+Os diagramas de Comportamento são: diagrama de caso de uso, diagrama de máquina de estados e diagrama de atividades.
+ Em sua subcategoria Interação estão inclusos os diagramas de sequência,
+ comunicação, visão geral de interação e por ultimo, porém não menos importante
+ o de temporização \cite{Silva:2007:CiSE}.
+ 
+Os diagramas UML abordados neste projeto são os de: Caso de Uso, Sequência,
+Atividade, Classe e  Estado . Na imagem a seguir podemos visualizar as treze
+representações de modelos de UML.
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=15cm]{imagens/DiagramaUml.png}
+%\includegraphics[scale=0.50]{imagens/DiagramaUml.png}
+\caption{Diagrama de UML  }
+\label{Diagrama de UML }
+\end{figure}
+%%%%% cola aqui a imagemuml
+
+\subsection{Diagrama de Classe}
+\label{sec:diagramaClasse}
+É uma modelagem muito útil para o desenvolvimento de sistemas, pois define todas
+as classes que o sistema necessita possuir e é a base para a construção dos diagramas de comunicação, sequência e estados.
+O diagrama de classes representa a estrutura do sistema, recorrendo ao conceito
+de classe e suas relações. O modelo de classes resulta de um processo de abstração onde são identificados os objectos relevantes do sistema em estudo.
+
+Cada classe é descrita através do seu nome, identificação de todos os seus atributos e identificação de todas as operações que traduzem o seu comportamento. O diagrama de classes mostra como cada classe se relaciona com as outras,
+tendo como objetivo, a satisfação dos requisitos funcionais definidos para o sistema em estudo. Qualquer classe e relação devem ter um nome elucidativo e claro para que o
+diagrama seja facilmente entendido. Depois de se terem identificado as classes e os seus atributos, há que identificar as relações que existem entre as diferentes classes, de forma a satisfazer os requisitos funcionais do sistema.
+
+É possível que na atividade de análise nem todos os atributos tenham seus tipos definidos. Neste caso, estes elementos poderão ser adicionados na
+atividade de projeto, na medida do necessário.  Além disso, os tipos abstratos de dados definidos nos
+papeis de associações poderão ser substituídos por tipos concretos \cite{bezerra2007princípios}
+
+O diagrama de de classes lista todos os conceitos do domínio que serão
+implementados no sistema e as relações entre os conceitos. Ele é muito importante pois define a estrutura do sistema a desenvolver.
+Elaborar de forma criteriosa diagramas de classes é um fator de sucesso de
+projetos de software por que, além do fato de ser um momento propenso à inserção
+de defeitos no software, são neles em que são transformados os problemas do
+usuário em uma solução computacional, servindo como uma ponte entre requisitos e codificação. Se esta ponte for mal projetada, o software também será.\cite{Silveira:2011}
+
+
+\subsection{Diagrama de Classe FATESG API}
+\label{sec:diagramaDeClasseFatesg-Api}
+
+Abaixo ilustração do Diagrama de Classes FATESG-API.
+\begin{figure}[H]
+\centering
+\includegraphics[width=15cm]{imagens/DiagramaClasses.png}
+%\includegraphics[scale=0.70]{imagens/DiagramaClasses.png}
+\caption{Diagrama de Classe FATESG-API }
+\label{Diagrama de Classe FATESG-API  }
+\end{figure}
+
+Uma unidade de ensino está vinculada a uma instituição e a instituição pode estar vinculado a várias unidades de ensino.
+Um curso está vinculado a unidade de ensino. A unidade de ensino pode pertencer a vários cursos.
+Um curso possui vários alunos, colaboradores e matrizes. Cada aluno e colaborador podem estar vinculados a vários cursos. Já a matriz está vinculada a apenas um curso.
+Uma disciplina possui vários alunos, colaboradores e matrizes. Cada aluno, colaborador e matriz podem estar vinculados a várias disciplinas.
+Uma disciplina contém um único plano de ensino vinculado. Cada plano de ensino possui uma única disciplina.
+Um plano de ensino pode conter vários cronogramas de aulas e avaliações. Cada cronograma de aula e avaliação estão vinculados a um único plano de ensino.
+
+\subsection{Diagrama de Classe SGEP}
+\label{sec:diagramaDeClasseSgep}
+Abaixo ilustração do Diagrama de Classes SGEP
+\begin{figure}[H]
+\centering
+\includegraphics[width=15cm]{imagens/DiagramaClasseSgep.png}
+%\includegraphics[scale=0.60]{imagens/DiagramaClasseSgep.png}
+\caption{Diagrama de Classe SEGP }
+\label{Diagrama de Classe SGEP  }
+\label{fig:CasoDeUsoSgep}
+\end{figure}
+
+Uma prova é composta por várias questões. Cada questão pode estar vinculada a várias provas.
+Uma questão possui uma única sessão e uma sessão pode ter várias questões relacionadas.
+
+\subsection{Diagrama de Caso de Uso}
+\label{sec:diagramaCasoUso}
+
+O diagrama de casos de uso é um diagrama da UML cujo objetivo é representar um requisito do sistema que será automatizado. Considere como requisito uma necessidade do sistema. O diagrama
+ilustrado abaixo demostra as principais funcionalidade e os atores do sistema.
+
+Na figura \ref{fig:CasoDeUsoSgep} é mostrado o diagrama de caso de uso do
+sistema que contém Coordenador como atores de casos de usos. Os atores representam os
+papeis que os usuarios de casos de uso desempenham quando interagem com sistema.
+Abaixo ilustração do Diagrama de Caso de Uso do sistema SGEP: 
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=15cm]{imagens/CasoDeUsoSgep.png}
+%\includegraphics[scale=0.90]{imagens/CasoDeUsoSgep.png}
+\caption{Caso de Uso - SGEP  }
+\label{Caso de Uso - SGEP }
+\end{figure}
+
+O diagrama de caso de uso do sistema SGEP conta com um ator principal que se
+chama colaborador em qual engloba os professores e o coordenador.
+O colaborador consiste no professor que e responsavel por cadastrar as questões
+da prova e já o coordenador e responsavel por montar e gerar a prova.
+
+\textbf{Especificação textual}
+
+\textbf{Cenário Principal}
+O caso de uso se inicia com o colaborador/professor no qual  cadastra as
+questões no sistema SGEP, o sistema e responsavel por validar as entradas dessas questões, logo após
+cadastradas as questões o colaborador/coordenador de curso entra no cenário
+pesquisando as questões para a montagem da prova. O coordenador monta a prova logo após de
+pronta então gera a prova.
+
+\textbf{Alternativo 1}  (Colaborador cancela operação)
+O colaborador/professor pode cancelar o cadastramento das questões a qualquer
+momento ativando o botão “Fechar”, implicando no fechamento do caso de uso. Não é realizada
+qualquer alteração no sistema SGEP .
+
+\textbf{Alternativo 2}  (Coordenador cancela operação)
+O coordenador pode cancelar a montagem e geração da prova a qualquer momento
+ativando o botão  “Fechar”, implicando no fechamento do caso de uso. Não é
+realizada qualquer alteração no sistema SGEP
+
+Abaixo ilustração do Diagrama de Caso de Uso do CORPORATUM.
+
+\begin{figure}[H]
+\centering
+\includegraphics[width= 17cm]{imagens/CasoDeUsoCorporatum.png}
+%\includegraphics[scale=0.70]{imagens/DiagramaCasoUso.png}
+\caption{Caso de Uso - CORPORATUM }
+\label{Caso de Uso - CORPORATUM }
+\end{figure}
+
+
+
+
+\subsection{Diagrama de Atividade}
+\label{sec:diagramaAtividade}
+O diagrama de atividades tem como objetivo mostrar o fluxo de atividades de um
+unico processo. O diagrama mostra como uma atividade depende uma da outra. Estas
+regiões estão associadas a um objeto do modelo. Desta forma, dentro de cada região,
+encontra se atividades relativas ao objto da região. As atividades são
+conectadas atraves de arcos (transições) que mostram as dependências entre elas.
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=10cm]{imagens/DiagramaDeAtividade.png}
+ \caption{Diagrama de Atividade }
+\label{fig:DiagramaDeAtividade}
+\end{figure}
+
+A figura \ref{fig:DiagramaDeAtividade} mostra o  Diagrama de Atividade do
+Sistema Sgep:
+
+No Sistema SGEP, o docente se conecta para incialmente cadastrar as questões,
+feito isso o coordenador de curso se conecta para escolher as questões e gerar a
+prova. Caso o docente o coordenador do curso erre o login no sistema SGEP o
+sistema retorna a tela de Login com a mensagem Login ou senha invalidos, e se
+ficar algum campo em branco o sistema retornara a seguinte mensagem.  \textit{E
+necessario o preenchimento de login e senha.}
+
+Após estar conectado no sistema o docente cadastra suas questões referentes a
+grade curricular, feito isso o coordenador de curso após esta conectado ao
+sistema pode então filtrar as questões e gerar a provar.
+
+
+\begin{figure}[H]
+\centering
+\includegraphics[scale=0.50]{imagens/DiagramaPesquisaAluno.png}
+\caption{Diagrama de Atividade Pesquisa Aluno }
+\label{fig:DiagramaPesquisaAluno}
+\end{figure}
+
+A figura \ref{fig:DiagramaPesquisaAluno} descreve  a atividade realizada pelo
+usuário ao efetuar u ma pesquisa relacionada a aluno. O usuário informa o nome
+do aluno a ser consultado na tela de pesquisa e em seguida o sistema busca este
+aluno no banco de dados. Se retornar mais de um registro, o sistema informará uma lista contendo 
+estes registros ao usuário, caso contrário, se não for encontrado nenhum registro, o sistema informará 
+ao usuário uma mensagem dizendo que o aluno pesquisado é invalido no sistema, ou seja, nenhum aluno cadastrado 
+no banco de dados com o nome informado.
+
+\subsection{Diagrama de Estado}
+\label{sec:diagramaEstado}
+
+A figura \ref{fig:DiagramaEstado} representa o diagrama de estado do cadastro de
+usuário. O cadastro será iniciado a partir da informação dos dados do usuario a ser cadastro, o objeto passará para o estado de Processando Requisição e em seguida estes dados serão enviados ao banco de dados, se os dados estiverem corretos, o objeto passa para o estado de Finalizado, caso contrário, ele passa para estado de Não Cadastrado, assim ele pode voltar ao estado Enviado, enviando os dados novamente, ou passar para o estado Cancelado.
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=15cm]{imagens/DiagramaEstado.png}
+%\includegraphics[scale=0.60]{imagens/DiagramaEstado.png}
+\caption{Diagrama de Estado }
+\label{fig:DiagramaEstado}
+\end{figure}
+
+\subsection{Diagrama de Componente}
+\label{sec:diagramaComponente}
+O diagrama de componentes deste projeto é composto pelas três partes do MVC –
+Modelo, Visão e Controladores; e o DAO, conforme mostrado na figura.
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=15cm]{imagens/DiagramaComponete.png}
+%\includegraphics[scale=0.60]{imagens/DiagramaComponete.png}
+\caption{Diagrama de Componete }
+\label{Diagrama de Componete }
+\end{figure}
+
+\subsection{Diagrama de Sequência}
+\label{sec:diagramaSequencia}
+Consiste em um diagrama que tem o objetivo de mostrar como as mensagens entre os
+objetos são trocadas no decorrer do tempo para a realização de uma
+operação.\cite{Fowler}
+
+• Um diagrama de seqüência é representado através de duas dimensões:
+– a dimensão horizontal, que representa o conjunto de
+objetos intervenientes;
+– a dimensão vertical que representa o tempo.
+A figura abaixo representa a autenticação de um usuário no sistema. O usuário
+informa o devido nome e senha na tela de autenticação e em seguida os dados serão conferidos, se os dados estiverem incorretos, aparecerá uma mensagem informando o erro, caso contrário, o usuário terá acesso ao sistema, pois ele estará logado.
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=15cm]{imagens/DiagramaSequenciaAutenticar.png}
+%\includegraphics[scale=0.60]{imagens/DiagramaSequenciaAutenticar.png}
+\caption{Diagrama de Sequencia  Autenticar Usuário}
+\label{Diagrama de Sequencia  Autenticar Usuário }
+\end{figure}
+
+A figura abaixo representa o cadastro de um aluno feito pelo usuário administrador.
+O usuário informa os dados do aluno na tela de cadastro, esses dados serão enviados e conferidos na classe Aluno, se estes dados estiverem incorretos, será informado a mensagem informando o erro, caso contrário, será chamado o método da classe AlunoDao que irá adicionar o aluno no banco de dados do sistema.
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=15cm]{imagens/DiagramaSequenciaAluno.png}
+%\includegraphics[scale=0.90]{imagens/DiagramaSequenciaAluno.png}
+\caption{Diagrama de Sequencia  Aluno}
+\label{Diagrama de Sequencia Aluno }
+\end{figure}
+
+\section{Banco De Dados }
+\label{sec:bancoDeDados}
+Na realidade econômica em que vivemos a disputa entre as empresas para conquistar
+uma fatia do mercado ou, pelo menos, manter os clientes que possui, as informações
+tornaram-se elementos essenciais para o bom funcionamento dos negócios. E se uma
+empresa pretende expandir seus negócios, é fundamental que as informações estejam
+disponíveis sempre que forem necessárias. Para isto, é imprescindível a utilização de um
+Sistema de Gerenciamento de Banco de Dados (SGBD).
+
+ Atualmente existem diversos softwares gerenciadores de banco de dados
+disponíveis no mercado. É possível classificá-los quanto a sua distribuição que pode ser
+livre ou proprietária. Dentre os proprietários estão, entre outros, o Oracle® e o SQL
+Server®. Dentre os livres o PostgreSQL é o que mais se destaca por possuir recursos
+que o equipara aos bancos de dados proprietários. Este fator tem contribuído para que
+seu uso aumente significativamente. 
+
+Banco de dados é um conjunto de dados persistentes, com o intuito de armazenar
+informações de uma determinada organização. Esses dados são mantidos por um
+software chamado de Sistema Gerenciador de Banco de Dados (SGBD), onde os
+usuários desse sistema podem realizar busca, exclusão, inserção e alteração
+nesses arquivos de banco de dados \cite{date1985introdução}.
+
+Alguns autores definem que dados e informações tem o mesmo significado, por
+outro lado, outros definem dados como os valores fisicamente armazenados no
+banco de dados e informações como o significado gerado a partir de um
+determinado dado \cite{date1985introdução}.
+
+Neste projeto utilizamos o PostgreSQL por ser um banco de dados livre,
+avançado e seguro. Hoje o PostgreSQL é um poderoso software para gerenciamento
+de banco de dados, agregando algumas funções dos SGBDs mais avançados, como por exemplo, os
+softwares proprietários \textit{Oracle ou SQL Server}. É conhecido pela sua
+robustez e extrema segurança. Abaixo simbolo do PostgreSQL
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=15cm]{imagens/PostgreSQL.png}
+%\includegraphics[scale=0.90]{imagens/DiagramaSequenciaAluno.png}
+\caption{PostgreSQL}
+\label{PostgreSQL }
+\end{figure}
+
+O PostgreSQL oferece o mais baixo custo, reduzindo de forma significativa seus custos de administração, suporte e licenciamento e, ao mesmo tempo, fornecendo alta performance, confiabilidade e escalabilidade.
+
+É uma solução perfeita e viável para as necessidades de pequenas e médias empresas, sendo uma alternativa aos tradicionais Bancos de dados.
+
+\section{Prototipação}
+\label{prototipacaoSGEP}
+A prototipação é uma etapa fundamental na construção de software.
+Nesta etapa, é prudente que todos os envolvidos no projeto também estejam 
+envolvidos em sua criação.
+
+Dessa forma, as chances de acertar e criar um produto de qualidade são muito maiores. Apenas é preciso ter em mente que o protótipo é uma pequena parte de
+algo maior e que ele deve durar apenas o tempo necessário para que aja um direcionamento do sistema. No fim das contas, quem trará faturamento para a sua 
+empresa é o software, não o protótipo. Mesmo com as métricas bem definidas e com os resultados na mão, chega uma hora em que é preciso abandonar o protótipo 
+e se dedicar apenas ao software final. Nesses casos, quando o protótipo não possui uma arquitetura que possa evoluir, ele é chamado de descartável. É possível 
+também criar um protótipo do tipo evolutivo, onde o software vai nascendo à medida em que o protótipo evolui. Protótipos podem melhorar a qualidade de requisitos e especificações fornecidas aos desenvolvedores. Após a versão final do software, qualquer tipo de mudança 
+poderá aumentar exponencialmente o custo do software, além de estourar os prazos definidos no início.
+
+Nos últimos dez anos, tornou-se comum uma filosofia de prototipagem conhecida 
+como “always beta”, ou sempre beta. Popular em empresas de internet, significa 
+que o oftware será permanentemente um protótipo e que ele irá sendo melhorado 
+de acordo com as necessidades do usuário.
+
+Um software normalmente é reproduzido em cópias originais e seu código-fonte é
+único, porém tem complexidades suficientes para necessitar de protótipos antes 
+de seu total desenvolvimento. Os protótipos de software são representações que
+descrevem todas as características funcionais do software, ou seja, aquelas que 
+serão utilizadas no dia-a-dia, pelo usuário.\cite{rodriguescurso}
+
+O usuário do sistema não tem, nem haveria de ter, muito conhecimento técnico
+para entender a documentação da fase de analise e projeto, por isso, os
+protótipos de software são ferramentas uteis para uma comunicação clara com o
+usuário. Ao protótipar estaremos permitindo que o usuário conheça o sistema 
+antes mesmo de sua real codificação.\cite{rodriguescurso}
+
+\subsection{Sistema Corporatum}
+\label{sec:sistemaCorporatum}
+
+\textbf{Tela do sistema Corporatum cadastro de colaboradores}
+\begin{figure}[H]
+\centering
+\includegraphics[width=15cm]{imagens/colaborador.png}
+%\includegraphics[scale=0.90]{imagens/colaborador.png}
+\caption{Tela De Cadastro Colaborador}
+\label{fig:colaborador}
+\end{figure}
+Nesta figura \ref{fig:colaborador} podemos além de incluir um novo colaborador
+como também podemos excluir e editar o mesmo. A tela apresenta os campos para o usuário digitar os dados do
+colaborador.  Na parte de cima da tela temos um formulário para inclusão,
+edição.
+Na parte de baixo e apresentado um tabela com os registros ja cadastado no banco de
+dados, com duas opções sendo uma para editar e outra para exclusão.
+
+
+\textbf{Tela do sistema Corporatum cadastro de cronograma de aula}
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=15cm]{imagens/TelaCronogramaAula.png}
+%\includegraphics[scale=0.90]{imagens/TelaCronogramaAula.png}
+\caption{Tela De Cadastro Cronograma De Aula}
+\label{fig:TelaCronogramaAula}
+\end{figure}
+
+Nesta figura \ref{fig:TelaCronogramaAula} cadastra o cronograma de aula, tendo
+como formulário o número da aula, conteúdo programático e hora aula.
+
+\textbf{Tela do sistema Corporatum cadastro de disciplina}
+\begin{figure}[H]
+\centering
+\includegraphics[width=15cm]{imagens/TelaDisciplina.png}
+%\includegraphics[scale=0.90]{imagens/TelaDisciplina.png}
+\caption{Tela De Cadastro Disciplina}
+\label{fig:TelaDisciplina}
+\end{figure}
+
+Nesta figura \ref{fig:TelaDisciplina} cadastra a disciplina, tendo como
+formulário codígo da disciplina, nome da disciplina e sua carga horária.
+
+
+\textbf{Tela do sistema Corporatum cadastro de plano de ensino}
+\begin{figure}[H]
+\centering
+\includegraphics[width=15cm]{imagens/TelaPlanoEnsino.png}
+%\includegraphics[scale=0.90]{imagens/TelaPlanoEnsino.png}
+\caption{Tela De Cadastro Plano De Ensino}
+\label{fig:TelaPlanoEnsino}
+\end{figure}
+Nesta figura \ref{fig:TelaPlanoEnsino} cadastra o plano de ensino, tendo como
+formulário competênicas, habilidades, bases tecnologicas, método de ensino, recurso de didatíco e
+biografias.
+
+\subsection{Tela Sistema SGEP}
+\label{sec:telaSistemaSgep}
+
+\textbf{Tela do sistema SGEP Tela de acesso}
+\begin{figure}[H]
+\centering
+\includegraphics[width=15 cm]{imagens/TelaAcesso.png}
+%\includegraphics[scale=0.90]{imagens/TelaAcesso.png}
+\caption{Tela De Acesso ao sistema}
+\label{fig:TelaAcesso}
+\end{figure}
+
+Nesta figura \ref{fig:TelaAcesso} tela foi alterada, ela esta dessa forma para
+acessar o sistema.
+
+\textbf{Tela do sistema SGEP cadastro de questão}
+\begin{figure}[H]
+\centering
+\includegraphics[width=15cm]{imagens/TelaCadastroQuestao.png}
+%\includegraphics[scale=0.90]{imagens/TelaCadastroQuestao.png}
+\caption{Tela De Cadastro Questão}
+\label{fig:TelaCadastroQuestao}
+\end{figure}
+
+Nesta figura \ref{fig:TelaCadastroQuestao} é utilizada para incluir uma questão.
+A tela apresenta os campos para o usuário digitar os dados da questão. O formulário apresenta a seguinte opções para o usuário preencher:
+Enunciado da questão, assunto, alternativas, resposta correta, estado e
+dificuldade. 
+
+\textbf{Tela do sistema SGEP cadastro de prova}
+\begin{figure}[H]
+\centering
+\includegraphics[width=15cm]{imagens/TelaCadastroProva.png}
+%\includegraphics[scale=0.90]{imagens/TelaCadastroProva.png}
+\caption{Tela De Cadastro de prova}
+\label{fig:TelaCadastroProva}
+\end{figure}
+
+Nesta figura \ref{fig:TelaCadastroProva} é utilizada para o cadastro de provas
+tanto para exclusão e alteração de provas.
+
+\textbf{Tela do sistema SGEP cadastro de prova}
+\begin{figure}[H]
+\centering
+\includegraphics[width=15cm]{imagens/TelaCadastroSecao.png}
+%\includegraphics[scale=0.90]{imagens/TelaCadastroSecao.png}
+\caption{Tela De Cadastro de seção}
+\label{fig:TelaCadastroSecao}
+\end{figure}
+
+Nesta figura \ref{fig:TelaCadastroSecao} é utilizada como o cadastro de seção no
+qual tem a finalidade de alteração e exclusão da seção.
+
+\textbf{Tela do sistema SGEP cadastro de prova}
+\begin{figure}[H]
+\centering
+\includegraphics[width=15cm]{imagens/CadastroTelaTemplate.png}
+%\includegraphics[scale=0.90]{imagens/CadastroTelaTemplate.png}
+\caption{Tela De Cadastro de Template}
+\label{fig:CadastroTelaTemplate}
+\end{figure}
+
+Na figura \ref{fig:CadastroTelaTemplate} podemos observar a tela de cadastro de
+Templates na qual tem a finalidade de cadastrar, excluir e alterar Templates.
+
+\textbf{Tela do sistema SGEP Gerar Prova}
+\begin{figure}[H]
+\centering
+\includegraphics[width=15cm]{imagens/TelaGerarProva.png}
+%\includegraphics[scale=0.90]{imagens/CadastroTelaTemplate.png}
+\caption{Tela Gerar Prova}
+\label{fig:TelaGerarProva}
+\end{figure}
+Na figura \ref{fig:TelaGerarProva} podemos observar que na tela gerar prova na
+qual tem a finalidade de cadastrar, excluir e alterar Templates.
+
+\section{Codígo}
+\label{sec:codigo}
+
+
+
+\lstinputlisting[language=JAVA, label=recommenderIntro,
+caption={Estrutura de código}]{./prog/RecommenderIntro.java}
+
+AlunoControl faz o controle dos dados inseridos no 
+formulário. AlunoDaoJPA é classe que implementa a
+interface AlunoDao. AlunoDao é uma interface do AlunoDaoJPA.
+
+%\lstinputlisting[language=JAVA, label=recommenderIntro,
+%caption={AlunoDaoJPA é classe que implementa a
+%interface AlunoDao.}]{./prog/RecommenderIntro.java}
+%
+%\lstinputlisting[language=JAVA, label=recommenderIntro,
+%caption={AlunoDao é uma interface do AlunoDaoJPA}]{./prog/RecommenderIntro.java}
+
+
+\section{Padrões de Projetos}
+\label{sec:padrõesDeProjetos}
+
+\subsection{Singleton}
+\label{sec:singleton}
+
+Tem a função de garante que determinada classe tenha somente um instancia e
+fornece um ponto global de acesso para a mesma. 
+
+MOTIVAÇÃO: Em muitas situações é necessário garantir que algumas classes tenham
+uma e somente uma instância. Exemplo: o gerenciador de arquivos num sistema deve ser único.
+
+CONSEQUÊNCIA: Como a classe Singleton encapsula a sua única instância, ela pode
+ter o controle total de como e quando os clientes acessam esta instância.
+O padrão Singleton representa uma melhoria em relação ao uso de variáveis
+globais. A classe Singleton pode ser estendida através de subclasses, sendo bastante simples configurar uma aplicação para trabalhar com a extensão.
+A classe Singleton pode ser modificada para suportar um número maior de
+instâncias, embora ainda se possa ter o controle do número de instâncias que uma aplicação vá utilizar. Uma outra maneira de implementar um Singleton é através do uso de métodos estáticos; entretanto, a utilização desta técnica dificulta a mudança de um projeto para permitir um número maior de instâncias. Além disso, as funções estáticas não são polimórficas, o que significa que as subclasses não podem redefini-las polimorficamente.
+
+APLICABILIDADE: Quando deva existir apenas uma instância de uma classe e essa instância deve dar acesso aos clientes através de um ponto bem conhecido.
+Sendo um padrão de criação de objetos, o padrão singleton garante que uma determinada classe tenha uma única instancia durante o tempo de execução do software. Alem disso o uso deste padrão permite que essa instancia única seja acessível de qualquer parte do software (Objeto Global). Os objetos do tipo Singleton são criados sob demanda, ou seja, somente criados se necessários.
+O uso do padrão é realizada através da implementação de um atributo e um método na classe (static) método utilizado para criação do objeto único da classe. Quando acionado um atributo estático é retornado, no qual possui um apontador para o endereço do objeto no atributo estático da classe. Caso esse objeto ainda não tenha sido criado o método armazena um apontador para o endereço do objeto no atributo estático da classe, e retorna esse endereço no atributo estático da classe, e retorna o endereço. Assim garantindo que apenas o método estático será usado na tarefa de criação dessa maneira o construtor dessa classe será privado. (J2EEBrasil, 2005).
+
+
+\subsection{Adapter Factory}
+\label{sec:adapterfactory}
+
+Tem a função de converte a interface de uma classe em outra interface que os clientes esperam. O padrão Adapter permite que classes que não poderiam trabalhar juntas devido a interfaces incompatíveis trabalhem juntas.
+
+MOTIVAÇÃO: Em algumas situações, a interface oferecida por um toolkit, projetada para ser
+reutilizada não pode ser usada numa aplicação porque sua interface não corresponde à interface específica muitas vezes uma ferramenta ou uma classe de biblioteca não pode ser usada, porque sua interface não é a requerida pela aplicação.
+Não se pode mudar a interface, porque não se dispõe do código fonte.
+Mesmo que se tivesse, não é interessante mudar a biblioteca a cada aplicação.
+Padrão Adapter fornece um objeto com uma nova interface que se adapta à interface de outro objeto, permitindo a colaboração. Análogo a adaptadores de tomadas elétricas.
+
+CONSEQUÊNCIA: Um adaptador de classe não funciona se quisermos adaptar uma dada
+classe e todas as suas subclasses. É possível substituir algum comportamento do Adaptee, uma vez que Adapter é uma subclasse de Adaptee.
+Introduz somente um objeto intermediário, não sendo necessário endereçamento indireto adicional até se chegar ao Adaptee.
+
+
+APLICABILIDADE: Situações nas quais as classes que devem interagir não têm interfaces compatíveis Adaptador de objetos é aplicável nos casos em que não é possível adaptar as classes existentes através de subclasses. Permite a um único Adapter trabalhar com muitos Ataptees.
+É difícil redefinir o comportamento de um Adaptee. Para isso é necessária a criação de subclasses.
+
+\subsection{Themplate Method}
+\label{sec:themplateMethod}
+
+Definir o esqueleto de um algoritmo em uma operação, postergando alguns passos para as subclasses. Template Method
+permite que subclasse redefinam certos passos de um algoritmo sem mudar a estrutura do mesmo.
+
+MOTIVAÇÃO: Um método-template define um algoritmo em termos da operação abstrata que as subclasses redefinem para
+
+fornecer um comportamento concreto. As subclasses da apliacação definem os passos do algoritmo.
+
+CONSEQUÊNCIA: Implemetação utilizando o controle de acesso do C++          
+
+*As operações primitivas devem ser declaradas como métodos protected.
+*As operações primitivas devem ser virtuais puras.
+*O Template Method não deve poder ser sobreposto. Para isso, ele deve ser
+declarado como não-virtual.
+*Minimizando operações primitivas
+*É desejável minimizar o número de operações primitivas que sub-classes devem
+ter de implementar.
+*Quanto mais métodos precisem ser sobrepostos maior o  trabalho para os usuários
+do Template Method.
+ 
+APLICABILIDADE: O padrão pode ser usado para implementar as partes invariantes de um algoritmo uma só vez e deixar para 
+as subclasses a implementação do comportamento que pode vairar. O padrão pode
+ser usado quando o comportamento comum entre subclasses deve ser fatorado e concentrado numa classse comum para evitar a duplicação de código. Este é um bom exemplo de refatorar 
+para generalizar. Primeiramente, você identifica as diferenças no código existente e então separa as 
+diferenças em novas operações. Por fim, você substitui o código que apresentava as diferenças por um 
+método-template que chama uma dessas novas operações. O padrão pode ser usado para controlar extensões de subclasses. 
+Você pode definir um método-template que chama operações gancho em pontos específicos, desta forma permitindo extensões somente nesses pontos.
+
+\subsection{Abstract Factory}
+\label{sec:abstractyFactory}
+
+Tem a função de fornecer uma interface para a criação de famílias de objetos relacionados, ou dependentes, sem especificar as suas classes concretas.
+
+MOTIVAÇÃO: Em muitas situações uma “aplicação cliente” precisa criar determinados objetos cuja construção efetiva só é definida em tempo de execução. A aplicação cliente não deve se preocupar com a criação dos objetos.
+
+
+CONSEQUÊNCIA: As classes concretas que implementam os componentes visuais são independentes das classes que as usam, dado que a fábrica abstrata encapsula o processo de criação de tais componentes visuais.
+Inserir novas classes que dêem suporte a novas plataformas é uma tarefa simples.
+Uma classe que represente uma fábrica concreta é usualmente referenciada em apenas um ponto do framework. De modo similar, é bastante simples alterar uma fábrica concreta para tratar de uma nova plataforma a ser adicionada ao framework.
+Ao forçarmos os clientes a usarem as fábricas concretas para a criação dos componentes visuais, o padrão Abstract Factory assegura que eles usarão um conjunto de objetos consistentes com a plataforma com a qual desejam interagir. A principal deficiência do padrão Abstract Factory é o excesso de trabalho necessário para criar um conjunto de classes que dê suporte a uma nova plataforma.
+
+
+APLICABILIDADE: O sistema deve ser independente de como seus produtos são criados, compostos ou representados o sistema deve ser configurado como um produto de uma família de múltiplos produtos A ‘família’ de objetos-produto é projetada para ser usada em conjunto deseja-se revelar apenas a interface da biblioteca de classes produto e não a sua implementação.
+
+
+\section{Frameworks e Ferramentas Adotadas}
+\label{sec:frameworksFerramentasAdotadas}
+
+\subsection{Astah Community}
+\label{sec:astahcommunity}
+
+Astah Community é um software para modelagem UML. É desenvolvido na plataforma
+Java, o que garante sua portabilidade para qualquer plataforma que possui uma
+máquina virtual Java. Foi utilizado para a modelagem UML por ser uma ferramenta
+gratuita, e atender totalmente as necessidades do projeto ao desenvolver os
+diagramas UML.
+ 
+\subsection{Eclipse}
+\label{sec:eclipse}
+
+Eclipse é uma IDE gratuita open source feita em Java e atualmente a mais
+utilizada no mundo. Um dos principais fatores que influenciaram o seu uso hoje
+na versão (Kleper, 4.3.1) uso foi a sua enorme quantidade de plug-ins, que dão
+um grande suporte aos desenvolvedores durante o desenvolvimento.
+
+\subsection{Java}
+\label{sec:java}
+
+Java foi desenvolvido em 1991 por um grupo secreto da Sun Microsystems denominado por The Green Project, 
+que traduzido para o português significa o Projeto Verde, com o intuito de desenvolver uma linguagem de grande importância na área de informática.
+Java é uma linguagem de programação utilizada no desenvolvimento de software que tem portabilidade entre as plataformas, através da máquina virtual ou JAVA VIRTUAL MACHINE (JVM).
+Além disso, ela é orientada a objetos, o que possibilita a reutilização de
+códigos desenvolvidos em outros projetos e trabalha com a troca de mensagens
+entre os objetos \cite{someratreinamento}.
+Linguagem de programação orientada a objetos é mais fácil de programar, principalmente para iniciantes que tem certa dificuldade no inicio, pois a orientação a objetos consegue fazer com que o programador se sinta mais a vontade no desenvolvimento.
+
+\subsection{Tomcat}
+\label{sec:tomcat}
+
+Tomcat é um servidor WEB Java, distribuído como software livre bastante
+consolidado na comunidade, mantido pela Apache Software Fundation (Uma
+organização sem fins lucrativos, que inclusive contribui ativamente com diversos
+projetos para o Java). Esse servidor foi escolhido por ser um servidor gratuito
+e de fácil instalação e por oferecer suporte a todos os recursos utilizados no
+projeto.
+
+\subsection{Java Server Faces}
+\label{sec:javaserverfaces}
+
+O Java Server Faces (JSF) é uma especificação Java para arquitetura MVC, sua
+arquitetura baseada em componentes o torna uma poderosa ferramenta para
+construção de Ricas Interfaces com o Usuário (RIA), seu funcionamento orientado
+a eventos faz com o que os desenvolvedores se dediquem menos em conhecer o
+funcionamento do protocolo HTTP e dediquem-se mais na lógica da aplicação, o que
+torna o seu funcionamento bem parecido com aplicações desktop. Sua arquitetura o
+permite que desenvolvedores construam novos componentes baseado em componentes
+já existentes, promovendo assim o reuso e a criação de componentes mais complexo.
+
+\subsection{Primefaces}
+\label{sec:primefaces}
+
+Primefaces é uma poderosa biblioteca Java para a criação de Interfaces Gráficas
+com o Usuário (GUI) para o JSF com uma série de componentes prontos. Este foi
+utilizado devido ser hoje a mais recomendada no mercado, a frente de seus
+concorrentes como RichFaces e IceFaces, e por ter o seu uso bastante simplificado.
+
+\subsection{Spring}
+\label{sec:spring}
+
+Spring é um framework Java open source. Este foi utilizado visando realizar a
+injeção de dependência e a inversão de controle, diminuindo o acoplamento entre
+classes e melhorando a qualidade do código desenvolvido no projeto.
+
+\subsection{Hibernate}
+\label{sec:hibernate}
+
+Hibernate é um software livre, open source para o mapeamento objeto-relacional
+(ORM). Hoje ele é o ORM mais utilizado no mercado em aplicações Java. Ele foi
+utilizado devido uma disparidade de paradigmas entre à programação orientada a
+objetos e o banco de dados relacional, além de tirar do desenvolvedor o trabalho
+de escreverem complexos scripts SQL, aumentando a produtividade da equipe. Um
+recurso interessante disponibilizado por esta ferramenta é a possibilidade de
+torna-lo independente de banco de dados, por realizar a intermediação entre a
+aplicação e o banco de dados ele pode facilmente se adaptar a diversos bancos.
+
+\subsection{Maven}
+\label{sec:maven}
+
+Apache Maven ou simplesmente Maven como é conhecido, é um projeto desenvolvido
+pela Apache Software Foundation, essa ferramenta nos permite realizar a
+construção, compilação e teste de aplicações Java de maneira simples e
+automáticas. Essa ferramenta foi utilizada principalmente em nossos projetos por
+ela realizar o gerenciamento das APIS de forma automatizada, padronizada,
+facilitando e principalmente evitando problemas como conflitos de bibliotecas,
+incompatibilidade de versões e a fácil localização de novas bibliotecas.
+
+\subsection{Junit}
+\label{sec:junit}
+
+Junit é um framework open source para a realização de testes unitários em Java.
+Ele facilita a criação de testes unitários como também a prática do TDD. Por ser
+um framework bastante maduro e consolidado no mercado utilizando esse framework
+por também se integrar ao Maven o que permite criar testes e automatiza-los,
+esses testes seriam feitos sempre que realizarmos um deploy no projeto evitando
+que falhas fossem disponibilizadas, mantendo a entrega de produtos mais confiável.
+
+\subsection{ JasperReports e iReport}
+\label{sec:jasperReportsEiReport}
+
+O JasperReports é um framework para a geração de relatórios. É uma ferramenta totalmente open source e gratuita, e a mais utilizada com esse propósito atualmente. Entre as funcionalidades do JasperReports podemos destacar:
+
+ É capaz de exportar relatórios para diversos formatos diferentes, tais como
+PDF, HTML, XML, XLS, etc.
+
+Aceita diversas formas de entrada de dados, tais como um arquivo XML ou CSV,
+conexão com o banco de dados, uma sessão do Hibernate, uma coleção de objetos em memória, etc.
+
+Permite o uso de diagramas, gráficos, e até códigos de barras.
+
+O iReport é uma ferramenta desenvolvida pela mesma empresa do JasperReports, a
+JasperForge, e por isso é muito comum ver os dois sendo usados em conjunto. O iReport é um aplicativo gráfico, que permite que você “desenhe” um relatório, utilizando uma palheta, e arrastando e soltando componentes, de forma bem parecida com a criação de interfaces e janelas  para programas. Ao salvar, automaticamente será gerado um JRXML que você poderá utilizar na aplicação que estiver desenvolvendo.

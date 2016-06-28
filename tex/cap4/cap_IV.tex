@@ -1,0 +1,242 @@
+\chapter{Proposta}
+\label{sec:proposta}
+Esta seção tem por objetivo demonstrar o uso da Fundamentação
+teorica apresentada na Seção \ref{cap:fundamentacaoTeorica}. Assim, 
+de maneira prática, apresentaremos o uso da Engenharia de Software na
+construção de um sistema computacional denominado SGEP.
+
+\section{Requisitos de Software}
+\label{requisitosSoftware}
+Os requisitos de software descrevem explicitamente as funcionalidades e serviços
+do sistema.
+ O requisitos funcionais são responsaveis por conjunto de entradas,
+ seu comportamento e sua saída, ou seja, envolve cálculos, lógicas de trabalho,
+ manipulação e processamento de dados, entre outros. A Tabela
+ \ref{tabelaRequisitos} descreve a lista de
+ requisistos funcionais da sistema proposto.
+
+\begin{table}[htp]
+\centering
+\caption{Lista de Requisitos  Funcionais}
+\resizebox{14.0cm}{!} {
+\begin{tabular}{|l|l|l|}
+\hline
+Cod requisito & Nome                     & \multicolumn{1}{c|}{Descrição}                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             \\ \hline
+RF01          & Manter instituição       & \begin{tabular}[c]{@{}l@{}}Uma instituição de ensino organiza-se em várias unidades ou campus.\\ Cada unidade ou campus oferece uma demanda de cursos.  \\ Portanto, o sistema deve permitir que o colaborador registre tanto as informações da instituição\\  como as unidades de ensino, vinculando a cada uma seus respectivos diretores e cursos.\end{tabular}                                                                                                                                                                                                                                                                                                                                                                                                                                                         \\ \hline
+RF02          & Manter cursos            & \begin{tabular}[c]{@{}l@{}}O sistema deverá permitir que o colaborador \\ coordenador registre as informações sobre \\ os cursos de cada unidade da Instituição.\\  O coordenador deve vincular a matriz \\ curricular ao curso bem como as disciplinas a matriz curricular, \\ especificando a carga horária de cada \\ disciplina e a carga horária total da matriz.\end{tabular}                                                                                                                                                                                                                                                                                                                                                                                                                                        \\ \hline
+RF03          & Manter colaborador       & \begin{tabular}[c]{@{}l@{}}O sistema deve permitir que os colaboradores  administrativos\\  cadastrem os demais colaboradores no sistema, informando seu nome, \\ data de nascimento, sexo, cpf, registro de identidade,\\  endereço (cep, rua, complemento, cidade, estado e país) e\\  contato (e-mail, telefone residencial e telefone celular).\\  O Colaborador administrador deve definir um perfil de usuário\\  (coordenador, administrativo, docente, discente e diretor) \\ e cadastrar o nome de usuário e senha para que possam\\  acessar o sistema da instituição conforme seu perfil. \\ Seja o colaborador professor para montar as  questões e provas; \\ ou o colaborador coordenador para manter as informações dos \\ cursos e matrizes curriculares.\end{tabular}                                     \\ \hline
+RF04          & Manter discentes         & \begin{tabular}[c]{@{}l@{}}O sistema deve permitir que os discentes cadastrem-se no sistema,\\   informando o seu nome, data de nascimento, \\ sexo, cpf, registro de identidade, endereço\\  (cep, rua, complemento, cidade, estado e país)\\  e contato (e-mail, telefone residencial e telefone celular). \\ O Discente deve cadastrar um nome de usuário \\ e senha para que o mesmo possa utiliza-lo tanto\\  para visualizar o plano de ensino e aula, como também responder\\  as provas objetivas e visualizar os resultados e gabaritos do mesmo.\end{tabular}                                                                                                                                                                                                                                                    \\ \hline
+RF05          & Manter disciplinas       & \begin{tabular}[c]{@{}l@{}}O sistema deve permitir que o colaborador coordenador cadastre as\\   informações de cada disciplina vinculada a matriz curricular,\\  informando o seu código, nome e carga horária.\\  Cada disciplina cadastrada terá\\  o seu respectivo plano de ensino e plano de aula.\end{tabular}                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      \\ \hline
+RF06          & Manter matriz curricular & \begin{tabular}[c]{@{}l@{}}O colaborador coordenador deve registrar no sistema as informações\\   referentes a matriz curricular de cada curso.\\  O sistema deve atribuir a data de criação, \\ vincular o respectivo curso a matriz e possibilitar ao\\   coordenador vincular as disciplinas que formará a\\  matriz curricular. Posteriormente, o \\ sistema deve contabilizar a carga horária total da\\  matriz resultante do somatório da carga horária de cada disciplina.\end{tabular}                                                                                                                                                                                                                                                                                                                            \\ \hline
+RF07          & Manter questões          & \begin{tabular}[c]{@{}l@{}}O sistema deve permitir que o colaborador doscente  \\ monte as questões da prova objetiva. Cada Questão é \\ composta tanto por um enunciado, alternativas ou itens,\\   resposta, assunto, área de conhecimento, \\ como a disciplina na qual se relaciona.\\  A questão é do tipo Multipla-Escolha,\\  tendo exatamente cinco itens e \\ uma única resposta  correta ou incorreta.\\  O sistema deve possibilitar o docente realizar buscas de\\  questões e itens por assunto, área de conhecimento ou disciplina.\end{tabular}                                                                                                                                                                                                                                                             \\ \hline
+RF08          & Manter template          & \begin{tabular}[c]{@{}l@{}}O colaborador docente deve criar um template \\ de prova onde o mesmo adicionará as sessões\\  que dividem a prova por área de conhecimento.\\  O sistema deve possibilitar ao professor vincular as sessões ao template.\end{tabular}                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          \\ \hline
+RF09          & Manter seções            & \begin{tabular}[c]{@{}l@{}}O sistema deve possibilitar ao colaborador docente\\  a atribuir um nome que identifique cada sessão. \\ Seja o nome identificado tanto pela área de conhecimentos gerais,\\  específico ou conteúdo; como pela disciplina,\\  curso ou  período do curso, dentre outros.Com as\\   sessões vinculadas a um template,\\  o docente montará a prova vinculando as questões cadastradas a cada sessão.\end{tabular}                                                                                                                                                                                                                                                                                                                                                                               \\ \hline
+RF10          & Montar prova             & \begin{tabular}[c]{@{}l@{}}O sistema deve permitir que o colaborador docente monte a Prova\\   Objetiva. A prova é composta por um cabeçalho com o\\  nome da instituição de ensino, disciplina, professor e aluno\\ , bem como também por questões que são selecionadas pelo professor \\  quando o mesmo as cadastrou no sistema. \\ A busca por questões será possível por área  de conhecimento,\\  assunto ou disciplina que ministra. Toda questão é \\ identificada por  um número onde seja possível o professor\\   ordenar as questões, ou mesmo o próprio  sistema\\  ordena-las de modo aleatório. Toda prova é dividida em\\  uma ou mais Sessões,  onde cada Sessão é identificada\\  por um nome (Ex: conhecimentos gerais,  conhecimentos específicos)\\  e pode conter uma ou mais questões.\end{tabular} \\ \hline
+\end{tabular}
+\label{tabelaRequisitos}
+}
+\end{table}
+
+Contudo, um sistema deve também atender a requisitos que não são
+necessariamente regras do negócio do Software. Assim, de nada adianta ter um
+sistema seguro, interativo e confiável se ele consome muitos recursos do
+computador e demora para executar a suas rotinas internas. Um sistema lento é
+alvo de crítica dos usuários, mesmo que seja funcional.
+A \textit{performance} do software pode ser melhorada utilizando técnicas de
+programação orientada a objetos, gerenciamento de memória, \textit{threads} e
+otimização de código.
+  
+Dessa forma, foram definidos os seguintes Requisitos Não-Funcionais do
+sistema proposto, que podem ser observados na Tabela
+\ref{tabelaRequisitosNaoFuncionais}.
+
+\begin{table}[htp]
+\centering
+\caption{Lista de Requisitos Não Funcionais}
+\resizebox{14.0cm}{!} {
+\begin{tabular}{|c|c|p{150}|}\hline
+
+Cod. Requisito	 & Nome  & Descrição\\ \hline
+RNF01 &	Perfil do usuário & O sistema deverá permitir um perfil para
+funcionário, com mais recursos, e outro para cliente, mais limitado.
+\\ \hline
+RNF02 &	O tempo de execução & O sistema deverá verificar se o usuário esta mais de 4 minutos logado sem nenhuma ação, o sistema devera após devera emitir um alerta de inativade.
+\\ \hline
+RNF03 & O sistema operacional do sistema & O sistema deverá ser acessado por varios tipos de sistemas operacionais ao mesmo tempo.
+\\\hline
+RNF04 &	O desenvolvimento do sistema & O sistema deverá ser desenvolvido ele toda em linguagem de programação JAVA
+\\ \hline
+RNF05 &	Banco de dados do sistema & O sistema devera se comunicar com o Banco de Dados Postgree
+ \\ \hline
+RNF06 &	Intregação com outro sistema & O sistema deverá ser feito que possibilite a intregração com outro sistema.
+ \\ \hline
+RNF07 &	O sistema deverá ter alta disponibilidade & O sistema deverá ter alta disponibilidade, por exemplo 99% do tempo.
+\\ \hline
+RNF08 &	Tempo de processamento & O sistema deverá processo N requisições por um determinado tempo.
+\\ \hline
+RNF09 &	Confiabilidade & O sistema não deverá apresentar aos usuários quaisquer dados de cunho privativo.
+\\ \hline
+\end{tabular}
+}
+\label{tabelaRequisitosNaoFuncionais}
+\end{table}
+
+
+
+
+\section{Mapa Mental}
+\label{sec:mapaMental}
+
+Um mapa mental é um diagrama que se elabora para representar ideias, tarefas ou
+outros conceitos que se contram relacionados com uma palavra-chave ou uma ideia
+central, e cujas informações relacionadas em si são irradiadas.
+
+A sua principal função é geração, visualização e classificação taxonómica de
+ideias, pelo que serve de ajuda para o estudo, a organização de informações, a
+tomada de decisões e a escrita.
+Num mapa mental, os elementos são incluidos de forma intuitiva de acordo com a
+importancia dos conceitos, embora se organizem nos grupos, nos ramos ou nas
+áreas. Segundo especialistas, este tipo de representação gráfica auxilia a
+memória. Em um mapa mental, é recomendado utilizar um mínimo de palavras e
+iniciar a tarefa sempre no centro da folha, onde se coloca portanto a ideia
+central.
+Abaixo ilustração do mapa mental do sistema.
+
+%Incluir Mapa Global
+\begin{figure}[H]
+\centering
+\includegraphics[width=15cm]{imagens/MapaMentalGlobal.png}
+%\includegraphics[scale=0.50]{imagens/MapaMentalGlobal.png}
+\caption{ Mapa Mental do sistema computacional desenvolvido}
+\label{Mapa Mental do sistema computacional desenvolvido}
+\label{fig:MapaMentalGlobal}
+\end{figure}
+
+Como é possivel observar através da Figura \ref{fig:MapaMentalGlobal}, o
+sistema e constituido por repartições, que se comunicam entre elas.
+Abaixo temos o mapa mental do sistema Fatesg-API no qual tem a finalidade de
+interligar as demais repartições do sistema
+\begin{figure}[H]
+\centering
+\includegraphics[width=15cm]{imagens/MapaMentalFatesgApi.png}
+%\includegraphics[scale=0.50]{imagens/MapaMentalApi.png}
+\caption{ Mapa Mental do sistema Fatesg-API}
+\label{Mapa Mental do sistema Fatesg-API desenvolvido}
+\end{figure}
+
+O modulo do Corporatum da a possibilidade de realizar vários tipos de cadastros,
+cadastros que são possíveis de se realizar e o que pode ser informado em cada um
+deles, cadastro de matriz, cadastro de instituição, cadastro de unidade de
+ensino, cadastro de curso, cadastro de colaborador, cadastro de aluno, cadastro de
+disciplina, cadastro de plano de ensino, cadastro de cronograma de aulas e
+cadastro de avaliações. Esses cadastros servirão de base para outros modulos.
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=15cm]{imagens/MapaMentalCorporatum.png}
+%\includegraphics[scale=0.50]{imagens/MapaMentalCorporatum.png}
+\caption{ Mapa Mental do sistema Corporatum}
+\label{Mapa Mental do sistema Corporatum desenvolvido}
+\end{figure}
+
+
+O modulo Sgpe tem a finalidade de gestão e elaboração de
+provas em instituição de ensino. Contará com a parte de cadastro e elaboração de
+prova e gerenciamento de questões. A principal função do sistema será na
+elaboração da prova, no qual possibilita recolhimento de questões elaboradas pelos docentes, sendo
+depois armazenadas em um banco de dados para que o coordenador de curso realize o
+procedimento de elaboração da prova. 
+\begin{figure}[H]
+\centering
+\includegraphics[width=15cm]{imagens/MapaMentalSgep.png}
+%\includegraphics[scale=0.50]{imagens/MapaMentalSgep.png}
+\caption{ Mapa Mental do sistema Sgpe}
+\label{Mapa Mental do sistema Sgep desenvolvido}
+\end{figure}
+
+O modulo Estagio tem por finalidade ser um sistema computacional para a
+melhoria do processo de gestão de estágio, agilizar os processos de estágio, fazer controle de todo o processo de cadastro
+das empresas, divulgação das vagas de estágio, seleção dos alunos aptos a participarem
+do processo seletivo, matrícula dos alunos no programa de estágio e também possibilitar
+todo o processo de avaliação do desempenho do aluno no estágio, gerar relatórios que se
+fazerem necessários.
+Além das funcionalidades descritas acima, o sistema terá também a construção
+de um banco de dados com todas as informações referente ao estágio que posteriormente
+poderá ser consultado.
+O mapa mental a seguir não demonstra as funcionaliades do sistema devido que o
+mesmo será desenvolvido em trabalhos futuros.
+\begin{figure}[H]
+\centering
+\includegraphics[width=15cm]{imagens/MapaMentalEstagio.png}
+%\includegraphics[scale=0.50]{imagens/MapaMentalEstagio.png}
+\caption{Inicio do desenvolvimento do mapa mental do sistema Estagio}
+\label{Mapa Mental do sistema Estagio}
+\end{figure}
+
+O modulo TCC tem a finalidade de ajudar no processo de Trabalho de Conclusão de
+Curso(TCC) agilizando os processos, fazendo controle de todo processo de
+inscrição junto a instiuição, designando orientadores de acordo com os
+requisistos do discente, consulta de trabalhos arquivados entre outras funções a
+serem analisadas. O mental a seguir não demonstra as funcionaliades do sistema
+devido que o mesmo será desenvolvido em trabalhos futuros.
+\begin{figure}[H]
+\centering
+\includegraphics[width=15cm]{imagens/MapaMentalTcc.png}
+%\includegraphics[scale=0.50]{imagens/MapaMentalTcc.png}
+\caption{Inicio do desenvolvimento do mapa mental do sistema TCC}
+\label{Mapa Mental do sistema TCC}
+\end{figure}
+
+
+
+\section{Design do Software}
+\label{sec:arquitetura}
+
+O sistema pode ser acessado via internet pelo navegador web por rodar em um
+servidor que pode ser acessado de qualquer lugar do mundo via WWW (World Wide
+Web). A escolha da arquitetura orientada Web permite que varias maquinas acessem
+um abiente centralizado como mostra a figura.
+\begin{figure}[H]
+\centering
+\includegraphics[scale=0.40]{imagens/ModeloSistemaWeb.png}
+\caption{Modelo Sistema Web }
+\label{Modelo Sistema Web }
+\end{figure}
+%colar a fugura aqui
+
+Nessa estrutura, o navegador web e responsavel pela interpretação da linguagem
+HTML(Hyper Text Markup Language) que envia requisições dos dados quanto ao lado
+do provedor de dados. Esse protocolo  é chamado de HTTP(Hyper Text Transfer
+Protocol).
+
+No lado do provedor de dados, o servidor, está toda a complexidade do sistema em
+si onde são determinadas as questões como regras de negocio, requesitos como
+segurança e armazanamento de banco de dados.
+
+Uma grande vantagem do sistema para web é sua facil portabilidade, podendo
+migrar de ambiente pra outro sem a necessidade de muita configuração pós
+mudança.
+
+
+Já o design de software trata dos componetes interno do sistema, que inclui o
+funcionamento dos sistema  CORPORATUM e SGEP. Abaixo segue o diagrama de
+componentes dessa estrutura.
+
+\begin{figure}[H]
+\centering
+\includegraphics[scale=0.33]{imagens/SistemaSgepCorporatum.png}
+\caption{Arquitetura de software }
+\label{Modelo Sistema Web }
+\label{fig:SistemaSgepCorporatum}
+\end{figure}
+
+
+A API define um conjunto de classes que será comum para os demais modulos, como o Corporatum e o SGEP. 
+O Modulo Corporatum concentra em cadastrar e manter os dados corporativos e também
+fornece mecanismos de acesso remoto para que outros sistemas consultem seus
+serviços através do WebService. O Modulo SGEP é responsável por cadastrar e manter um banco de questões, 
+bem como modelos de provas pré-cadastrados e gerar provas. O SGEP consome o WebService fornecido pelo Corporatum, 
+obtendo dados já cadastrados e mantendo-os em sua base de dados. A figura
+\ref{fig:SistemaSgepCorporatum} pode-se identificar a iteração entre os
+componentes de cada modulo dos sistemas, componentes estes que serão demonstrados no Cap. \ref{sec:frameworksFerramentasAdotadas}
+%%% colocar aqui imagem do sistemas se comunicando

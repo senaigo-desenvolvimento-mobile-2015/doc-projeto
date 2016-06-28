@@ -1,0 +1,451 @@
+%% NOTE: \LaTeX's comment character `%' is not a comment character in
+%% the database files.  \BibTeX allows in the database files any
+%% comment that's not within an entry.
+%%
+%% Repositorio de arquivos .bib disponiveis on-line:
+%% http://liinwww.ira.uka.de/bibliography/index.html
+%% http://www.math.utah.edu/~beebe/bibliographies.html
+%%
+%% Se vocÃª tiver problemas com acentos nas entradas do BibTeX, coloque-os
+%% entre { e }, como em Jo{Ã£}o ou ainda Jo{\~a}o.
+
+%---------------------------------------------------------
+% A A A
+%---------------------------------------------------------
+@article{Ali2010,
+title = {A systematic review of comparative evidence of aspect-oriented programming},
+journal = {Information and Software Technology},
+volume = {52},
+number = {9},
+pages = {871 - 887},
+year = {2010},
+issn = {0950-5849},
+doi = {10.1016/j.infsof.2010.05.003},
+url = {http://www.sciencedirect.com/science/article/pii/S0950584910000819},
+author = {Muhammad Sarmad Ali and Muhammad Ali Babar and Lianping Chen and Klaas-Jan Stol}
+}
+
+
+@MISC{Alver2008,
+  author = {ALVER, M. O.},
+  title = {JabRef},
+  year = {2008},
+  url = {http://jabref.sourceforce.net}
+}
+
+@BOOK{AmmYOff2008,
+  author = {Paul Ammann and Jeff Offutt},
+  year = {2008},
+  title = {Introduction to Software Testing},
+  publisher = {Cambridge University Press},
+  address = {New York}
+}
+
+@MISC{Arilo,
+  author = {Arilo Cláudio Dias Neto},
+  title = {Artigo Engenharia de Software - Introdução a Teste de Software},
+  year = {2008},
+  howpublished = {\url{http://www.devmedia.com.br/articles/viewcomp.asp?comp=8035}, acessado em 03 de dezembro de 2010}
+}
+
+@ARTICLE{Armour2005,
+  author = {Armour, Phillip G.},
+  title = {The unconscious art of software testing},
+  journal = {Commun. ACM},
+  year = {2005},
+  volume = {48},
+  pages = {15-18},
+  publisher = {ACM},
+  address = {New York, NY, USA}
+}
+
+%---------------------------------------------------------
+% B B B
+%---------------------------------------------------------
+@INPROCEEDINGS{Barmi2011,
+  author = {Barmi, Z.A. and Ebrahimi, A.H. and Feldt, R.},
+  title = {Alignment of Requirements Specification and Testing: A Systematic Mapping Study},
+  booktitle = {Software Testing, Verification and Validation Workshops (ICSTW),2011 IEEE Fourth International Conference on},
+  year = {2011},
+  pages = {476-485},
+  month = {march}
+}
+
+@MISC{Barros,
+  author = {Alexandre Barros},
+  title = {Desafios do desenvolvimento de software},
+  year = {2010},
+  howpublished = {\url{http://alexandre-barros.spaces.live.com}, acessado em 24 de novembro de 2010}
+}
+
+@ARTICLE{Basili1987,
+  author = {Basili, V.R. and Selby, R.W.},
+  title = {Comparing the Effectiveness of Software Testing Strategies},
+  journal = {Software Engineering, IEEE Transactions on},
+  year = {1987},
+  volume = {SE-13},
+  pages = { 1278 - 1296},
+  number = {12},
+  month = {dec.}
+}
+
+@BOOK{Beizer1990,
+ author = {Boris Beizer},
+ title = {Software testing techniques (2nd ed.)},
+ year = {1990},
+ publisher = {Van Nostrand Reinhold Co.},
+ address = {New York, NY, USA}
+} 
+
+@BOOK{Beizer1995,
+  title = {Black-box testing: techniques for functional testing of software 	and systems},
+  publisher = {John Wiley \& Sons, Inc.},
+  year = {1995},
+  author = {Beizer, Boris},
+  address = {New York, NY, USA}
+}
+
+@MANUAL{Bender2006,
+ author = {Bender},
+ organization = {Bender RBT Inc},
+ title = {The BenderRBT Cause-Effect Graphing User Manual},
+ year = {2006}
+}
+
+@BOOK{Bezer2002,
+ author = {Eduardo Bezerra},
+ title = {Princí­pios de análise e projeto de sistemas com UML},
+ year = {2002},
+ publisher = {Campus},
+ address = {Rio de Janeiro}
+}
+
+@article{Biolchini2007,
+ author = {Biolchini, Jorge Calmon de Almeida and Mian, Paula Gomes and Natali, Ana Candida Cruz and Conte, Tayana Uch\^{o}a and Travassos, Guilherme Horta},
+ title = {Scientific research ontology to support systematic review in software engineering},
+ journal = {Adv. Eng. Inform.},
+ volume = {21},
+ issue = {2},
+ month = {April},
+ year = {2007},
+ issn = {1474-0346},
+ pages = {133--151},
+ numpages = {19},
+ url = {http://dl.acm.org/citation.cfm?id=1247763.1248314},
+ doi = {10.1016/j.aei.2006.11.006},
+ acmid = {1248314},
+ publisher = {Elsevier Science Publishers B. V.},
+ address = {Amsterdam, The Netherlands, The Netherlands}
+} 
+
+@BOOK{Binder2000,
+ author = {Robert V. Binder},
+ title = {Testing Object-Oriented Systems: Models, Patterns, and Tools},
+ year = {2000},
+ publisher = {Addison-Wesley}
+} 
+ 
+@ARTICLE{Boe1988,
+  author = {Barry W. Boehm},
+  year = {1988},
+  title = {\href{http://portal.acm.org/citation.cfm?id=45801}{A Spiral Model for Software Development and Enhancement}},
+  journal = {Computer},
+  volume = {21},
+  pages = {61-72}
+}
+
+%---------------------------------------------------------
+% C C C
+%---------------------------------------------------------
+@INPROCEEDINGS{Cai2005,
+  author = {Kai-Yuan Cai and Tao Jing and Cheng-Gang Bai},
+  title = {Partition testing with dynamic partitioning},
+  booktitle = {Computer Software and Applications Conference, 2005. COMPSAC 2005. 29th Annual International},
+  year = {2005},
+  volume = {1},
+  pages = {113-116},
+  month = {jul}
+}
+
+@article{Cai2007,
+ author = {Cai, Kai-Yuan and Gu, Bo and Hu, Hai and Li, Yong-Chao},
+ title = {Adaptive software testing with fixed-memory feedback},
+ journal = {J. Syst. Softw.},
+ volume = {80},
+ issue = {8},
+ month = {August},
+ year = {2007},
+ issn = {0164-1212},
+ pages = {1328--1348},
+ numpages = {21},
+ url = {http://dl.acm.org/citation.cfm?id=1244477.1244777},
+ doi = {10.1016/j.jss.2006.11.008},
+ acmid = {1244777},
+ publisher = {Elsevier Science Inc.},
+ address = {New York, NY, USA}
+} 
+
+@ARTICLE{Chen1994,
+  author = {Chen, T.Y. and Yu, Y.T.},
+  title = {On the relationship between partition and random testing},
+  journal = {Software Engineering, IEEE Transactions on},
+  year = {1994},
+  volume = {20},
+  pages	= {977-980},
+  number = {12},
+  month	= {dec}
+}
+@INPROCEEDINGS{Chen1995,
+  author = {Chen, T. Y. and Leung, H. and Yu, Y. T.},
+  title = {On the Analysis of Subdomain Testing Strategies},
+  booktitle = {Proceedings of the Second Asia Pacific Software Engineering Conference},
+  year = {1995},
+  series = {APSEC 95},
+  address = {Washington, DC, USA},
+  publisher = {IEEE Computer Society}
+}
+
+@INPROCEEDINGS{Chen2007,
+AUTHOR = "Tsong Yueh Chen and Fei-Ching Kuo and Huai Liu",
+TITLE = "On Test Case Distributions of Adaptive Random Testing.",
+booktitle = "SEKE'07",
+PAGES = {141-144},
+YEAR = {2007}  }
+
+@article{Chen2008,
+author = {Tsong Yueh Chen and Fei-Ching Kuo and Huai Liu},
+title = "Distributing test cases more evenly in adaptive random testing",
+journal = "Journal of Systems and Software",
+volume = "81",
+number = "12",
+pages = "2146 - 2162",
+year = "2008",
+note = "<ce:title>Best papers from the 2007 Australian Software Engineering Conference (ASWEC 2007), Melbourne, Australia, April 10-13, 2007</ce:title> <xocs:full-name>Australian Software Engineering Conference 2007</xocs:full-name>",
+issn = "0164-1212",
+doi = "10.1016/j.jss.2008.03.062",
+url = {http://www.sciencedirect.com/science/article/pii/S0164121208000915}
+}
+
+@article{Chen2009,
+title = "Adaptive random testing based on distribution metrics",
+journal = "Journal of Systems and Software",
+volume = "82",
+number = "9",
+pages = "1419 - 1433",
+year = "2009",
+note = "<ce:title>SI: QSIC 2007</ce:title>",
+issn = "0164-1212",
+doi = "10.1016/j.jss.2009.05.017",
+url = "http://www.sciencedirect.com/science/article/pii/S0164121209001101",
+author = "Tsong Yueh Chen and Fei-Ching Kuo and Huai Liu",
+keywords = "Software testing",
+keywords = "Random testing",
+keywords = "Adaptive random testing",
+keywords = "Test case distribution",
+keywords = "Discrepancy",
+keywords = "Dispersion"
+}
+@ARTICLE{Chen2010,
+  author = {Chen, Tsong Yueh and Kuo, Fei-Ching and Merkel, Robert G. and Tse, T. H.},
+  title = {Adaptive Random Testing: The ART of test case diversity},
+  journal = {J. Syst. Softw.},
+  year = {2010},
+  volume = {83},
+  pages = {60-66},
+  month = {Jan},
+  address = {New York, NY, USA},
+  publisher = {Elsevier Science Inc.}
+}
+
+@INPROCEEDINGS{Chen2010a,
+author={Tsong Yueh Chen},
+booktitle={Software Engineering and Data Mining (SEDM), 2010 2nd International Conference on}, title={Fundamentals of test case selection: Diversity, diversity, diversity},
+year={2010},
+month={june},
+volume={},
+number={},
+pages={723 -724}
+}
+
+@BOOK{Cock2000,
+  author = {Alistair Cockburn},
+  year = {2000},
+  title = {Writing Effective Use Cases},
+  publisher = {Addison-Wesley}
+}
+
+@BOOK{Cop2003,
+  author = {Lee Copeland},
+  year = {2003},
+  title = {A Practitioner's Guide to Software Test Design},
+  publisher = {Artech House Publishers},
+  address = {Boston}
+}
+
+@book{Cormen2001,
+  author = {Cormen, Thomas H. and Stein, Clifford and Rivest, Ronald L. and Leiserson, Charles E.},
+  edition = {2nd},
+  publisher = {McGraw-Hill Higher Education},
+  title = {Introduction to Algorithms},
+  year = 2001
+}
+
+@BOOK{CraYJas2002,
+  author = {Rick D. CRAIG and Stefan P. JASKIEL},
+  year = {2002},
+  title = {Systematic Software Testing},
+  publisher = {Artech House Publishers},
+  address = {Boston}
+}
+%---------------------------------------------------------
+% D D D
+%---------------------------------------------------------
+@techreport{Denger2003,
+  author = {Denger, C. and Mora, M. Medina},
+  interhash = {7a9105e8e9da5d376c817604b93d0e85},
+  intrahash = {51ab23d5e1d6a09c0a2b1353df229263},
+  title = {Test case derived from requirement specification},
+  year = 2003,
+  timestamp = {2008-07-10T17:05:34.000+0200},
+  keywords = {Use-Cases based case requirements specification test testing},
+  added-at = {2008-07-10T17:05:34.000+0200},
+  biburl = {http://www.bibsonomy.org/bibtex/251ab23d5e1d6a09c0a2b1353df229263/ist_spl}
+}
+
+@inproceedings{Dyba2008,
+ author = {Dyb{\aa}, Tore and Dings{\o}yr, Torgeir},
+ title = {Strength of evidence in systematic reviews in software engineering},
+ booktitle = {Proceedings of the Second ACM-IEEE international symposium on Empirical software engineering and measurement},
+ series = {ESEM '08},
+ year = {2008},
+ isbn = {978-1-59593-971-5},
+ location = {Kaiserslautern, Germany},
+ pages = {178--187},
+ numpages = {10},
+ url = {http://doi.acm.org/10.1145/1414004.1414034},
+ doi = {http://doi.acm.org/10.1145/1414004.1414034},
+ acmid = {1414034},
+ publisher = {ACM},
+ address = {New York, NY, USA}
+} 
+
+%---------------------------------------------------------
+% E E E
+%---------------------------------------------------------
+@BOOK{Eric1995,
+  author = {Erich Gamma, Richard Helm, Ralph Johnson, John Vlissides},
+  year = {1995},
+  title = {Design patterns: elements of reusable object-oriented software},
+  publisher = {Addison-Wesley Longman Publishing Co., Inc.},
+  address = {Boston}
+}
+
+@ARTICLE{Escalona2011,
+  author = {Escalona, M. J. and Gutierrez, J. J. and Mejías, M. and Aragón, G. and Ramos, I. and Torres, J. and Domínguez, F. J.},
+  title = {An overview on test generation from functional requirements},
+  journal = {J. Syst. Softw.},
+  year = {2011},
+  volume = {84},
+  pages = {1379-1393},
+  month = {August},
+  address = {New York, NY, USA},
+  publisher = {Elsevier Science Inc.}
+}
+
+%---------------------------------------------------------
+% F F F
+%---------------------------------------------------------
+@MISC{Franco,
+  author = {Ettore Franco},
+  title = {Teste de Software},
+  year = {2010},
+  howpublished = {\url{http://ettorefrancoads.blogspot.com/2010/09/teste-de-software-diferente-do-que-as.html}, acessado em 03 de dezembro de 2010}
+}
+
+@BOOK{Fowler1997,
+  author = {Martin Fowler},
+  year = {1997},
+  title = {UML distilled},
+  publisher = {Prentice Hall}
+}
+
+%---------------------------------------------------------
+% G G G
+%---------------------------------------------------------
+@INPROCEEDINGS{Gao1995,
+  author = {Gao, J.Z. and Kung, D. and Hsia, P. and Toyoshima, Y. and Chen, C.},
+  title = {Object state testing for object-oriented programs},
+  booktitle = {Computer Software and Applications Conference, 1995. COMPSAC 95. Proceedings., Nineteenth Annual International},
+  year = {1995},
+  pages	= {232-238},
+  month = {aug}
+}
+
+@ARTICLE{GooYGer1975,
+  author = {John B. Goodenough and Susan L. Gerhart},
+  year = {1975},
+  title = {Towards a theory of test data selection},
+  journal = {IEEE Transactions on Software Engineering},
+  volume = {2},
+  pages = {156-173}
+}
+
+@inproceedings{Gutierrez2006,
+  author    = {Javier J. Gutierrez},
+  title     = {Towards a Complete Approach to Generate System Test Cases},
+  booktitle = {ICEIS Doctoral Consortium},
+  year      = {2006},
+  pages     = {38-50}
+}
+
+@INPROCEEDINGS{Gutierrez2006a,
+  author = {Gutierrez, J.J. and Escalona, M.J. and Mejias, M. and Torres, J.},
+  title	= {Generation of test cases from functional requirements. A survey},
+  booktitle = {4th Workshop on System Testing and Validation},
+  year = {2006},
+  address = {Potsdam, Germany}
+}
+
+@incollection {Gutierrez2007,
+   author = {Gutierrez, J. and Escalona, M. and Mejías, M. and Torres, J.},
+   title = {Derivation of Test Objectives Automatically},
+   booktitle = {Advances in Information Systems Development},
+   editor = {Wojtkowski, Wita and Wojtkowski, W. Gregory and Zupancic, Jose and Magyar, Gabor and Knapp, Gabor},
+   publisher = {Springer US},
+   pages = {435-446},
+   year = {2007}
+}
+
+@INPROCEEDINGS{Gutierrez2008,
+  author = {Gutierrez, J.J. and Escalona, M.J. and Mejias, M. and Torres, J.	and Centeno, A.H.},
+  title	= {A case study for generating test cases from use cases},
+  booktitle = {Research Challenges in Information Science, 2008. RCIS 2008. Second	International Conference on},
+  year = {2008},
+  pages	= {209-214},
+  month	= {jun}
+}
+@ARTICLE{Gutjahr1999,
+  author = {Gutjahr, W. J.},
+  title = {Partition testing vs. random testing: the influence of uncertainty},
+  journal = {Software Engineering, IEEE Transactions on},
+  year = {1999},
+  volume = {25},
+  pages = {661-674},
+  number = {5},
+  month = {sep/oct}
+}
+
+
+
+
+%---------------------------------------------------------
+% H H H
+%---------------------------------------------------------
+
+@BOOK{Hamlet1994,
+  title = {Random testing},
+  booktitle = {In Encylopedia of Software Engineering},	
+  author = {Hamlet, R.}
+  publisher = {Willey},
+  year = {1994},
+  pages = {970
