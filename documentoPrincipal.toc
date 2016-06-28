@@ -1,70 +1,8 @@
 \select@language {brazil}
-\contentsline {chapter}{Lista de Figuras}{8}{Doc-Start}
-\contentsline {chapter}{Lista de Tabelas}{9}{Doc-Start}
-\contentsline {chapter}{Lista de C\'{o}digos de Programas}{10}{section*.1}
-\contentsline {chapter}{\numberline {1}Introdu\c c\~ao}{12}{chapter.2}
-\contentsline {section}{\numberline {1.1}Finalidade}{13}{section.3}
-\contentsline {section}{\numberline {1.2}Objetivo Geral}{14}{section.4}
-\contentsline {chapter}{\numberline {2}Escopo do Projeto}{15}{chapter.5}
-\contentsline {section}{\numberline {2.1}Situa\c c\~ao Atual}{15}{section.6}
-\contentsline {subsection}{\numberline {2.1.1}Motiva\c c\~ao}{15}{subsection.7}
-\contentsline {subsection}{\numberline {2.1.2}Problema}{15}{subsection.8}
-\contentsline {subsection}{\numberline {2.1.3}Justificativa}{15}{subsection.9}
-\contentsline {section}{\numberline {2.2}Objetivos}{16}{section.10}
-\contentsline {subsection}{\numberline {2.2.1}Objetivos Gerais}{16}{subsection.11}
-\contentsline {subsection}{\numberline {2.2.2}Objetivos Espec\IeC {\'\i }ficos}{16}{subsection.12}
-\contentsline {chapter}{\numberline {3}Fundamenta\c c\~ao Te\'orica}{17}{chapter.13}
-\contentsline {section}{\numberline {3.1}Engenharia de Software}{17}{section.14}
-\contentsline {subsection}{\numberline {3.1.1}Engenharia de Software e Gest\~ao de Projetos}{19}{subsection.16}
-\contentsline {section}{\numberline {3.2}Ciclo de vida de Software}{20}{section.17}
-\contentsline {section}{\numberline {3.3}Processo Unificado da Rational}{22}{section.20}
-\contentsline {subsection}{\numberline {3.3.1}Uso de Arquitetura Baseada em Componentes}{23}{subsection.21}
-\contentsline {section}{\numberline {3.4}Padr\~oes de Projeto}{23}{section.22}
-\contentsline {section}{\numberline {3.5}Gest\~ao de Projetos}{24}{section.23}
-\contentsline {subsection}{\numberline {3.5.1}O uso do Always beta}{25}{subsection.24}
-\contentsline {section}{\numberline {3.6}Principais problemas encontrados no Levantamento de Requisitos}{26}{section.25}
-\contentsline {subsection}{\numberline {3.6.1}Problemas com Stakeholders}{26}{subsection.26}
-\contentsline {subsection}{\numberline {3.6.2}Problemas com Engenheiros e Desenvolvedores de Software}{27}{subsection.27}
-\contentsline {section}{\numberline {3.7}Requisitos:Funcionais e n\~ao Funcionais}{28}{section.28}
-\contentsline {section}{\numberline {3.8}Arquitetura de Software}{29}{section.29}
-\contentsline {section}{\numberline {3.9}Design de Software}{30}{section.30}
-\contentsline {chapter}{\numberline {4}Proposta}{31}{chapter.31}
-\contentsline {section}{\numberline {4.1}Requisitos de Software}{31}{section.32}
-\contentsline {section}{\numberline {4.2}Mapa Mental}{31}{section.35}
-\contentsline {section}{\numberline {4.3}Design do Software}{37}{section.42}
-\contentsline {section}{\numberline {4.4}Diagramas da UML}{38}{section.45}
-\contentsline {subsection}{\numberline {4.4.1}Diagrama de Classe}{40}{subsection.47}
-\contentsline {subsection}{\numberline {4.4.2}Diagrama de Classe FATESG API}{40}{subsection.48}
-\contentsline {subsection}{\numberline {4.4.3}Diagrama de Classe SGEP}{41}{subsection.50}
-\contentsline {subsection}{\numberline {4.4.4}Diagrama de Caso de Uso}{42}{subsection.52}
-\contentsline {subsection}{\numberline {4.4.5}Diagrama de Atividade}{44}{subsection.55}
-\contentsline {subsection}{\numberline {4.4.6}Diagrama de Estado}{46}{subsection.58}
-\contentsline {subsection}{\numberline {4.4.7}Diagrama de Componente}{47}{subsection.60}
-\contentsline {subsection}{\numberline {4.4.8}Diagrama de Sequ\^encia}{48}{subsection.62}
-\contentsline {section}{\numberline {4.5}Banco De Dados }{50}{section.65}
-\contentsline {section}{\numberline {4.6}Prototipa\c c\~ao}{51}{section.67}
-\contentsline {subsection}{\numberline {4.6.1}Sistema Corporatum}{52}{subsection.68}
-\contentsline {subsection}{\numberline {4.6.2}Tela Sistema SGEP}{54}{subsection.73}
-\contentsline {section}{\numberline {4.7}Cod\IeC {\'\i }go}{59}{section.80}
-\contentsline {section}{\numberline {4.8}Padr\~oes de Projetos}{65}{section.306}
-\contentsline {subsection}{\numberline {4.8.1}Singleton}{65}{subsection.307}
-\contentsline {subsection}{\numberline {4.8.2}Adapter Factory}{66}{subsection.308}
-\contentsline {subsection}{\numberline {4.8.3}Themplate Method}{67}{subsection.309}
-\contentsline {subsection}{\numberline {4.8.4}Abstract Factory}{67}{subsection.310}
-\contentsline {section}{\numberline {4.9}Frameworks e Ferramentas Adotadas}{68}{section.311}
-\contentsline {subsection}{\numberline {4.9.1}Astah Community}{68}{subsection.312}
-\contentsline {subsection}{\numberline {4.9.2}Eclipse}{68}{subsection.313}
-\contentsline {subsection}{\numberline {4.9.3}Java}{68}{subsection.314}
-\contentsline {subsection}{\numberline {4.9.4}Tomcat}{69}{subsection.315}
-\contentsline {subsection}{\numberline {4.9.5}Java Server Faces}{69}{subsection.316}
-\contentsline {subsection}{\numberline {4.9.6}Primefaces}{69}{subsection.317}
-\contentsline {subsection}{\numberline {4.9.7}Spring}{69}{subsection.318}
-\contentsline {subsection}{\numberline {4.9.8}Hibernate}{70}{subsection.319}
-\contentsline {subsection}{\numberline {4.9.9}Maven}{70}{subsection.320}
-\contentsline {subsection}{\numberline {4.9.10}Junit}{70}{subsection.321}
-\contentsline {subsection}{\numberline {4.9.11} JasperReports e iReport}{70}{subsection.322}
-\contentsline {chapter}{\numberline {5}Considera\c c\~oes Finais}{72}{chapter.323}
-\contentsline {section}{\numberline {5.1}Conclus\~ao}{72}{section.324}
-\contentsline {subsection}{\numberline {5.1.1}Contribui\c c\~ao}{72}{subsection.325}
-\contentsline {section}{\numberline {5.2}Trabalhos Futuros}{72}{section.326}
+\contentsline {chapter}{Lista de Figuras}{6}{Doc-Start}
+\contentsline {chapter}{Lista de Tabelas}{7}{Doc-Start}
+\contentsline {chapter}{Lista de C\'{o}digos de Programas}{8}{section*.1}
+\contentsline {chapter}{\numberline {1}Introdu\c c\~ao}{10}{chapter.2}
+\contentsline {section}{\numberline {1.1}Finalidade}{11}{section.3}
+\contentsline {section}{\numberline {1.2}Objetivo Geral}{12}{section.4}
 \contentsfinish 
