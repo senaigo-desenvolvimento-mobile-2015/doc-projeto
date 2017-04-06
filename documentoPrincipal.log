@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2017.1.2)  2 JAN 2017 17:02
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2017.1.2)  6 APR 2017 20:05
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1152,7 +1152,97 @@ l.63 }
 The language is not loadable. Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-(./documentoPrincipal.aux)
+(./documentoPrincipal.aux
+
+LaTeX Warning: Label `Modelo Sistema Web ' multiply defined.
+
+
+LaTeX Warning: Label `Modelo Sistema Web @cref' multiply defined.
+
+! Missing \endcsname inserted.
+<to be read again> 
+                   \protect 
+l.174 ... {\S  }\~A\IeC {\pounds  }o}{FEDELI 2002}
+                                                  
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.174 ... {\S  }\~A\IeC {\pounds  }o}{FEDELI 2002}
+                                                  
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+! Extra \endcsname.
+\@ifundefined ...dafter \ifx \csname #1\endcsname 
+                                                  \relax \expandafter \@firs...
+l.174 ... {\S  }\~A\IeC {\pounds  }o}{FEDELI 2002}
+                                                  
+I'm ignoring this, since I wasn't doing a \csname.
+
+! Missing \endcsname inserted.
+<to be read again> 
+                   \protect 
+l.174 ... {\S  }\~A\IeC {\pounds  }o}{FEDELI 2002}
+                                                  
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+! Extra \endcsname.
+\@namedef ...xpandafter \def \csname #1\endcsname 
+                                                  
+l.174 ... {\S  }\~A\IeC {\pounds  }o}{FEDELI 2002}
+                                                  
+I'm ignoring this, since I wasn't doing a \csname.
+
+! Undefined control sequence.
+<recently read> \Hy@colorlink 
+                              
+l.174 ... {\S  }\~A\IeC {\pounds  }o}{FEDELI 2002}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\close@pdflink ->\Hy@endcolorlink 
+                                  \Hy@VerboseLinkStop \pdfendlink 
+l.174 ... {\S  }\~A\IeC {\pounds  }o}{FEDELI 2002}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Missing \endcsname inserted.
+<to be read again> 
+                   \mu 
+l.181 ...amma2006padr\~A\mu es}{Gamma et al. 2006}
+                                                  
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+
+LaTeX Warning: Label `gamma2006padr\~A\mu es' multiply defined.
+
+! Missing \endcsname inserted.
+<to be read again> 
+                   \mu 
+l.181 ...amma2006padr\~A\mu es}{Gamma et al. 2006}
+                                                  
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+)
 \openout1 = `documentoPrincipal.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 82.
@@ -1164,8 +1254,7 @@ LaTeX Font Info:    ... okay on input line 82.
 LaTeX Font Info:    Checking defaults for OMS/pzccm/m/n on input line 82.
 LaTeX Font Info:    Try loading font information for OMS+pzccm on input line 82
 .
-
-(/usr/share/texlive/texmf-dist/tex/latex/psnfss/omspzccm.fd
+ (/usr/share/texlive/texmf-dist/tex/latex/psnfss/omspzccm.fd
 File: omspzccm.fd 2000/01/03 Fontinst v1.801 font definitions for OMS/pzccm.
 )
 LaTeX Font Info:    ... okay on input line 82.
@@ -1203,6 +1292,11 @@ LaTeX Info: Redefining \nameref on input line 82.
 
 
 (/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
+Underfull \hbox (badness 1472) in paragraph at lines 174--13
+[]\T1/ptm/m/n/12 ŸÃ¿oo[]greenFEDELI 2002[]                                  [][
+][][]
+ []
+
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count284
 \scratchdimen=\dimen265
@@ -1282,45 +1376,48 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 82.
 \c__siunitx_mathtt_int=\count292
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 142.
+(babel)             in language  on input line 141.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 142.
+(babel)             in language  on input line 141.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 142.
+(babel)             in language  on input line 141.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 142.
+(babel)             in language  on input line 141.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 142.
-LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <24.88> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 142.
-LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <17.28> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 142.
+(babel)             in language  on input line 141.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 142.
+(babel)             in language  on input line 141.
  [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
+LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <24.88> not available
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 141.
+LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <17.28> not available
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 141.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 144.
+(babel)             in language  on input line 141.
+ [1]
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 143.
 
-Underfull \hbox (badness 1960) in paragraph at lines 144--144
+Underfull \hbox (badness 1960) in paragraph at lines 143--143
 []\T1/ptm/m/n/12 Trabalho de Con-clu-são de Curso apre-sen-tado a PÓS
  []
 
 
-Underfull \hbox (badness 2556) in paragraph at lines 144--144
+Underfull \hbox (badness 2556) in paragraph at lines 143--143
 \T1/ptm/m/n/12 DE SOFT-WARE PARA DIS-PO-SI-TI-VOS MÓ-VEIS E
  []
 
 
-Underfull \hbox (badness 1275) in paragraph at lines 144--144
+Underfull \hbox (badness 1275) in paragraph at lines 143--143
 \T1/ptm/m/n/12 IN-TER-NET da FA-CUL-DADE SE-NAI FA-TESG, como
  []
 
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <12> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 144.
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 143.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 144.
+(babel)             in language  on input line 143.
 [1] (./pre/pre_aprovacao.tex
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 1.
@@ -1341,6 +1438,40 @@ Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 10.
 [2
 
+]) (./pre/pre_direitos.tex
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 3.
+LaTeX Font Info:    Font shape `T1/phv/m/n' will be
+(Font)              scaled to size 10.79993pt on input line 3.
+LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <12> not available
+(Font)              Font shape `T1/phv/b/n' tried instead on input line 3.
+LaTeX Font Info:    Font shape `T1/phv/b/n' will be
+(Font)              scaled to size 10.79993pt on input line 3.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 3.
+ [3
+
+]) (./pre/pre_dedicatoria.tex
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 1.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 3.
+ [4
+
+])
+(./pre/pre_agradecimentos.tex
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 1.
+
+Underfull \hbox (badness 1783) in paragraph at lines 2--5
+\T1/ptm/m/n/12 fos-sem con-cre-ti-za-dos. Com o tra-ba-lho pronto, che-gou a ho
+ra de agra-de-cer. Ao
+ []
+
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 8.
+[5
+
 ]) (./pre/pre_resumo.tex
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 3.
@@ -1349,15 +1480,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 3--3
 []$[]$
  []
 
-LaTeX Font Info:    Font shape `T1/phv/m/n' will be
-(Font)              scaled to size 10.79993pt on input line 8.
-LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <12> not available
-(Font)              Font shape `T1/phv/b/n' tried instead on input line 8.
-LaTeX Font Info:    Font shape `T1/phv/b/n' will be
-(Font)              scaled to size 10.79993pt on input line 8.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 8.
-[3
+[6
 
 ]) (./tex/cap1/cap_I.tex
 Cap\'{\i }tulo 1.
@@ -1375,43 +1500,567 @@ Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 6.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 14.
-) 
-AED: lastpage setting LastPage
+) (./tex/cap2/cap_II.tex
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 192.
-[4
+(babel)             in language  on input line 1.
+ [7
 
 
 ]
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 192.
- [5]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 192.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 192.
- (./documentoPrincipal.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 192.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 192.
+(babel)             in language  on input line 1.
+ [8]
+Cap\'{\i }tulo 2.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 1.
+LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <14.4> not available
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 11.
+
+Package hyperref Warning: Difference (2) between bookmark levels is greater 
+(hyperref)                than one, level fixed on input line 11.
+
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 11.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 16.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 21.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 25.
+[9
+
+]
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 26.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 31.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 36.
+) (./tex/cap3/cap_III.tex
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 1.
+ [10]
+Cap\'{\i }tulo 3.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 1.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 4.
+
+Underfull \hbox (badness 3646) in paragraph at lines 6--14
+[]\T1/ptm/m/n/12 A en-ge-nha-ria de soft-ware é um ramo da en-ge-nha-ria cujo f
+oco é o
+ []
+
+
+Underfull \hbox (badness 3536) in paragraph at lines 17--28
+\T1/ptm/m/n/12 e qua-li-dade. Atu-al-mente, es-sas tec-no-lo-gias e prá-ti-cas 
+en-glo-bam lin-gua-gens de
+ []
+
+<imagens/EngenhariaSoftware.jpg, id=217, 192.72pt x 144.54pt>
+File: imagens/EngenhariaSoftware.jpg Graphic file (type jpg)
+
+<use imagens/EngenhariaSoftware.jpg>
+Package pdftex.def Info: imagens/EngenhariaSoftware.jpg used on input line 38.
+(pdftex.def)             Requested size: 426.79134pt x 320.09299pt.
+LaTeX Font Info:    Font shape `T1/ptm/bx/it' in size <10.95> not available
+(Font)              Font shape `T1/ptm/b/it' tried instead on input line 40.
+
+Underfull \hbox (badness 4279) in paragraph at lines 40--40
+[][]|\T1/ptm/m/it/10.95 Di-fe-ren-tes In-ter-pre-ta-ções ao longo do ci-clo de
+ []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 50.
+[11
+
+]
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 63.
+ [12 <./imagens/EngenhariaSoftware.jpg>]
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 78.
+LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <12> not available
+(Font)              Font shape `OMS/pzccm/m/n' tried instead on input line 85.
+
+Underfull \hbox (badness 2617) in paragraph at lines 87--89
+[]\T1/ptm/m/n/12 Acompanhamento e Mo-ni-to-ra-mento do Pro-jeto: Es-ta-be-le-ce
+r uma vi-são de
+ []
+
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 93.
+[13]
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 132.
+ <imagens/ModeloCascata.jpg, id=236, 570.63188pt x 237.88875pt>
+File: imagens/ModeloCascata.jpg Graphic file (type jpg)
+
+<use imagens/ModeloCascata.jpg>
+Package pdftex.def Info: imagens/ModeloCascata.jpg used on input line 147.
+(pdftex.def)             Requested size: 426.79134pt x 177.92244pt.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 151.
+ [14]
+Underfull \hbox (badness 2478) in paragraph at lines 172--174
+[]\T1/ptm/m/n/12 *Melhoramento Fun-ci-o-nal:Produzidas por exi-gên-cias va-riá-
+veis do cli-ente
+ []
+
+<imagens/cicloDeVida.png, id=244, 642.4pt x 401.5pt>
+File: imagens/cicloDeVida.png Graphic file (type png)
+
+<use imagens/cicloDeVida.png>
+Package pdftex.def Info: imagens/cicloDeVida.png used on input line 187.
+(pdftex.def)             Requested size: 284.52756pt x 177.83067pt.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 193.
+ [15 <./imagens/ModeloCascata.jpg>]
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 194.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 222.
+ [16 <./imagens/cicloDeVida.png>]
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 223.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 229.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 268.
+ [17]
+Underfull \hbox (badness 1655) in paragraph at lines 287--294
+[]\T1/ptm/m/n/12 O Reuso é o ob-je-tivo prin-ci-pal da en-ge-nha-ria de soft-wa
+re ba-se-ada em
+ []
+
+
+Underfull \hbox (badness 3179) in paragraph at lines 300--303
+[]\T1/ptm/m/n/12 O Sis-tema SGEP fun-ci-ona jun-ta-mente com o sis-tema FATESG-
+API e
+ []
+
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 304.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 316.
+[18]
+Underfull \hbox (badness 1609) in paragraph at lines 319--321
+[]\T1/ptm/m/n/12 kerznergestão, a ges-tão de pro-jeto de re-la-ti-va-mente curt
+o prazo que foi
+ []
+
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 337.
+
+Underfull \hbox (badness 2020) in paragraph at lines 339--343
+[]\T1/ptm/m/n/12 Nos úl-ti-mos dez anos, tornou-se co-mum uma fi-lo-so-fia de p
+ro-to-ti-pa-gem
+ []
+
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 343.
+[19]
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 344.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 347.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 383.
+ [20]
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 389.
+
+Underfull \hbox (badness 2671) in paragraph at lines 391--399
+[]\T1/ptm/m/n/12 Durante o pro-cesso de de-sen-vol-vi-mento de soft-ware, ocor-
+rem en-ga-nos,
+ []
+
+
+Underfull \hbox (badness 2173) in paragraph at lines 415--419
+\T1/ptm/m/n/12 de-pen-dendo da or-ga-ni-za-ção e até mesmo do pro-jeto. Para a 
+boa for-ma-ção de
+ []
+
+
+Underfull \hbox (badness 1342) in paragraph at lines 415--419
+\T1/ptm/m/n/12 a es-tru-tura das equi-pes, há di-ver-sos ti-pos de equi-pes, ta
+is como os ci-ta-dos por
+ []
+
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 419.
+[21]
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 423.
+
+Underfull \hbox (badness 2005) in paragraph at lines 447--453
+[]\T1/ptm/m/n/12 Um soft-ware não é uma ta-refa tri-vial, já que, além da ha-bi
+-li-dade em
+ []
+
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 453.
+[22]
+Underfull \hbox (badness 1038) in paragraph at lines 454--458
+\T1/ptm/m/n/12 in-flu-en-ciam bas-tante na qua-li-dade do soft-ware. São os re-
+qui-si-tos re-la-ci-o-na-dos ao
+ []
+
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 467.
+
+Underfull \hbox (badness 10000) in paragraph at lines 470--473
+[]\T1/ptm/m/n/12 Nas pa-la-vras de Mar-tin Fo-wler, ^^QO termo ar-qui-te-tura e
+n-volve a
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 470--473
+\T1/ptm/m/n/12 no-ção dos prin-ci-pais ele-men-tos do sis-tema, as pe-ças que s
+ão di-fí-ceis
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 470--473
+\T1/ptm/m/n/12 de mu-dar. Uma fun-da-ção na qual o resto pre-cisa ser cons-truí
+do^^Q .
+ []
+
+
+Underfull \hbox (badness 1275) in paragraph at lines 474--486
+[]\T1/ptm/m/n/12 Essa fun-da-ção que cons-ti-tui a ar-qui-te-tura, na qual en-v
+olve os prin-ci-pais
+ []
+
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 486.
+[23]
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 498.
+
+Underfull \hbox (badness 7667) in paragraph at lines 501--511
+[]\T1/ptm/m/n/12 Design é uma forma de in-ter-pre-tar a im-ple-men-ta-ção, ana-
+li-sando e
+ []
+
+
+Underfull \hbox (badness 1331) in paragraph at lines 512--519
+\T1/ptm/m/n/12 de-se-ja-das na vi-são de de-sign ou na vi-são de ar-qui-te-tura
+. A boa im-ple-men-ta-ção
+ []
+
+) (./tex/cap4/cap_IV.tex
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 1.
+ [24]
+Cap\'{\i }tulo 4.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 1.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 8.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 72.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 139.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 154.
+[25
+
+]) (./documentoPrincipal.bbl
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 3.
+ [26]
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 3.
+
+Underfull \hbox (badness 10000) in paragraph at lines 42--46
+[]\T1/ptm/m/n/12 FEDELI, A. \T1/ptm/m/it/12 Ori-en-ta-ção a Ob-jeto com Pro-to-
+ti-pa-ção\T1/ptm/m/n/12 .
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 42--46
+\T1/ptm/m/n/12 Pi-o-nei-ra/Thom-son Le-ar-ning, 2002. ISBN 9788522102648. Dis-p
+o-ní-vel em:
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 62--66
+[]\T1/ptm/m/n/12 FOWLER, M. \T1/ptm/m/it/12 UML Es-sen-cial: Um Breve Guia para
+
+ []
+
+
+Underfull \hbox (badness 6493) in paragraph at lines 62--66
+\T1/ptm/m/it/12 Lin-gua-gem Pa-drao\T1/ptm/m/n/12 . Bo-ok-man, 2014. ISBN 97885
+60031382. Dis-po-ní-vel em:
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 69--73
+[]\T1/ptm/m/n/12 FOWLER, M. \T1/ptm/m/it/12 UML Es-sen-cial: Um Breve Guia para
+
+ []
+
+
+Underfull \hbox (badness 6493) in paragraph at lines 69--73
+\T1/ptm/m/it/12 Lin-gua-gem Pa-drao\T1/ptm/m/n/12 . Bo-ok-man, 2014. ISBN 97885
+60031382. Dis-po-ní-vel em:
+ []
+
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 79.
+[27
+
+]
+Underfull \hbox (badness 3058) in paragraph at lines 82--86
+\T1/ptm/m/n/12 BO-OK-MAN COM-PA-NHIA ED, 2006. ISBN 9788573076103. Dis-po-ní-ve
+l em:
+ []
+
+
+Underfull \hbox (badness 1231) in paragraph at lines 89--93
+[]\T1/ptm/m/n/12 GEARY, D.; HORST-MANN, C. \T1/ptm/m/it/12 Core Ja-va-Ser-ver F
+a-ces\T1/ptm/m/n/12 .
+ []
+
+
+Underfull \hbox (badness 1484) in paragraph at lines 96--99
+[]\T1/ptm/m/n/12 INSTITUTE, P. M. \T1/ptm/m/it/12 A Guide to the Pro-ject Ma-na
+-ge-ment Body of
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 121--124
+[]\T1/ptm/m/n/12 LARMAN, C. \T1/ptm/m/it/12 Uti-li-zando UML e Pa-drões\T1/ptm/
+m/n/12 .
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 121--124
+\T1/ptm/m/n/12 Bo-ok-man, 2002. ISBN 9788577800476. Dis-po-ní-vel em:
+ []
+
+
+Underfull \hbox (badness 2582) in paragraph at lines 127--131
+[]\T1/ptm/m/n/12 OSTERWALDER, A.; PIG-NEUR, Y. \T1/ptm/m/it/12 Bu-si-ness Mo-de
+l
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 139--143
+[]\T1/ptm/m/n/12 RAMOS, R. \T1/ptm/m/it/12 Trei-na-mento Prá-tico em UML\T1/ptm
+/m/n/12 . Uni-verso dos
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 139--143
+\T1/ptm/m/n/12 Li-vros Edi-tora LTDA, 2011. ISBN 9788577020515. Dis-po-ní-vel e
+m:
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 152--156
+[]\T1/ptm/m/n/12 RODRIGUES, E. \T1/ptm/m/it/12 Curso de En-ge-nha-ria de Soft-w
+are\T1/ptm/m/n/12 .
+ []
+
+
+Underfull \hbox (badness 7030) in paragraph at lines 152--156
+\T1/ptm/m/n/12 Uni-verso dos Li-vros Edi-tora, 2008. ISBN 9788578730109. Dis-po
+-ní-vel em:
+ []
+
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 156.
+[28]
+Underfull \hbox (badness 1331) in paragraph at lines 170--173
+[]\T1/ptm/m/n/12 SOMERA, G. \T1/ptm/m/it/12 Trei-na-mento Pro-fis-si-o-nal em J
+ava\T1/ptm/m/n/12 . [S.l.]: DI-GE-RATI
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 181--185
+[]\T1/ptm/m/n/12 SOMMERVILLE, I. et al. \T1/ptm/m/it/12 En-ge-nha-ria de soft-w
+are\T1/ptm/m/n/12 .
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 181--185
+\T1/ptm/m/n/12 AD-DI-SON WES-LEY BRA, 2008. ISBN 9788588639287. Dis-po-ní-vel e
+m:
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 201--205
+[]\T1/ptm/m/n/12 THAYER, R.; DORF-MAN, M. \T1/ptm/m/it/12 Sys-tem and soft-ware
+
+ []
+
+) 
+AED: lastpage setting LastPage
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 191.
+[29]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 191.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 191.
+ (./documentoPrincipal.aux
+! Missing \endcsname inserted.
+<to be read again> 
+                   \protect 
+l.154 ... {\S  }\~A\IeC {\pounds  }o}{FEDELI 2002}
+                                                  
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+! Extra \endcsname.
+\@newl@bel ... \bbl@tempa \csname #1@#2\endcsname 
+                                                  \def \bbl@tempb {#3}\@safe...
+l.154 ... {\S  }\~A\IeC {\pounds  }o}{FEDELI 2002}
+                                                  
+I'm ignoring this, since I wasn't doing a \csname.
+
+! Missing \endcsname inserted.
+<to be read again> 
+                   \mu 
+l.161 ...amma2006padr\~A\mu es}{Gamma et al. 2006}
+                                                  
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.161 ...amma2006padr\~A\mu es}{Gamma et al. 2006}
+                                                  
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Extra \endcsname.
+\@newl@bel ... \bbl@tempa \csname #1@#2\endcsname 
+                                                  \def \bbl@tempb {#3}\@safe...
+l.161 ...amma2006padr\~A\mu es}{Gamma et al. 2006}
+                                                  
+I'm ignoring this, since I wasn't doing a \csname.
+
+! Missing \endcsname inserted.
+<to be read again> 
+                   \protect 
+l.164 ...} Arquitetura de Design de Software 2011}
+                                                  
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+
+LaTeX Warning: Command \c invalid in math mode on input line 164.
+
+
+LaTeX Warning: Command \~ invalid in math mode on input line 164.
+
+! Extra \endcsname.
+\@newl@bel ... \bbl@tempa \csname #1@#2\endcsname 
+                                                  \def \bbl@tempb {#3}\@safe...
+l.164 ...} Arquitetura de Design de Software 2011}
+                                                  
+I'm ignoring this, since I wasn't doing a \csname.
+
+! Missing \endcsname inserted.
+<to be read again> 
+                   \protect 
+l.165 \bibcite{kerznergest\~ao}{Kerzner 2011}
+                                             
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+
+LaTeX Warning: Command \~ invalid in math mode on input line 165.
+
+! Extra \endcsname.
+\@newl@bel ... \bbl@tempa \csname #1@#2\endcsname 
+                                                  \def \bbl@tempb {#3}\@safe...
+l.165 \bibcite{kerznergest\~ao}{Kerzner 2011}
+                                             
+I'm ignoring this, since I wasn't doing a \csname.
+
+! Missing \endcsname inserted.
+<to be read again> 
+                   \protect 
+l.179 ...wa1999gest\~ao}{Tachizawa e Andrade 1999}
+                                                  
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+
+LaTeX Warning: Command \~ invalid in math mode on input line 179.
+
+! Extra \endcsname.
+\@newl@bel ... \bbl@tempa \csname #1@#2\endcsname 
+                                                  \def \bbl@tempb {#3}\@safe...
+l.179 ...wa1999gest\~ao}{Tachizawa e Andrade 1999}
+                                                  
+I'm ignoring this, since I wasn't doing a \csname.
+
+)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 191.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 191.
 Package rerunfilecheck Info: File `documentoPrincipal.out' has not changed.
-(rerunfilecheck)             Checksum: 33F3879C0AE2C1E2E8036F6E939AE2F8;465.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 192.
+(rerunfilecheck)             Checksum: 321EE6573EE0A4C2D77799A7002ED2F5;2701.
+
+
+LaTeX Warning: There were multiply-defined labels.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.191 \end{document}
+                    
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+Missing character: There is no ç in font zptmcmr!
+Missing character: There is no ã in font zptmcmr!
+Missing character: There is no ã in font zptmcmr!
+Missing character: There is no ã in font zptmcmr!
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 191.
  ) 
 Here is how much of TeX's memory you used:
- 22556 strings out of 495004
- 413404 string characters out of 6180663
- 506394 words of memory out of 5000000
- 25364 multiletter control sequences out of 15000+600000
- 66673 words of font info for 78 fonts, out of 8000000 for 9000
+ 22869 strings out of 495004
+ 419243 string characters out of 6180663
+ 507394 words of memory out of 5000000
+ 25546 multiletter control sequences out of 15000+600000
+ 80164 words of font info for 90 fonts, out of 8000000 for 9000
  16 hyphenation exceptions out of 8191
- 43i,11n,45p,10428b,817s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
-e/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/share/texlive/texmf-dist
-/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1
-/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr
-8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on documentoPrincipal.pdf (6 pages, 52024 bytes).
+ 43i,12n,45p,10428b,863s stack positions out of 5000i,500n,10000p,200000b,80000s
+pdfTeX warning (dest): name{cite.introdu\347\343o} has been referenced but do
+es not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{cite.gamma2006padr\365es} has been referenced but d
+oes not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{page.37} has been referenced but does not exist, re
+placed by a fixed one
+
+pdfTeX warning (dest): name{cite.fedeli2002orienta\303\\protect\040\\T1\\textse
+ction\040\303\\protect\040\\T1\\textsterling\040o} has been referenced but does
+ not exist, replaced by a fixed one
+
+{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texlive/
+texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-
+dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/f
+onts/type1/urw/helvetic/uhvb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/u
+rw/helvetic/uhvr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utm
+b8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/s
+hare/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on documentoPrincipal.pdf (31 pages, 343834 bytes).
 PDF statistics:
- 91 PDF objects out of 1000 (max. 8388607)
- 77 compressed objects within 1 object stream
- 15 named destinations out of 1000 (max. 500000)
- 65 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 406 PDF objects out of 1000 (max. 8388607)
+ 358 compressed objects within 4 object streams
+ 108 named destinations out of 1000 (max. 500000)
+ 320 words of extra memory for PDF output out of 10000 (max. 10000000)
 
