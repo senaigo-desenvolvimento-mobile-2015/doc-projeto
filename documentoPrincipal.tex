@@ -15,6 +15,7 @@
 \usepackage{longtable} 
 \usepackage{lscape}
 \usepackage{algorithm}
+\usepackage{algorithm2e}
 \usepackage{algorithmic}
 \usepackage{alltt}
 \usepackage{amssymb}
@@ -35,6 +36,7 @@
 % Definindo novas cores
 \definecolor{verde}{rgb}{0.25,0.5,0.35}
 \definecolor{jpurple}{rgb}{0.5,0,0.35}
+\definecolor{light-gray}{gray}{0.95}
 
 % Configurando layout para mostrar codigos Java
 \usepackage [none] {hyphenat}
@@ -43,7 +45,7 @@
 \makenomenclature
 
 \lstset{  
-  language=JavaScript,
+  language=Java,
   basicstyle=\ttfamily\small, 
   keywordstyle=\color{jpurple}\bfseries,
   stringstyle=\color{red},
@@ -55,18 +57,18 @@
   numbers=left,
   numberstyle=\tiny,
   breaklines=true, 
-  backgroundcolor=\color{cyan!10}, 
+  backgroundcolor=\color{light-gray}, 
   breakautoindent=true, 
   captionpos=b,
   xleftmargin=0pt,
   tabsize=4
 }
 
-%\renewcommand{\lstlistingname}{Código}
-%\renewcommand{\lstlistlistingname}{Lista de Códigos}
-%\renewcommand{\theequation}{
-%   \arabic{chapter}.\arabic{equation}%
-%}
+\renewcommand{\lstlistingname}{Código}
+\renewcommand{\lstlistlistingname}{Lista de Códigos}
+\renewcommand{\theequation}{
+   \arabic{chapter}.\arabic{equation}%
+}
 
 %Utilize o codigo abaixo para escrever algoritmos em JAVA
 %Copie a classe java (Classe.java) para dentro da pasta prog
@@ -77,6 +79,8 @@
 %implementação da definição de um conjunto de vizinhos agrupados dois à
 %dois.}]{././prog/RecommenderIntro.java}
 
+%----------------------------------------------------- CONSTANTES %
+\newcommand{\nomeTrabalho}{Orçamento WEB}
 
 %----------------------------------------------------- INICIO DO DOCUMENTO %
 \begin{document}
@@ -97,7 +101,7 @@
 %\autorT{nomeCompleto}
 %\autorTR{Walczak, M. L.}
   
-\titulo{Orçamento WEB}
+\titulo{\nomeTrabalho}
 %--------------Para incluir subtitulo do Trabalho---------%
 \subtitulo{Desenvolvimento de uma infra-estrutura integrada para geração de geração e controle de Orçamentos e Ordens de Serviços para centros automotivos}
   
@@ -167,7 +171,7 @@
 %  figtabalgcod -> Sumário e listas de figuras, tabelas, algoritmos e
 %                  códigos de programas
 
-%\lstlistoflistings %Imprime e vincula a Lista de Programas
+\lstlistoflistings %Imprime e vincula a Lista de Programas
 %\printnomenclature
 
 %--------------------------------------------------------------- CAPÍTULOS %
@@ -175,7 +179,7 @@
 \input{./tex/cap2/cap_II}				%capítulo II
 \input{./tex/cap3/cap_III}				%Capítulo III
 \input{./tex/cap4/cap_IV}				%Capítulo IV
-%\input{./tex/cap5/cap_V}				%Capítulo V
+\input{./tex/cap5/cap_V}				%Capítulo V
 %\input{./tex/cap6/cap_VI}				%Capítulo VI
 %------------------------------------------------------------ BIBLIOGRAFIA %
 %\cleardoublepage

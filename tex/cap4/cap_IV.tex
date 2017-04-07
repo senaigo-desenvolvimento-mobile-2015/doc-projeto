@@ -1,73 +1,304 @@
 \chapter{Proposta}
 \label{sec:proposta}
-Esta seção tem por objetivo demonstrar o uso da Fundamentação
-teorica apresentada na Seção \ref{cap:fundamentacaoTeorica}. Assim, 
-de maneira prática, apresentaremos o uso da Engenharia de Software na
-construção de um sistema computacional denominado Orçamento Web.
+Esta seção tem por objetivo demonstrar o uso da Fundamentação teorica apresentada na Seção\ref{cap:fundamentacaoTeorica}. Assim, de maneira prática, apresentaremos o uso da Engenharia de Software na construção de um sistema computacional denominado \nomeTrabalho .
 
 \section{Requisitos de Software}
-%\label{requisitosSoftware}
-%Os requisitos de software descrevem explicitamente as funcionalidades e serviços do sistema.
-% O requisitos funcionais são responsaveis por conjunto de entradas, seu comportamento e sua saída, ou seja, envolve cálculos, lógicas de trabalho, manipulação e processamento de dados, entre outros. A Tabela \ref{tabelaRequisitos} descreve a lista de requisistos funcionais da sistema proposto.
+\label{requisitosSoftware}
+Os requisitos de software descrevem explicitamente as funcionalidades e serviços do sistema. O requisitos funcionais são responsaveis por conjunto de entradas, seu comportamento e sua saída, ou seja, envolve cálculos, lógicas de trabalho, manipulação e processamento de dados, entre outros. As subseções asseguir descrevem os requisistos funcionais da sistema cliente Web versão WEB.
 
-%\begin{table}[htp]
-%\centering
-%\caption{Lista de Requisitos  Funcionais}
-%\resizebox{14.0cm}{!} {
-%\begin{tabular}{|l|l|l|}
-%\hline
-%Cod requisito & Nome                     & \multicolumn{1}{c|}{Descrição}                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             \\ \hline
-%RF01          & Manter instituição       & \begin{tabular}[c]{@{}l@{}}Uma instituição de ensino organiza-se em várias unidades ou campus.\\ Cada unidade ou campus oferece uma demanda de cursos.  \\ Portanto, o sistema deve permitir que o colaborador registre tanto as informações da instituição\\  como as unidades de ensino, vinculando a cada uma seus respectivos diretores e cursos.\end{tabular}                                                                                                                                                                                                                                                                                                                                                                                                                                                         \\ \hline
-%RF02          & Manter cursos            & \begin{tabular}[c]{@{}l@{}}O sistema deverá permitir que o colaborador \\ coordenador registre as informações sobre \\ os cursos de cada unidade da Instituição.\\  O coordenador deve vincular a matriz \\ curricular ao curso bem como as disciplinas a matriz curricular, \\ especificando a carga horária de cada \\ disciplina e a carga horária total da matriz.\end{tabular}                                                                                                                                                                                                                                                                                                                                                                                                                                        \\ \hline
-%RF03          & Manter colaborador       & \begin{tabular}[c]{@{}l@{}}O sistema deve permitir que os colaboradores  administrativos\\  cadastrem os demais colaboradores no sistema, informando seu nome, \\ data de nascimento, sexo, cpf, registro de identidade,\\  endereço (cep, rua, complemento, cidade, estado e país) e\\  contato (e-mail, telefone residencial e telefone celular).\\  O Colaborador administrador deve definir um perfil de usuário\\  (coordenador, administrativo, docente, discente e diretor) \\ e cadastrar o nome de usuário e senha para que possam\\  acessar o sistema da instituição conforme seu perfil. \\ Seja o colaborador professor para montar as  questões e provas; \\ ou o colaborador coordenador para manter as informações dos \\ cursos e matrizes curriculares.\end{tabular}                                     \\ \hline
-%RF04          & Manter discentes         & \begin{tabular}[c]{@{}l@{}}O sistema deve permitir que os discentes cadastrem-se no sistema,\\   informando o seu nome, data de nascimento, \\ sexo, cpf, registro de identidade, endereço\\  (cep, rua, complemento, cidade, estado e país)\\  e contato (e-mail, telefone residencial e telefone celular). \\ O Discente deve cadastrar um nome de usuário \\ e senha para que o mesmo possa utiliza-lo tanto\\  para visualizar o plano de ensino e aula, como também responder\\  as provas objetivas e visualizar os resultados e gabaritos do mesmo.\end{tabular}                                                                                                                                                                                                                                                    \\ \hline
-%RF05          & Manter disciplinas       & \begin{tabular}[c]{@{}l@{}}O sistema deve permitir que o colaborador coordenador cadastre as\\   informações de cada disciplina vinculada a matriz curricular,\\  informando o seu código, nome e carga horária.\\  Cada disciplina cadastrada terá\\  o seu respectivo plano de ensino e plano de aula.\end{tabular}                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      \\ \hline
-%RF06          & Manter matriz curricular & \begin{tabular}[c]{@{}l@{}}O colaborador coordenador deve registrar no sistema as informações\\   referentes a matriz curricular de cada curso.\\  O sistema deve atribuir a data de criação, \\ vincular o respectivo curso a matriz e possibilitar ao\\   coordenador vincular as disciplinas que formará a\\  matriz curricular. Posteriormente, o \\ sistema deve contabilizar a carga horária total da\\  matriz resultante do somatório da carga horária de cada disciplina.\end{tabular}                                                                                                                                                                                                                                                                                                                            \\ \hline
-%RF07          & Manter questões          & \begin{tabular}[c]{@{}l@{}}O sistema deve permitir que o colaborador doscente  \\ monte as questões da prova objetiva. Cada Questão é \\ composta tanto por um enunciado, alternativas ou itens,\\   resposta, assunto, área de conhecimento, \\ como a disciplina na qual se relaciona.\\  A questão é do tipo Multipla-Escolha,\\  tendo exatamente cinco itens e \\ uma única resposta  correta ou incorreta.\\  O sistema deve possibilitar o docente realizar buscas de\\  questões e itens por assunto, área de conhecimento ou disciplina.\end{tabular}                                                                                                                                                                                                                                                             \\ \hline
-%RF08          & Manter template          & \begin{tabular}[c]{@{}l@{}}O colaborador docente deve criar um template \\ de prova onde o mesmo adicionará as sessões\\  que dividem a prova por área de conhecimento.\\  O sistema deve possibilitar ao professor vincular as sessões ao template.\end{tabular}                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          \\ \hline
-%RF09          & Manter seções            & \begin{tabular}[c]{@{}l@{}}O sistema deve possibilitar ao colaborador docente\\  a atribuir um nome que identifique cada sessão. \\ Seja o nome identificado tanto pela área de conhecimentos gerais,\\  específico ou conteúdo; como pela disciplina,\\  curso ou  período do curso, dentre outros.Com as\\   sessões vinculadas a um template,\\  o docente montará a prova vinculando as questões cadastradas a cada sessão.\end{tabular}                                                                                                                                                                                                                                                                                                                                                                               \\ \hline
-%RF10          & Montar prova             & \begin{tabular}[c]{@{}l@{}}O sistema deve permitir que o colaborador docente monte a Prova\\   Objetiva. A prova é composta por um cabeçalho com o\\  nome da instituição de ensino, disciplina, professor e aluno\\ , bem como também por questões que são selecionadas pelo professor \\  quando o mesmo as cadastrou no sistema. \\ A busca por questões será possível por área  de conhecimento,\\  assunto ou disciplina que ministra. Toda questão é \\ identificada por  um número onde seja possível o professor\\   ordenar as questões, ou mesmo o próprio  sistema\\  ordena-las de modo aleatório. Toda prova é dividida em\\  uma ou mais Sessões,  onde cada Sessão é identificada\\  por um nome (Ex: conhecimentos gerais,  conhecimentos específicos)\\  e pode conter uma ou mais questões.\end{tabular} \\ \hline
-%\end{tabular}
-%\label{tabelaRequisitos}
-%}
-%\end{table}
+\subsection{RF01 - Autenticação}
+\label{requisito:autenticacao}
+O sistema deve possuir uma tela para a autenticação de seus usuários.
+\begin{enumerate}
+\item Somente usuários autorizados devem acessar o sistema;
+\item Um usuário deve possuir um senha para realizar o acesso;
+\item Pessoas não autenticadas não podem ter acesso ao sistema.
+\item Campos obrigatórios:
+\begin{enumerate}
+\item Código numérico auto incremental
+\item Usuário;
+\item Senha.
+\end{enumerate}
+\end{enumerate}
 
-%Contudo, um sistema deve também atender a requisitos que não são necessariamente regras do negócio do Software. Assim, de nada adianta ter um sistema seguro, interativo e confiável se ele consome muitos recursos do computador e demora para executar a suas rotinas internas. Um sistema lento é alvo de crítica dos usuários, mesmo que seja funcional. A \textit{performance} do software pode ser melhorada utilizando técnicas de programação orientada a objetos, gerenciamento de memória, \textit{threads} e otimização de código.
+\subsection{RF02 - Peça}
+\label{requisito:peca}
+Centros automotivos podem ou não realizar a venda de peças que farão parte dos serviços prestados.
+\begin{enumerate}
+\item As peças persistidas deverão ser apresentadas em uma listagem para o usuário;
+\item A listagem deve possuir um campo para busca de uma peça.
+\item Pela listagem deve ser possível:
+\begin{enumerate}
+\item Acessar o formulário para cadastro de uma nova peça;
+\item Atualizar a listagem com os dados mais recentes;
+\item Filtrar por peças ativas ou inativas;
+\item Acessar o formulário para edição;
+\item Possibilitar a inativação através do clique em um botão. O usuário deverá confirmar essa ação;
+\item A exclusão não deve ser física, apenas lógica, ou seja, a funcionalidade excluir deve inativar o item não excluí-lo do banco de dados.
+\end{enumerate}
+\item Campos obrigatórios:
+\begin{enumerate}
+\item Código numérico auto incremental
+\item Referência;
+\item Descrição.
+\end{enumerate}
+\item Campos opcionais:
+\begin{enumerate}
+\item Modelo;
+\item Valor sugerido para a venda;
+\item Observações.
+\end{enumerate}
+\end{enumerate}
+
+\subsection{RF03 - Serviço}
+\label{requisito:servico}
+Centros automotivos podem ou não realizar a prestação de um serviço.
+\begin{enumerate}
+\item Os serviços persistidos deverão ser apresentados em uma listagem para o usuário;
+\item A listagem deve possuir um campo para busca de um serviço;
+\item Pela listagem deve ser possível:
+\begin{enumerate}
+\item Acessar o formulário para cadastro de um novo serviço;
+\item Atualizar a listagem com os dados mais recentes;
+\item Filtrar por serviços ativos ou inativos;
+\item Acessar o formulário para edição;
+\item Possibilitar a inativação através do clique em um botão. O usuário deverá confirmar essa ação.
+\item A exclusão não deve ser física, apenas lógica, ou seja, a funcionalidade excluir deve inativar o item não excluí-lo do banco de dados.
+\end{enumerate}
+\item Campos obrigatórios:
+\begin{enumerate}
+\item Código numérico auto incremental
+\item Referência;
+\item Descrição.
+\end{enumerate}
+\item Campos opcionais:
+\begin{enumerate}
+\item Valor sugerido para a venda;
+\item Observações.
+\end{enumerate}
+\end{enumerate}
+
+\subsection{RF04 - Cliente}
+\label{requisito:cliente}
+Centros automotivos podem ou não realizar o cadastro de seus clientes. Um cliente pode possuir um ou mais veículos, pode possuir um ou mais telefones e e-mail.
+\begin{enumerate}
+\item No formulário, o usuário poderá optar por cadastrar os veículos, um ou mais, do cliente com as informações básicas obrigatórias do castro de veículo \ref{requisito:veiculo};
+\item Os clientes persistidos deverão ser apresentados em uma listagem para o usuário;
+\item A listagem deve possuir um campo para busca de um cliente;
+\item Pela listagem deve ser possível:
+\begin{enumerate}
+\item Visualizar um ícone que representará quais clientes possuem o aplicativo;
+\item Acessar o formulário para cadastro de um novo cliente;
+\item Atualizar a listagem com os dados mais recentes;
+\item Filtrar por clientes ativos ou inativos;
+\item Acessar o formulário para edição;
+\item Possibilitar a inativação através do clique em um botão. O usuário deverá confirmar essa ação.
+\item A exclusão não deve ser física, apenas lógica, ou seja, a funcionalidade excluir deve inativar o item não excluí-lo do banco de dados.
+\end{enumerate}
+\item Campos obrigatórios:
+\begin{enumerate}
+\item Código numérico auto incremental
+\item Nome;
+\item Documento.
+\end{enumerate}
+\item Campos opcionais:
+\begin{enumerate}
+\item Lista de telefones onde podem ser indicados os principais;
+\item Lista de e-mais onde podem ser indicados os principais;
+\item Observações.
+\end{enumerate}
+\end{enumerate}
+
+\subsection{RF05 - Veículo}
+\label{requisito:veiculo}
+Centros automotivos devem realizar o cadastro de um veículo que devem pertecer a um cliente.
+\begin{enumerate}
+\item Um veículo pertence exclusivamente a um cliente, porém, ao longo do tempo, poderá ser alterado para outro cliente;
+\item O histórico de manutenção do veículo não deverá ser perdido quando ocorrer a mundança de cliente;
+\item Os veículos persistidos deverão ser apresentados em uma listagem para o usuário;
+\item A listagem deve possuir um campo para busca de um veículo;
+\item Pela listagem deve ser possível:
+\begin{enumerate}
+\item Acessar o formulário para cadastro de um novo veículo;
+\item Atualizar a listagem com os dados mais recentes;
+\item Filtrar por veículos ativos ou inativos;
+\item Acessar o formulário para edição;
+\item Possibilitar a inativação através do clique em um botão. O usuário deverá confirmar essa ação.
+\item A exclusão não deve ser física, apenas lógica, ou seja, a funcionalidade excluir deve inativar o item não excluí-lo do banco de dados.
+\end{enumerate}
+\item Campos obrigatórios:
+\begin{enumerate}
+\item Código numérico auto incremental
+\item Cliente;
+\item Placa;
+\item Modelo.
+\end{enumerate}
+\item Campos opcionais:
+\begin{enumerate}
+\item Fabricante;
+\item Ano/modelo;
+\item Cor;
+\item Observações.
+\end{enumerate}
+\end{enumerate}
+
+
+\subsection{RF06 - Orçamento}
+\label{requisito:orcamento}
+O orçamento servirá para a avaliação ou cálculo especulativo para o cliente sobre os custos das peças e/ou serviços a serem prestados no centro automotivo.
+\begin{enumerate}
+\item Um Orçamento pode ou não ser convertido em ordem de serviço;
+\item Devem possuir 15 dias de validade, que deverá ser contabilizada à partir da data de seu cadastro;
+\item Após o vencimento, fim da data de validade, o orçamento não poderá ser reaberto e deverá ser automaticamente cancelado;
+\item Itens Peças e/ou Serviços ver: \ref{requisito:itensOrcamentoOrdemDeServico}
+\item Impressão em arquivo pdf do espelho do orçamento contendo data de validade, informações do cliente, peças, serviços e totalizadores;
+\item Resumo do orçamento que deverá listar o valor total, desconto e subtotal das peças e serviços;
+\item Opção para aplicar desconto geral no orçamento que deverá ser calculado em reais ou porcentagem;
+\item Apresentar o valor total para o usuário, somatorio dos itens vezes suas quantidades menos o desconto;
+\item Ao se alterar um item, seja peça ou serviço, o valor deve ser calculado e apresentado instantaneamente ao cliente;
+\item O orçamento pode ser consolidado em uma ordem de serviço;
+\item Os orçamentos persistidos deverão ser apresentados em uma listagem para o usuário;
+\item A listagem deve possuir os campos de fitro por nome do cliente, placa do veículo e código do orçamento;
+\item Pela listagem deve ser possível:
+\begin{enumerate}
+\item Acessar o formulário para cadastro de um novo orçamento;
+\item Atualizar a listagem com os dados mais recentes;
+\item A listagem deve apresentar os orçamentos por ordem de validade e diferenciar a cor de acordo com a proximidade:
+\begin{enumerate}
+\item Verde para mais de sete dias;
+\item Amarelo entre três e sete dias;
+\item Vermelho entre zero e três dias;
+\item Cinza vencidos, apresentá-los na listagem de inativos;
+\item Azul consolidados, apresentá-los na listam de consolidados.
+\end{enumerate}
+\item Filtrar por orçamentos ativos, consolidados ou cancelados;
+\item Acessar o formulário para edição;
+\item Possibilitar o cancelamento através do clique em um botão. O usuário deverá confirmar essa ação.
+\item A cancelamento não deve ser física, apenas lógica, ou seja, quando cancelado, para fins de histórico o orçamento deve ser inativado, não excluido do banco de dados;
+\item Quando cancelado, um orçamento não pode ser reaberto as únicas opções devem ser a de visualização e impressão.
+\end{enumerate}
+\item Campos obrigatórios:
+\begin{enumerate}
+\item Código numérico auto incremental
+\item Veículo;
+\end{enumerate}
+\item Campos opcionais:
+\begin{enumerate}
+\item Km atual do veículo;
+\item Observações.
+\item Itens:
+\begin{enumerate}
+\item Relação de peças;
+\item Relação de serviços.
+\end{enumerate}
+\end{enumerate}
+\end{enumerate}
+
+\subsection{RF07 - Ordem de Serviço}
+\label{requisito:ordemDeServico}
+A ordem de serviço é um documento que tem a função de definir as peças e serviços, suas quantidades e respectivos valores a respeito do que precisa ser efetuado no veículo do cliente do centro automotivo. Serve como um contrato entre o cliente e o centro automotivo. Permite ao cliente comprovar todo o histórico de manutenção de seus veículos.
+
+\begin{enumerate}
+\item Deve possuir uma data prevista para finalização;
+\item Status que identificará seu estágio atual:
+\begin{enumerate}
+\item Em andamento indica que está em andamente dentro do prazo de validade;
+\item Atrasado indica que está em andamento, porém, a data prevista para a finalização foi ultrapassada;
+\item Renegociado indica que está em andamento, porém a data prevista para a finalização foi ultrapassada mas houve uma renegociação com o cliente prevendo uma nova data;
+\item Retrabalho indica que foi finalizada porém teve que ser reaberta para uma nova intervensão;
+\item Cancelado indica o cancelamento;
+\item Finalizado o trabalho foi finalizado.
+\end{enumerate}
+\item Um histórico dos estágios da ordem de serviço deve ser apresentado no formulário;
+\item Itens Peças e/ou Serviços \ref{requisito:itensOrcamentoOrdemDeServico}
+\item Impressão em arquivo pdf do espelho do orçamento contendo data de validade, informações do cliente, peças, serviços e totalizadores;
+\item Resumo da ordem de serviço que deverá listar o valor total, desconto e subtotal das peças e serviços;
+\item Opção para aplicar desconto geral no orçamento que deverá ser calculado em reais ou porcentagem;
+\item Apresentar o valor total para o usuário, somatorio dos itens vezes suas quantidades menos o desconto;
+\item Ao se alterar um item, seja peça ou serviço, o valor deve ser calculado e apresentado instantaneamente ao cliente;
+\item As ordens de serviços persistidas deverão ser apresentados em uma listagem para o usuário;
+\item A listagem deve possuir os campos de fitro por nome do cliente, placa do veículo e código da O.S.;
+\item Pela listagem deve ser possível:
+\begin{enumerate}
+\item Acessar o formulário para cadastro de uma nova O.S.;
+\item Atualizar a listagem com os dados mais recentes;
+\item A listagem deve apresentar as O.S. por ordem de previsão e diferenciar a cor de acordo com a proximidade:
+\begin{enumerate}
+\item Verde para dentro do prazo;
+\item Amarelo próximo do prazo de validade;
+\item Vermelho após o prazo de validade;
+\item Cinza cancelados, apresentá-los na listagem de cancelado;
+\item Azul finalizados, apresentá-los na listam de finalizados.
+\end{enumerate}
+\item Filtrar por ativos, finalizados ou cancelados;
+\item Acessar o formulário para edição;
+\item Possibilitar o cancelamento através do clique em um botão. O usuário deverá confirmar essa ação.
+\item A cancelamento não deve ser física, apenas lógica, ou seja, quando cancelado, para fins de histórico o orçamento deve ser inativado, não excluido do banco de dados;
+\item Quando cancelado, não pode ser reaberto as únicas opções devem ser a de visualização e impressão;
+\item Quando finalizado, uma opção para reabertura da O.S. deve estar disponível;
+\end{enumerate}
+\item Campos obrigatórios:
+\begin{enumerate}
+\item Código numérico auto incremental;
+\item Veículo;
+\item Data entrada, deve ser preenchida automaticamente.
+\end{enumerate}
+\item Campos opcionais:
+\begin{enumerate}
+\item Km atual do veículo;
+\item Data e hora prevista;
+\item Data e hora da saída;
+\item Observações.
+\item Itens:
+\begin{enumerate}
+\item Relação de peças;
+\item Relação de serviços.
+\end{enumerate}
+\end{enumerate}
+\end{enumerate}
+
+\subsection{RF08 - Itens Orçamentos e Ordens de Serviço}
+\label{requisito:itensOrcamentoOrdemDeServico}
+
+\subsection{RF09 - Aviso}
+\label{requisito:aviso}
+
+\subsection{RF10 - Dashboard - Painel de indicadores}
+\label{requisito:indicadores}
+
+Contudo, um sistema deve também atender a requisitos que não são necessariamente regras do negócio do Software. Assim, de nada adianta ter um sistema seguro, interativo e confiável se ele consome muitos recursos do computador e demora para executar a suas rotinas internas. Um sistema lento é alvo de crítica dos usuários, mesmo que seja funcional. A \textit{performance} do software pode ser melhorada utilizando técnicas de programação orientada a objetos, gerenciamento de memória, \textit{threads} e otimização de código.
   
-%Dessa forma, foram definidos os seguintes Requisitos Não-Funcionais do sistema proposto, que podem ser observados na Tabela
+Dessa forma, foram definidos os seguintes Requisitos Não-Funcionais do sistema proposto, que podem ser observados na Tabela
 
-%\ref{tabelaRequisitosNaoFuncionais}.
+\ref{tabelaRequisitosNaoFuncionais}.
 
-%\begin{table}[htp]
-%\centering
-%\caption{Lista de Requisitos Não Funcionais}
-%\resizebox{14.0cm}{!} {
-%\begin{tabular}{|c|c|p{150}|}\hline
+\begin{table}[htp]
+\centering
+\caption{Lista de Requisitos Não Funcionais WEB}
+\resizebox{14.0cm}{!} {
+\begin{tabular}{|c|c|p{150}|}\hline
 
-%Cod. Requisito	 & Nome  & Descrição\\ \hline
-%RNF01 &	Perfil do usuário & O sistema deverá permitir um perfil para
-%funcionário, com mais recursos, e outro para cliente, mais limitado.
-%\\ \hline
-%RNF02 &	O tempo de execução & O sistema deverá verificar se o usuário esta mais de 4 minutos logado sem nenhuma ação, o sistema devera após devera emitir um alerta de inativade.
-%\\ \hline
-%RNF03 & O sistema operacional do sistema & O sistema deverá ser acessado por varios tipos de sistemas operacionais ao mesmo tempo.
-%\\\hline
-%RNF04 &	O desenvolvimento do sistema & O sistema deverá ser desenvolvido ele toda em linguagem de programação JAVA
-%\\ \hline
-%RNF05 &	Banco de dados do sistema & O sistema devera se comunicar com o Banco de Dados Postgree
-% \\ \hline
-%RNF06 &	Intregação com outro sistema & O sistema deverá ser feito que possibilite a intregração com outro sistema.
-% \\ \hline
-%RNF07 &	O sistema deverá ter alta disponibilidade & O sistema deverá ter alta disponibilidade, por exemplo 99% do tempo.
-%\\ \hline
-%RNF08 &	Tempo de processamento & O sistema deverá processo N requisições por um determinado tempo.
-%\\ \hline
-%RNF09 &	Confiabilidade & O sistema não deverá apresentar aos usuários quaisquer dados de cunho privativo.
-%\\ \hline
-%\end{tabular}
-%}
-%\label{tabelaRequisitosNaoFuncionais}
-%\end{table}
+Cod. Requisito	 & Nome  & Descrição\\ \hline
+RNF01 &	O tempo de execução & O sistema deverá verificar se o usuário esta mais de 4 minutos logado sem nenhuma ação, o sistema devera após devera emitir um alerta de inativade.
+\\ \hline
+RNF02 & O sistema operacional do sistema & O sistema deverá ser acessado por varios tipos de sistemas operacionais ao mesmo tempo.
+\\\hline
+RNF03 &	O desenvolvimento do sistema & O sistema deverá ser desenvolvido ele toda em linguagem de programação JavaScript, HTML, CSS
+\\ \hline
+RNF04 &	Banco de dados do sistema & O sistema devera se comunicar com o Banco de Dados PostgreSQL
+ \\ \hline
+RNF05 &	Intregação com outro sistema & O sistema deverá ser feito que possibilite a intregração com outro sistema.
+ \\ \hline
+RNF06 &	O sistema deverá ter alta disponibilidade & O sistema deverá ter alta disponibilidade, por exemplo 99\% do tempo.
+\\ \hline
+RNF07 &	Tempo de processamento & O sistema deverá processo N requisições por um determinado tempo.
+\\ \hline
+RNF08 &	Confiabilidade & O sistema não deverá apresentar aos usuários quaisquer dados de cunho privativo.
+\\ \hline
+\end{tabular}
+}
+\label{tabelaRequisitosNaoFuncionais}
+\end{table}
 
 \section{Mapa Mental}
 \label{sec:mapaMental}

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2017.1.2)  6 APR 2017 20:05
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2017.1.2)  7 APR 2017 19:56
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1121,149 +1121,29 @@ Writing nomenclature file documentoPrincipal.nlo
 (/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2013/08/26 1.5b listings language file
 )
-(/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang2.sty
-File: lstlang2.sty 2013/08/26 1.5b listings language file
-)
-(/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang3.sty
-File: lstlang3.sty 2013/08/26 1.5b listings language file
-)
-
-! Package Listings Error: Couldn't load requested language.
-
-See the Listings package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.63 }
-      
-The following languages weren't loadable:
-    ,javascript$
-This may cause errors in the sequel.
-
-
-! Package Listings Error: language javascript undefined.
-
-See the Listings package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.63 }
-      
-The language is not loadable. Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-(./documentoPrincipal.aux
-
-LaTeX Warning: Label `Modelo Sistema Web ' multiply defined.
-
-
-LaTeX Warning: Label `Modelo Sistema Web @cref' multiply defined.
-
-! Missing \endcsname inserted.
-<to be read again> 
-                   \protect 
-l.174 ... {\S  }\~A\IeC {\pounds  }o}{FEDELI 2002}
-                                                  
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-
-! LaTeX Error: Missing \begin{document}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.174 ... {\S  }\~A\IeC {\pounds  }o}{FEDELI 2002}
-                                                  
-You're in trouble here.  Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-! Extra \endcsname.
-\@ifundefined ...dafter \ifx \csname #1\endcsname 
-                                                  \relax \expandafter \@firs...
-l.174 ... {\S  }\~A\IeC {\pounds  }o}{FEDELI 2002}
-                                                  
-I'm ignoring this, since I wasn't doing a \csname.
-
-! Missing \endcsname inserted.
-<to be read again> 
-                   \protect 
-l.174 ... {\S  }\~A\IeC {\pounds  }o}{FEDELI 2002}
-                                                  
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-! Extra \endcsname.
-\@namedef ...xpandafter \def \csname #1\endcsname 
-                                                  
-l.174 ... {\S  }\~A\IeC {\pounds  }o}{FEDELI 2002}
-                                                  
-I'm ignoring this, since I wasn't doing a \csname.
-
-! Undefined control sequence.
-<recently read> \Hy@colorlink 
-                              
-l.174 ... {\S  }\~A\IeC {\pounds  }o}{FEDELI 2002}
-                                                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-\close@pdflink ->\Hy@endcolorlink 
-                                  \Hy@VerboseLinkStop \pdfendlink 
-l.174 ... {\S  }\~A\IeC {\pounds  }o}{FEDELI 2002}
-                                                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Missing \endcsname inserted.
-<to be read again> 
-                   \mu 
-l.181 ...amma2006padr\~A\mu es}{Gamma et al. 2006}
-                                                  
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-
-LaTeX Warning: Label `gamma2006padr\~A\mu es' multiply defined.
-
-! Missing \endcsname inserted.
-<to be read again> 
-                   \mu 
-l.181 ...amma2006padr\~A\mu es}{Gamma et al. 2006}
-                                                  
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-)
+(./documentoPrincipal.aux)
 \openout1 = `documentoPrincipal.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 82.
-LaTeX Font Info:    ... okay on input line 82.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 82.
-LaTeX Font Info:    ... okay on input line 82.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 82.
-LaTeX Font Info:    ... okay on input line 82.
-LaTeX Font Info:    Checking defaults for OMS/pzccm/m/n on input line 82.
-LaTeX Font Info:    Try loading font information for OMS+pzccm on input line 82
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 86.
+LaTeX Font Info:    ... okay on input line 86.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 86.
+LaTeX Font Info:    ... okay on input line 86.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 86.
+LaTeX Font Info:    ... okay on input line 86.
+LaTeX Font Info:    Checking defaults for OMS/pzccm/m/n on input line 86.
+LaTeX Font Info:    Try loading font information for OMS+pzccm on input line 86
 .
- (/usr/share/texlive/texmf-dist/tex/latex/psnfss/omspzccm.fd
+
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/omspzccm.fd
 File: omspzccm.fd 2000/01/03 Fontinst v1.801 font definitions for OMS/pzccm.
 )
-LaTeX Font Info:    ... okay on input line 82.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 82.
-LaTeX Font Info:    ... okay on input line 82.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 82.
-LaTeX Font Info:    ... okay on input line 82.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 82.
-LaTeX Font Info:    ... okay on input line 82.
+LaTeX Font Info:    ... okay on input line 86.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 86.
+LaTeX Font Info:    ... okay on input line 86.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 86.
+LaTeX Font Info:    ... okay on input line 86.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 86.
+LaTeX Font Info:    ... okay on input line 86.
 \AtBeginShipoutBox=\box70
 Package lastpage Info: Please have a look at the pageslts package at
 (lastpage)             http://www.ctan.org/tex-archive/ 
@@ -1271,8 +1151,8 @@ Package lastpage Info: Please have a look at the pageslts package at
 (lastpage)             or
 (lastpage)             http://www.ctan.org/tex-archive/ 
 (lastpage)             install/macros/latex/contrib/pageslts.tds.zip
-(lastpage)             ! on input line 82.
-Package hyperref Info: Link coloring OFF on input line 82.
+(lastpage)             ! on input line 86.
+Package hyperref Info: Link coloring OFF on input line 86.
 
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
@@ -1282,9 +1162,9 @@ Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
 \c@section@level=\count283
 )
-LaTeX Info: Redefining \ref on input line 82.
-LaTeX Info: Redefining \pageref on input line 82.
-LaTeX Info: Redefining \nameref on input line 82.
+LaTeX Info: Redefining \ref on input line 86.
+LaTeX Info: Redefining \pageref on input line 86.
+LaTeX Info: Redefining \nameref on input line 86.
 
 (./documentoPrincipal.out) (./documentoPrincipal.out)
 \@outlinefile=\write5
@@ -1292,11 +1172,6 @@ LaTeX Info: Redefining \nameref on input line 82.
 
 
 (/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
-Underfull \hbox (badness 1472) in paragraph at lines 174--13
-[]\T1/ptm/m/n/12 ŸÃ¿oo[]greenFEDELI 2002[]                                  [][
-][][]
- []
-
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count284
 \scratchdimen=\dimen265
@@ -1341,83 +1216,80 @@ File: siunitx-abbreviations.cfg 2013/07/31 v2.5s siunitx: Abbreviated units
 )
 \c@lstlisting=\count290
 \c__siunitx_mathsf_int=\count291
-LaTeX Font Info:    Try loading font information for OT1+ptmcm on input line 82
+LaTeX Font Info:    Try loading font information for OT1+ptmcm on input line 86
 .
  (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1ptmcm.fd
 File: ot1ptmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OT1/ptmcm.
 )
-LaTeX Font Info:    Try loading font information for OML+ptmcm on input line 82
+LaTeX Font Info:    Try loading font information for OML+ptmcm on input line 86
 .
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/omlptmcm.fd
 File: omlptmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OML/ptmcm.
 )
-LaTeX Font Info:    Try loading font information for OMX+psycm on input line 82
+LaTeX Font Info:    Try loading font information for OMX+psycm on input line 86
 .
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/omxpsycm.fd
 File: omxpsycm.fd 2000/01/03 Fontinst v1.801 font definitions for OMX/psycm.
 )
-LaTeX Font Info:    Try loading font information for U+msa on input line 82.
+LaTeX Font Info:    Try loading font information for U+msa on input line 86.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 82.
+LaTeX Font Info:    Try loading font information for U+msb on input line 86.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 82.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 86.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 82.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 86.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 82.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 86.
 \c__siunitx_mathtt_int=\count292
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 141.
+(babel)             in language  on input line 145.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 141.
+(babel)             in language  on input line 145.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 141.
+(babel)             in language  on input line 145.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 141.
+(babel)             in language  on input line 145.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 141.
+(babel)             in language  on input line 145.
+LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <24.88> not available
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 145.
+LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <17.28> not available
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 145.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 141.
+(babel)             in language  on input line 145.
  [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
-LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <24.88> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 141.
-LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <17.28> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 141.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 141.
- [1]
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 143.
+(babel)             in language  on input line 147.
 
-Underfull \hbox (badness 1960) in paragraph at lines 143--143
+Underfull \hbox (badness 1960) in paragraph at lines 147--147
 []\T1/ptm/m/n/12 Trabalho de Con-clu-são de Curso apre-sen-tado a PÓS
  []
 
 
-Underfull \hbox (badness 2556) in paragraph at lines 143--143
+Underfull \hbox (badness 2556) in paragraph at lines 147--147
 \T1/ptm/m/n/12 DE SOFT-WARE PARA DIS-PO-SI-TI-VOS MÓ-VEIS E
  []
 
 
-Underfull \hbox (badness 1275) in paragraph at lines 143--143
+Underfull \hbox (badness 1275) in paragraph at lines 147--147
 \T1/ptm/m/n/12 IN-TER-NET da FA-CUL-DADE SE-NAI FA-TESG, como
  []
 
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <12> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 143.
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 147.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 143.
+(babel)             in language  on input line 147.
 [1] (./pre/pre_aprovacao.tex
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 1.
@@ -1484,7 +1356,17 @@ Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 8.
 [6
 
-]) (./tex/cap1/cap_I.tex
+]) (./documentoPrincipal.lol)
+\tf@lol=\write6
+\openout6 = `documentoPrincipal.lol'.
+
+ (./tex/cap1/cap_I.tex
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 1.
+ [7
+
+
+]
 Cap\'{\i }tulo 1.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 1.
@@ -1503,13 +1385,12 @@ Package babel Info: Redefining portuges shorthand "|
 ) (./tex/cap2/cap_II.tex
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 1.
- [7
-
+ [8
 
 ]
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 1.
- [8]
+ [9]
 Cap\'{\i }tulo 2.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 1.
@@ -1527,7 +1408,7 @@ Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 21.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 25.
-[9
+[10
 
 ]
 Package babel Info: Redefining portuges shorthand "|
@@ -1539,7 +1420,7 @@ Package babel Info: Redefining portuges shorthand "|
 ) (./tex/cap3/cap_III.tex
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 1.
- [10]
+ [11]
 Cap\'{\i }tulo 3.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 1.
@@ -1557,7 +1438,7 @@ Underfull \hbox (badness 3536) in paragraph at lines 17--28
 en-glo-bam lin-gua-gens de
  []
 
-<imagens/EngenhariaSoftware.jpg, id=217, 192.72pt x 144.54pt>
+<imagens/EngenhariaSoftware.jpg, id=386, 192.72pt x 144.54pt>
 File: imagens/EngenhariaSoftware.jpg Graphic file (type jpg)
 
 <use imagens/EngenhariaSoftware.jpg>
@@ -1575,12 +1456,12 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 50.
-[11
+[12
 
 ]
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 63.
- [12 <./imagens/EngenhariaSoftware.jpg>]
+ [13 <./imagens/EngenhariaSoftware.jpg>]
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 78.
 LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <12> not available
@@ -1593,10 +1474,10 @@ r uma vi-são de
 
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 93.
-[13]
+[14]
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 132.
- <imagens/ModeloCascata.jpg, id=236, 570.63188pt x 237.88875pt>
+ <imagens/ModeloCascata.jpg, id=405, 570.63188pt x 237.88875pt>
 File: imagens/ModeloCascata.jpg Graphic file (type jpg)
 
 <use imagens/ModeloCascata.jpg>
@@ -1604,13 +1485,13 @@ Package pdftex.def Info: imagens/ModeloCascata.jpg used on input line 147.
 (pdftex.def)             Requested size: 426.79134pt x 177.92244pt.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 151.
- [14]
+ [15]
 Underfull \hbox (badness 2478) in paragraph at lines 172--174
 []\T1/ptm/m/n/12 *Melhoramento Fun-ci-o-nal:Produzidas por exi-gên-cias va-riá-
 veis do cli-ente
  []
 
-<imagens/cicloDeVida.png, id=244, 642.4pt x 401.5pt>
+<imagens/cicloDeVida.png, id=413, 642.4pt x 401.5pt>
 File: imagens/cicloDeVida.png Graphic file (type png)
 
 <use imagens/cicloDeVida.png>
@@ -1618,19 +1499,19 @@ Package pdftex.def Info: imagens/cicloDeVida.png used on input line 187.
 (pdftex.def)             Requested size: 284.52756pt x 177.83067pt.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 193.
- [15 <./imagens/ModeloCascata.jpg>]
+ [16 <./imagens/ModeloCascata.jpg>]
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 194.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 222.
- [16 <./imagens/cicloDeVida.png>]
+ [17 <./imagens/cicloDeVida.png>]
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 223.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 229.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 268.
- [17]
+ [18]
 Underfull \hbox (badness 1655) in paragraph at lines 287--294
 []\T1/ptm/m/n/12 O Reuso é o ob-je-tivo prin-ci-pal da en-ge-nha-ria de soft-wa
 re ba-se-ada em
@@ -1646,7 +1527,7 @@ Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 304.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 316.
-[18]
+[19]
 Underfull \hbox (badness 1609) in paragraph at lines 319--321
 []\T1/ptm/m/n/12 kerznergestão, a ges-tão de pro-jeto de re-la-ti-va-mente curt
 o prazo que foi
@@ -1662,14 +1543,14 @@ ro-to-ti-pa-gem
 
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 343.
-[19]
+[20]
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 344.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 347.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 383.
- [20]
+ [21]
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 389.
 
@@ -1692,7 +1573,7 @@ is como os ci-ta-dos por
 
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 419.
-[21]
+[22]
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 423.
 
@@ -1703,7 +1584,7 @@ Underfull \hbox (badness 2005) in paragraph at lines 447--453
 
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 453.
-[22]
+[23]
 Underfull \hbox (badness 1038) in paragraph at lines 454--458
 \T1/ptm/m/n/12 in-flu-en-ciam bas-tante na qua-li-dade do soft-ware. São os re-
 qui-si-tos re-la-ci-o-na-dos ao
@@ -1737,7 +1618,7 @@ olve os prin-ci-pais
 
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 486.
-[23]
+[24]
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 498.
 
@@ -1755,147 +1636,1149 @@ Underfull \hbox (badness 1331) in paragraph at lines 512--519
 ) (./tex/cap4/cap_IV.tex
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 1.
- [24]
+ [25]
 Cap\'{\i }tulo 4.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 1.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 8.
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 72.
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 139.
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 154.
-[25
+(babel)             in language  on input line 5.
 
-]) (./documentoPrincipal.bbl
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 3.
- [26]
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 3.
-
-Underfull \hbox (badness 10000) in paragraph at lines 42--46
-[]\T1/ptm/m/n/12 FEDELI, A. \T1/ptm/m/it/12 Ori-en-ta-ção a Ob-jeto com Pro-to-
-ti-pa-ção\T1/ptm/m/n/12 .
+Underfull \hbox (badness 1430) in paragraph at lines 7--8
+[]\T1/ptm/m/n/12 Os re-qui-si-tos de soft-ware des-cre-vem ex-pli-ci-ta-mente a
+s fun-ci-o-na-li-da-des e
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 42--46
-\T1/ptm/m/n/12 Pi-o-nei-ra/Thom-son Le-ar-ning, 2002. ISBN 9788522102648. Dis-p
-o-ní-vel em:
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 62--66
-[]\T1/ptm/m/n/12 FOWLER, M. \T1/ptm/m/it/12 UML Es-sen-cial: Um Breve Guia para
-
- []
-
-
-Underfull \hbox (badness 6493) in paragraph at lines 62--66
-\T1/ptm/m/it/12 Lin-gua-gem Pa-drao\T1/ptm/m/n/12 . Bo-ok-man, 2014. ISBN 97885
-60031382. Dis-po-ní-vel em:
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 69--73
-[]\T1/ptm/m/n/12 FOWLER, M. \T1/ptm/m/it/12 UML Es-sen-cial: Um Breve Guia para
-
- []
-
-
-Underfull \hbox (badness 6493) in paragraph at lines 69--73
-\T1/ptm/m/it/12 Lin-gua-gem Pa-drao\T1/ptm/m/n/12 . Bo-ok-man, 2014. ISBN 97885
-60031382. Dis-po-ní-vel em:
+Underfull \hbox (badness 1888) in paragraph at lines 7--8
+\T1/ptm/m/n/12 seu com-por-ta-mento e sua saída, ou seja, en-volve cál-cu-los, 
+ló-gi-cas de tra-ba-lho,
  []
 
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 79.
-[27
+(babel)             in language  on input line 9.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 24.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 32.
+[26
 
 ]
-Underfull \hbox (badness 3058) in paragraph at lines 82--86
-\T1/ptm/m/n/12 BO-OK-MAN COM-PA-NHIA ED, 2006. ISBN 9788573076103. Dis-po-ní-ve
-l em:
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 53.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 73.
+ [27]
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 81.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 112.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 117.
+ [28]
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 146.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 155.
+ [29]
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 187.
+ [30]
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 197.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 219.
+ [31]
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 256.
+ [32]
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 260.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 263.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 266.
+
+Underfull \hbox (badness 3623) in paragraph at lines 269--270
+[]\T1/ptm/m/n/12 Contudo, um sis-tema deve tam-bém aten-der a re-qui-si-tos que
+ não são
+ []
+
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   !
+l.299 }
+       
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   !
+l.299 }
+       
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+
+Underfull \hbox (badness 5077) in paragraph at lines 299--299
+\T1/ptm/m/n/12 sis-tema de-vera após de-vera
+ []
+
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   !
+l.299 }
+       
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+
+Underfull \hbox (badness 1466) in paragraph at lines 299--299
+\T1/ptm/m/n/12 por va-rios ti-pos de sis-te-mas
+ []
+
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   !
+l.299 }
+       
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 299--299
+[]|\T1/ptm/m/n/12 O sis-tema de-verá ser
  []
 
 
-Underfull \hbox (badness 1231) in paragraph at lines 89--93
-[]\T1/ptm/m/n/12 GEARY, D.; HORST-MANN, C. \T1/ptm/m/it/12 Core Ja-va-Ser-ver F
-a-ces\T1/ptm/m/n/12 .
+Underfull \hbox (badness 10000) in paragraph at lines 299--299
+\T1/ptm/m/n/12 de-sen-vol-vido ele toda em
  []
 
 
-Underfull \hbox (badness 1484) in paragraph at lines 96--99
-[]\T1/ptm/m/n/12 INSTITUTE, P. M. \T1/ptm/m/it/12 A Guide to the Pro-ject Ma-na
--ge-ment Body of
+Underfull \hbox (badness 10000) in paragraph at lines 299--299
+\T1/ptm/m/n/12 lin-gua-gem de pro-gra-ma-ção
+ []
+
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   !
+l.299 }
+       
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 299--299
+\T1/ptm/m/n/12 com o Banco de Da-dos
+ []
+
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   !
+l.299 }
+       
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+
+Underfull \hbox (badness 1057) in paragraph at lines 299--299
+\T1/ptm/m/n/12 pos-si-bi-lite a in-tre-gra-ção com
+ []
+
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   !
+l.299 }
+       
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 299--299
+[]|\T1/ptm/m/n/12 O sis-tema de-verá ter alta
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 121--124
-[]\T1/ptm/m/n/12 LARMAN, C. \T1/ptm/m/it/12 Uti-li-zando UML e Pa-drões\T1/ptm/
-m/n/12 .
+Underfull \hbox (badness 2158) in paragraph at lines 299--299
+\T1/ptm/m/n/12 dis-po-ni-bi-li-dade, por exem-plo
+ []
+
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   !
+l.299 }
+       
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+
+Underfull \hbox (badness 7576) in paragraph at lines 299--299
+[]|\T1/ptm/m/n/12 O sis-tema de-verá pro-cesso
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 121--124
-\T1/ptm/m/n/12 Bo-ok-man, 2002. ISBN 9788577800476. Dis-po-ní-vel em:
+Underfull \hbox (badness 10000) in paragraph at lines 299--299
+\T1/ptm/m/n/12 N re-qui-si-ções por um
+ []
+
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   !
+l.299 }
+       
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 299--299
+[]|\T1/ptm/m/n/12 O sis-tema não de-verá
  []
 
 
-Underfull \hbox (badness 2582) in paragraph at lines 127--131
-[]\T1/ptm/m/n/12 OSTERWALDER, A.; PIG-NEUR, Y. \T1/ptm/m/it/12 Bu-si-ness Mo-de
-l
+Underfull \hbox (badness 10000) in paragraph at lines 299--299
+\T1/ptm/m/n/12 apre-sen-tar aos usuá-rios
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 139--143
-[]\T1/ptm/m/n/12 RAMOS, R. \T1/ptm/m/it/12 Trei-na-mento Prá-tico em UML\T1/ptm
-/m/n/12 . Uni-verso dos
+Underfull \hbox (badness 10000) in paragraph at lines 299--299
+\T1/ptm/m/n/12 quais-quer da-dos de cu-nho
+ []
+
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 303.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 370.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 384.
+[33]) (./tex/cap5/cap_V.tex
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 1.
+ [34]
+Cap\'{\i }tulo 5.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 1.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 4.
+
+Underfull \hbox (badness 2469) in paragraph at lines 11--17
+[]\T1/ptm/m/n/12 A \T1/ptm/m/it/12 Uni-fied Mo-de-ling Lan-guage \T1/ptm/m/n/12
+ - UML é uma es-pe-ci-fi-ca-ção da Ob-ject
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 139--143
-\T1/ptm/m/n/12 Li-vros Edi-tora LTDA, 2011. ISBN 9788577020515. Dis-po-ní-vel e
-m:
+Underfull \hbox (badness 1158) in paragraph at lines 11--17
+\T1/ptm/m/n/12 Ma-na-ge-ment Group - OMG (OMG, 1997 - 2011). É uma lin-gua-gem 
+grá-fica de
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 152--156
+Underfull \hbox (badness 3364) in paragraph at lines 11--17
+\T1/ptm/m/n/12 mo-de-la-gem para vi-su-a-li-zar, es-pe-ci-fi-car, cons-truir e 
+do-cu-men-tar os ar-te-fa-tos de
+ []
+
+
+Underfull \hbox (badness 1077) in paragraph at lines 11--17
+\T1/ptm/m/n/12 úl-tima ca-te-go-ria, existe uma sub-ca-te-go-ria que com-põe os
+ di-a-gra-mas de in-te-ra-ção
+ []
+
+
+Underfull \hbox (badness 1931) in paragraph at lines 26--29
+\T1/ptm/m/n/12 Ati-vi-dade, Classe e Es-tado . Na ima-gem a se-guir po-de-mos v
+i-su-a-li-zar as treze
+ []
+
+
+LaTeX Warning: File `imagens/DiagramaUml.png' not found on input line 32.
+
+
+! Package pdftex.def Error: File `imagens/DiagramaUml.png' not found.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.32 ...phics[width=15cm]{imagens/DiagramaUml.png}
+                                                  
+Using draft setting for this image.
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 38.
+[35
+
+]
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 39.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 49.
+ [36]
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 62.
+
+
+LaTeX Warning: File `imagens/DiagramaClasses.png' not found on input line 68.
+
+
+! Package pdftex.def Error: File `imagens/DiagramaClasses.png' not found.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.68 ...s[width=15cm]{imagens/DiagramaClasses.png}
+                                                  
+Using draft setting for this image.
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 73.
+[37]
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 81.
+
+
+LaTeX Warning: File `imagens/DiagramaClasseSgep.png' not found on input line 86
+.
+
+
+! Package pdftex.def Error: File `imagens/DiagramaClasseSgep.png' not found.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.86 ...idth=15cm]{imagens/DiagramaClasseSgep.png}
+                                                  
+Using draft setting for this image.
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 91.
+[38]
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 96.
+
+Underfull \hbox (badness 1552) in paragraph at lines 99--101
+[]\T1/ptm/m/n/12 O di-a-grama de ca-sos de uso é um di-a-grama da UML cujo ob-j
+e-tivo é
+ []
+
+
+Underfull \hbox (badness 1028) in paragraph at lines 99--101
+\T1/ptm/m/n/12 uma ne-ces-si-dade do sis-tema. O di-a-grama ilus-trado abaixo d
+e-mos-tra as prin-ci-pais
+ []
+
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 106.
+[39]
+
+LaTeX Warning: File `imagens/CasoDeUsoSgep.png' not found on input line 109.
+
+
+! Package pdftex.def Error: File `imagens/CasoDeUsoSgep.png' not found.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.109 ...cs[width=15cm]{imagens/CasoDeUsoSgep.png}
+                                                  
+Using draft setting for this image.
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 128.
+[40]
+
+LaTeX Warning: File `imagens/CasoDeUsoCorporatum.png' not found on input line 1
+43.
+
+
+! Package pdftex.def Error: File `imagens/CasoDeUsoCorporatum.png' not found.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.143 ...h= 17cm]{imagens/CasoDeUsoCorporatum.png}
+                                                  
+Using draft setting for this image.
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Overfull \hbox (56.9055pt too wide) in paragraph at lines 143--145
+ [][] 
+ []
+
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 148.
+[41]
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 152.
+
+
+LaTeX Warning: File `imagens/DiagramaDeAtividade.png' not found on input line 1
+62.
+
+
+! Package pdftex.def Error: File `imagens/DiagramaDeAtividade.png' not found.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.162 ...th=10cm]{imagens/DiagramaDeAtividade.png}
+                                                  
+Using draft setting for this image.
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 166.
+[42]
+
+LaTeX Warning: File `imagens/DiagramaPesquisaAluno.png' not found on input line
+ 184.
+
+
+! Package pdftex.def Error: File `imagens/DiagramaPesquisaAluno.png' not found.
+
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.184 ...=0.50]{imagens/DiagramaPesquisaAluno.png}
+                                                  
+Using draft setting for this image.
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 197.
+[43]
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 197.
+
+
+LaTeX Warning: File `imagens/DiagramaEstado.png' not found on input line 205.
+
+
+! Package pdftex.def Error: File `imagens/DiagramaEstado.png' not found.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.205 ...s[width=15cm]{imagens/DiagramaEstado.png}
+                                                  
+Using draft setting for this image.
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 211.
+
+LaTeX Warning: File `imagens/DiagramaComponete.png' not found on input line 218
+.
+
+
+! Package pdftex.def Error: File `imagens/DiagramaComponete.png' not found.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.218 ...idth=15cm]{imagens/DiagramaComponete.png}
+                                                  
+Using draft setting for this image.
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 222.
+[44]
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 224.
+
+Underfull \hbox (badness 1845) in paragraph at lines 226--229
+\T1/ptm/m/n/12 en-tre os ob-je-tos são tro-ca-das no de-cor-rer do tempo para a
+ re-a-li-za-ção de uma
+ []
+
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 236.
+[45]
+
+LaTeX Warning: File `imagens/DiagramaSequenciaAutenticar.png' not found on inpu
+t line 239.
+
+
+! Package pdftex.def Error: File `imagens/DiagramaSequenciaAutenticar.png' not 
+found.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.239 ...{imagens/DiagramaSequenciaAutenticar.png}
+                                                  
+Using draft setting for this image.
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Underfull \hbox (badness 2237) in paragraph at lines 245--247
+[]\T1/ptm/m/n/12 A fi-gura abaixo re-pre-senta o ca-das-tro de um aluno feito p
+elo usuá-rio
+ []
+
+
+LaTeX Warning: File `imagens/DiagramaSequenciaAluno.png' not found on input lin
+e 250.
+
+
+! Package pdftex.def Error: File `imagens/DiagramaSequenciaAluno.png' not found
+.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.250 ...15cm]{imagens/DiagramaSequenciaAluno.png}
+                                                  
+Using draft setting for this image.
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 255.
+[46]
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 256.
+
+Underfull \hbox (badness 1515) in paragraph at lines 265--271
+[]\T1/ptm/m/n/12 Atualmente exis-tem di-ver-sos softwa-res ge-ren-ci-a-do-res d
+e banco de da-dos
+ []
+
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 271.
+[47]
+
+LaTeX Warning: File `imagens/PostgreSQL.png' not found on input line 291.
+
+
+! Package pdftex.def Error: File `imagens/PostgreSQL.png' not found.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.291 ...phics[width=15cm]{imagens/PostgreSQL.png}
+                                                  
+Using draft setting for this image.
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 296.
+[48]
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 301.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 313.
+ [49]
+Underfull \hbox (badness 2020) in paragraph at lines 314--318
+[]\T1/ptm/m/n/12 Nos úl-ti-mos dez anos, tornou-se co-mum uma fi-lo-so-fia de p
+ro-to-ti-pa-gem
+ []
+
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 331.
+
+LaTeX Warning: File `imagens/colaborador.png' not found on input line 337.
+
+
+! Package pdftex.def Error: File `imagens/colaborador.png' not found.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.337 ...hics[width=15cm]{imagens/colaborador.png}
+                                                  
+Using draft setting for this image.
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 342.
+[50]
+
+LaTeX Warning: File `imagens/TelaCronogramaAula.png' not found on input line 35
+4.
+
+
+! Package pdftex.def Error: File `imagens/TelaCronogramaAula.png' not found.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.354 ...dth=15cm]{imagens/TelaCronogramaAula.png}
+                                                  
+Using draft setting for this image.
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 359.
+[51]
+
+LaTeX Warning: File `imagens/TelaDisciplina.png' not found on input line 366.
+
+
+! Package pdftex.def Error: File `imagens/TelaDisciplina.png' not found.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.366 ...s[width=15cm]{imagens/TelaDisciplina.png}
+                                                  
+Using draft setting for this image.
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 371.
+[52]
+
+LaTeX Warning: File `imagens/TelaPlanoEnsino.png' not found on input line 379.
+
+
+! Package pdftex.def Error: File `imagens/TelaPlanoEnsino.png' not found.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.379 ...[width=15cm]{imagens/TelaPlanoEnsino.png}
+                                                  
+Using draft setting for this image.
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 384.
+[53]
+Underfull \hbox (badness 2922) in paragraph at lines 384--387
+[]\T1/ptm/m/n/12 Nesta fi-gura []5.16[] ca-das-tra o plano de en-sino, tendo co
+mo for-mu-lá-rio
+ []
+
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 388.
+
+LaTeX Warning: File `imagens/TelaAcesso.png' not found on input line 394.
+
+
+! Package pdftex.def Error: File `imagens/TelaAcesso.png' not found.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.394 ...hics[width=15 cm]{imagens/TelaAcesso.png}
+                                                  
+Using draft setting for this image.
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 399.
+[54]
+
+LaTeX Warning: File `imagens/TelaCadastroQuestao.png' not found on input line 4
+06.
+
+
+! Package pdftex.def Error: File `imagens/TelaCadastroQuestao.png' not found.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.406 ...th=15cm]{imagens/TelaCadastroQuestao.png}
+                                                  
+Using draft setting for this image.
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 411.
+[55]
+
+LaTeX Warning: File `imagens/TelaCadastroProva.png' not found on input line 420
+.
+
+
+! Package pdftex.def Error: File `imagens/TelaCadastroProva.png' not found.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.420 ...idth=15cm]{imagens/TelaCadastroProva.png}
+                                                  
+Using draft setting for this image.
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 425.
+[56]
+
+LaTeX Warning: File `imagens/TelaCadastroSecao.png' not found on input line 432
+.
+
+
+! Package pdftex.def Error: File `imagens/TelaCadastroSecao.png' not found.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.432 ...idth=15cm]{imagens/TelaCadastroSecao.png}
+                                                  
+Using draft setting for this image.
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 437.
+[57]
+
+LaTeX Warning: File `imagens/CadastroTelaTemplate.png' not found on input line 
+444.
+
+
+! Package pdftex.def Error: File `imagens/CadastroTelaTemplate.png' not found.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.444 ...h=15cm]{imagens/CadastroTelaTemplate.png}
+                                                  
+Using draft setting for this image.
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 449.
+[58]
+
+LaTeX Warning: File `imagens/TelaGerarProva.png' not found on input line 456.
+
+
+! Package pdftex.def Error: File `imagens/TelaGerarProva.png' not found.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.456 ...s[width=15cm]{imagens/TelaGerarProva.png}
+                                                  
+Using draft setting for this image.
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 461.
+[59]
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 464.
+Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on i
+nput line 470.
+ (./prog/RecommenderIntro.java
+LaTeX Font Info:    Font shape `T1/pcr/bx/n' in size <10.95> not available
+(Font)              Font shape `T1/pcr/b/n' tried instead on input line 1.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 11.
+ [60]
+Overfull \hbox (26.54233pt too wide) in paragraph at lines 17--18
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]  
+ []
+
+
+Overfull \hbox (6.83217pt too wide) in paragraph at lines 18--19
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]  
+ []
+
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 50.
+[61]
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 92.
+ [62]
+Overfull \hbox (0.26212pt too wide) in paragraph at lines 98--100
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]  
+ []
+
+
+Overfull \hbox (26.54233pt too wide) in paragraph at lines 108--109
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]  
+ []
+
+
+Overfull \hbox (72.5327pt too wide) in paragraph at lines 109--110
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]  
+ []
+
+
+Overfull \hbox (6.83217pt too wide) in paragraph at lines 110--112
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]  
+ []
+
+
+Overfull \hbox (79.10275pt too wide) in paragraph at lines 113--115
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][]  
+ []
+
+
+Overfull \hbox (210.50381pt too wide) in paragraph at lines 119--120
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][]  
+ []
+
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 133.
+[63]
+Overfull \hbox (13.40222pt too wide) in paragraph at lines 136--138
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][]  
+ []
+
+
+Overfull \hbox (33.11238pt too wide) in paragraph at lines 139--140
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][]  
+ []
+
+
+Overfull \hbox (19.97227pt too wide) in paragraph at lines 142--143
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][]  
+ []
+
+
+Overfull \hbox (52.82254pt too wide) in paragraph at lines 144--145
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][]  
+ []
+
+
+Overfull \hbox (26.54233pt too wide) in paragraph at lines 145--146
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][]  
+ []
+
+
+Overfull \hbox (131.66318pt too wide) in paragraph at lines 147--148
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][]  
+ []
+
+
+Overfull \hbox (92.24286pt too wide) in paragraph at lines 155--156
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][]  
+ []
+
+
+Overfull \hbox (171.0835pt too wide) in paragraph at lines 159--160
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][]  
+ []
+
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10.95> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 161.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 161.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 161.
+
+Overfull \hbox (210.50381pt too wide) in paragraph at lines 163--164
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]  
+ []
+
+
+Overfull \hbox (26.54233pt too wide) in paragraph at lines 168--169
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][]  
+ []
+
+
+Overfull \hbox (46.25249pt too wide) in paragraph at lines 169--170
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]  
+ []
+
+
+Overfull \hbox (0.26212pt too wide) in paragraph at lines 171--172
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][]  
+ []
+
+
+Overfull \hbox (26.54233pt too wide) in paragraph at lines 172--173
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][]  
+ []
+
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 173.
+[64]
+Overfull \hbox (65.96265pt too wide) in paragraph at lines 174--175
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][]  
+ []
+
+
+Overfull \hbox (59.3926pt too wide) in paragraph at lines 175--176
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][]  
+ []
+
+
+Overfull \hbox (65.96265pt too wide) in paragraph at lines 178--179
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][]  
+ []
+
+
+Overfull \hbox (72.5327pt too wide) in paragraph at lines 181--182
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]  
+ []
+
+
+Overfull \hbox (98.81291pt too wide) in paragraph at lines 186--187
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][]  
+ []
+
+
+Overfull \hbox (39.68243pt too wide) in paragraph at lines 192--193
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][]  
+ []
+
+
+Overfull \hbox (0.26212pt too wide) in paragraph at lines 206--208
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]  
+ []
+
+
+Overfull \hbox (26.54233pt too wide) in paragraph at lines 211--212
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]  
+ []
+
+
+Overfull \hbox (72.5327pt too wide) in paragraph at lines 212--213
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]  
+ []
+
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 215.
+[65]
+Overfull \hbox (33.11238pt too wide) in paragraph at lines 217--219
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][]  
+ []
+
+
+Overfull \hbox (19.97227pt too wide) in paragraph at lines 219--220
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][]  
+ []
+
+
+Overfull \hbox (98.81291pt too wide) in paragraph at lines 222--224
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ 
+ []
+
+)
+Underfull \hbox (badness 2237) in paragraph at lines 472--475
+\T1/ptm/m/n/12 é classe que im-ple-menta a in-ter-face Alu-no-Dao. Alu-no-Dao é
+ uma in-ter-face do
+ []
+
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 484.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 487.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 506.
+[66]
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 508.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 527.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 532.
+ [67]
+Underfull \hbox (badness 1748) in paragraph at lines 533--534
+[]\T1/ptm/m/n/12 MOTIVAÇÃO: Um método-template de-fine um al-go-ritmo em ter-mo
+s da
+ []
+
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 557.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 569.
+[68]
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 574.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 577.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 586.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 594.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 604.
+ [69]
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 605.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 615.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 627.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 635.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 642.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 653.
+ [70]
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 654.
+
+Underfull \hbox (badness 1546) in paragraph at lines 657--664
+\T1/ptm/m/n/12 Essa fer-ra-menta foi uti-li-zada prin-ci-pal-mente em nos-sos p
+ro-je-tos por ela re-a-li-zar
+ []
+
+
+Underfull \hbox (badness 4120) in paragraph at lines 657--664
+\T1/ptm/m/n/12 o ge-ren-ci-a-mento das APIS de forma au-to-ma-ti-zada, pa-dro-n
+i-zada, fa-ci-li-tando e
+ []
+
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 665.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 675.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 688.
+[71]) (./documentoPrincipal.bbl
+Underfull \hbox (badness 6725) in paragraph at lines 688--3
+[]\T1/ptm/m/n/12 O iRe-port é uma fer-ra-menta de-sen-vol-vida pela mesma em-pr
+esa do
+ []
+
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 3.
+[72]
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 3.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 78.
+ [73
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 80--84
 []\T1/ptm/m/n/12 RODRIGUES, E. \T1/ptm/m/it/12 Curso de En-ge-nha-ria de Soft-w
 are\T1/ptm/m/n/12 .
  []
 
 
-Underfull \hbox (badness 7030) in paragraph at lines 152--156
+Underfull \hbox (badness 7030) in paragraph at lines 80--84
 \T1/ptm/m/n/12 Uni-verso dos Li-vros Edi-tora, 2008. ISBN 9788578730109. Dis-po
 -ní-vel em:
  []
 
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 156.
-[28]
-Underfull \hbox (badness 1331) in paragraph at lines 170--173
+
+Underfull \hbox (badness 1331) in paragraph at lines 98--101
 []\T1/ptm/m/n/12 SOMERA, G. \T1/ptm/m/it/12 Trei-na-mento Pro-fis-si-o-nal em J
 ava\T1/ptm/m/n/12 . [S.l.]: DI-GE-RATI
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 181--185
+Underfull \hbox (badness 10000) in paragraph at lines 109--113
 []\T1/ptm/m/n/12 SOMMERVILLE, I. et al. \T1/ptm/m/it/12 En-ge-nha-ria de soft-w
 are\T1/ptm/m/n/12 .
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 181--185
+Underfull \hbox (badness 10000) in paragraph at lines 109--113
 \T1/ptm/m/n/12 AD-DI-SON WES-LEY BRA, 2008. ISBN 9788588639287. Dis-po-ní-vel e
 m:
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 201--205
+Underfull \hbox (badness 10000) in paragraph at lines 116--120
 []\T1/ptm/m/n/12 THAYER, R.; DORF-MAN, M. \T1/ptm/m/it/12 Sys-tem and soft-ware
 
  []
@@ -1903,164 +2786,50 @@ Underfull \hbox (badness 10000) in paragraph at lines 201--205
 ) 
 AED: lastpage setting LastPage
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 191.
-[29]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 191.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 191.
- (./documentoPrincipal.aux
-! Missing \endcsname inserted.
-<to be read again> 
-                   \protect 
-l.154 ... {\S  }\~A\IeC {\pounds  }o}{FEDELI 2002}
-                                                  
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-! Extra \endcsname.
-\@newl@bel ... \bbl@tempa \csname #1@#2\endcsname 
-                                                  \def \bbl@tempb {#3}\@safe...
-l.154 ... {\S  }\~A\IeC {\pounds  }o}{FEDELI 2002}
-                                                  
-I'm ignoring this, since I wasn't doing a \csname.
-
-! Missing \endcsname inserted.
-<to be read again> 
-                   \mu 
-l.161 ...amma2006padr\~A\mu es}{Gamma et al. 2006}
-                                                  
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.161 ...amma2006padr\~A\mu es}{Gamma et al. 2006}
-                                                  
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Extra \endcsname.
-\@newl@bel ... \bbl@tempa \csname #1@#2\endcsname 
-                                                  \def \bbl@tempb {#3}\@safe...
-l.161 ...amma2006padr\~A\mu es}{Gamma et al. 2006}
-                                                  
-I'm ignoring this, since I wasn't doing a \csname.
-
-! Missing \endcsname inserted.
-<to be read again> 
-                   \protect 
-l.164 ...} Arquitetura de Design de Software 2011}
-                                                  
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-
-LaTeX Warning: Command \c invalid in math mode on input line 164.
-
-
-LaTeX Warning: Command \~ invalid in math mode on input line 164.
-
-! Extra \endcsname.
-\@newl@bel ... \bbl@tempa \csname #1@#2\endcsname 
-                                                  \def \bbl@tempb {#3}\@safe...
-l.164 ...} Arquitetura de Design de Software 2011}
-                                                  
-I'm ignoring this, since I wasn't doing a \csname.
-
-! Missing \endcsname inserted.
-<to be read again> 
-                   \protect 
-l.165 \bibcite{kerznergest\~ao}{Kerzner 2011}
-                                             
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-
-LaTeX Warning: Command \~ invalid in math mode on input line 165.
-
-! Extra \endcsname.
-\@newl@bel ... \bbl@tempa \csname #1@#2\endcsname 
-                                                  \def \bbl@tempb {#3}\@safe...
-l.165 \bibcite{kerznergest\~ao}{Kerzner 2011}
-                                             
-I'm ignoring this, since I wasn't doing a \csname.
-
-! Missing \endcsname inserted.
-<to be read again> 
-                   \protect 
-l.179 ...wa1999gest\~ao}{Tachizawa e Andrade 1999}
-                                                  
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-
-LaTeX Warning: Command \~ invalid in math mode on input line 179.
-
-! Extra \endcsname.
-\@newl@bel ... \bbl@tempa \csname #1@#2\endcsname 
-                                                  \def \bbl@tempb {#3}\@safe...
-l.179 ...wa1999gest\~ao}{Tachizawa e Andrade 1999}
-                                                  
-I'm ignoring this, since I wasn't doing a \csname.
-
-)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 191.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 191.
+(babel)             in language  on input line 195.
+[74]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 195.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 195.
+ (./documentoPrincipal.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 195.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 195.
 Package rerunfilecheck Info: File `documentoPrincipal.out' has not changed.
-(rerunfilecheck)             Checksum: 321EE6573EE0A4C2D77799A7002ED2F5;2701.
-
-
-LaTeX Warning: There were multiply-defined labels.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.191 \end{document}
-                    
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-Missing character: There is no ç in font zptmcmr!
-Missing character: There is no ã in font zptmcmr!
-Missing character: There is no ã in font zptmcmr!
-Missing character: There is no ã in font zptmcmr!
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 191.
+(rerunfilecheck)             Checksum: 736859421F10F70F9D61309BAE67CDFC;5841.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 195.
  ) 
 Here is how much of TeX's memory you used:
- 22869 strings out of 495004
- 419243 string characters out of 6180663
- 507394 words of memory out of 5000000
- 25546 multiletter control sequences out of 15000+600000
- 80164 words of font info for 90 fonts, out of 8000000 for 9000
+ 23954 strings out of 495004
+ 431605 string characters out of 6180663
+ 629875 words of memory out of 5000000
+ 26114 multiletter control sequences out of 15000+600000
+ 96006 words of font info for 130 fonts, out of 8000000 for 9000
  16 hyphenation exceptions out of 8191
- 43i,12n,45p,10428b,863s stack positions out of 5000i,500n,10000p,200000b,80000s
-pdfTeX warning (dest): name{cite.introdu\347\343o} has been referenced but do
-es not exist, replaced by a fixed one
+ 43i,12n,45p,10428b,2346s stack positions out of 5000i,500n,10000p,200000b,80000s
+pdfTeX warning (dest): name{cite.date1985introdu\347\343o} has been reference
+d but does not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{cite.bezerra2007princ\355pios} has been referenced 
+but does not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{cite.introdu\347\343o} has been referenced but does
+ not exist, replaced by a fixed one
 
 pdfTeX warning (dest): name{cite.gamma2006padr\365es} has been referenced but d
 oes not exist, replaced by a fixed one
 
-pdfTeX warning (dest): name{page.37} has been referenced but does not exist, re
-placed by a fixed one
-
-pdfTeX warning (dest): name{cite.fedeli2002orienta\303\\protect\040\\T1\\textse
-ction\040\303\\protect\040\\T1\\textsterling\040o} has been referenced but does
- not exist, replaced by a fixed one
-
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texlive/
 texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-
 dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/f
-onts/type1/urw/helvetic/uhvb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/u
-rw/helvetic/uhvr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utm
-b8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/s
-hare/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on documentoPrincipal.pdf (31 pages, 343834 bytes).
+onts/type1/urw/courier/ucrb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/ur
+w/courier/ucrr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uh
+vb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></u
+sr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texliv
+e/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fo
+nts/type1/urw/times/utmri8a.pfb>
+Output written on documentoPrincipal.pdf (75 pages, 447054 bytes).
 PDF statistics:
- 406 PDF objects out of 1000 (max. 8388607)
- 358 compressed objects within 4 object streams
- 108 named destinations out of 1000 (max. 500000)
- 320 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1297 PDF objects out of 1440 (max. 8388607)
+ 1195 compressed objects within 12 object streams
+ 588 named destinations out of 1000 (max. 500000)
+ 656 words of extra memory for PDF output out of 10000 (max. 10000000)
 
