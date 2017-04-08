@@ -2,11 +2,22 @@
 \label{sec:proposta}
 Esta seção tem por objetivo demonstrar o uso da Fundamentação teorica apresentada na Seção\ref{cap:fundamentacaoTeorica}. Assim, de maneira prática, apresentaremos o uso da Engenharia de Software na construção de um sistema computacional denominado \nomeTrabalho .
 
-\section{Requisitos de Software}
-\label{requisitosSoftware}
+\section{Requisitos Servico API}
+\label{requisitos:api}
+
+\subsection{RF01:API - Autenticação}
+\label{requisito:autenticacaoApi}
+Todos os recursos, somente podem ser acessados por usuários autenticados. Cada requisição deve conter um hash de acesso no cabeçalho que foi disponibilizado para o cliente no momento em que ele realizou a autenticação. Esse hash deve ser válido apenas por 24 horas contadas à partir de sua criação. 
+
+\subsection{RF02:API - Requisições}
+\label{requisito:requisicaoApi}
+O serviço não deve armazenar o estado da requisição, toda requisição deve ser entendida como isolada, ou seja, deve se comportar como um serviço burro em que toda e qualquer ação, todas as informações necessárias devem ser enviados pelo cliente solicitante. Isso é conhecido como stateless. 
+
+\section{Requisitos Cliente WEB}
+\label{requisitos:clienteWeb}
 Os requisitos de software descrevem explicitamente as funcionalidades e serviços do sistema. O requisitos funcionais são responsaveis por conjunto de entradas, seu comportamento e sua saída, ou seja, envolve cálculos, lógicas de trabalho, manipulação e processamento de dados, entre outros. As subseções asseguir descrevem os requisistos funcionais da sistema cliente Web versão WEB.
 
-\subsection{RF01 - Autenticação}
+\subsection{RF01:WEB - Autenticação}
 \label{requisito:autenticacao}
 O sistema deve possuir uma tela para a autenticação de seus usuários.
 \begin{enumerate}
@@ -21,7 +32,7 @@ O sistema deve possuir uma tela para a autenticação de seus usuários.
 \end{enumerate}
 \end{enumerate}
 
-\subsection{RF02 - Peça}
+\subsection{RF02:WEB - Peça}
 \label{requisito:peca}
 Centros automotivos podem ou não realizar a venda de peças que farão parte dos serviços prestados.
 \begin{enumerate}
@@ -50,7 +61,7 @@ Centros automotivos podem ou não realizar a venda de peças que farão parte dos s
 \end{enumerate}
 \end{enumerate}
 
-\subsection{RF03 - Serviço}
+\subsection{RF03:WEB - Serviço}
 \label{requisito:servico}
 Centros automotivos podem ou não realizar a prestação de um serviço.
 \begin{enumerate}
@@ -78,7 +89,7 @@ Centros automotivos podem ou não realizar a prestação de um serviço.
 \end{enumerate}
 \end{enumerate}
 
-\subsection{RF04 - Cliente}
+\subsection{RF04:WEB - Cliente}
 \label{requisito:cliente}
 Centros automotivos podem ou não realizar o cadastro de seus clientes. Um cliente pode possuir um ou mais veículos, pode possuir um ou mais telefones e e-mail.
 \begin{enumerate}
@@ -109,11 +120,13 @@ Centros automotivos podem ou não realizar o cadastro de seus clientes. Um client
 \end{enumerate}
 \end{enumerate}
 
-\subsection{RF05 - Veículo}
+\subsection{RF05:WEB - Veículo}
 \label{requisito:veiculo}
 Centros automotivos devem realizar o cadastro de um veículo que devem pertecer a um cliente.
 \begin{enumerate}
 \item Um veículo pertence exclusivamente a um cliente, porém, ao longo do tempo, poderá ser alterado para outro cliente;
+\item No formulário, um campo para localização do cliente deve estar disponível;
+\item Somente cliente com o status ativo pode ser listado no campo de busca de clientes;
 \item O histórico de manutenção do veículo não deverá ser perdido quando ocorrer a mundança de cliente;
 \item Os veículos persistidos deverão ser apresentados em uma listagem para o usuário;
 \item A listagem deve possuir um campo para busca de um veículo;
@@ -143,11 +156,13 @@ Centros automotivos devem realizar o cadastro de um veículo que devem pertecer a
 \end{enumerate}
 
 
-\subsection{RF06 - Orçamento}
+\subsection{RF06:WEB - Orçamento}
 \label{requisito:orcamento}
 O orçamento servirá para a avaliação ou cálculo especulativo para o cliente sobre os custos das peças e/ou serviços a serem prestados no centro automotivo.
 \begin{enumerate}
 \item Um Orçamento pode ou não ser convertido em ordem de serviço;
+\item O formuário de cadastro deve possuir um campo para localizar o veículo que será relacionado;
+\item Somente veículos ativos devem ser listados no campo de busca;
 \item Devem possuir 15 dias de validade, que deverá ser contabilizada à partir da data de seu cadastro;
 \item Após o vencimento, fim da data de validade, o orçamento não poderá ser reaberto e deverá ser automaticamente cancelado;
 \item Itens Peças e/ou Serviços ver: \ref{requisito:itensOrcamentoOrdemDeServico}
@@ -194,12 +209,14 @@ O orçamento servirá para a avaliação ou cálculo especulativo para o cliente sobr
 \end{enumerate}
 \end{enumerate}
 
-\subsection{RF07 - Ordem de Serviço}
+\subsection{RF07:WEB - Ordem de Serviço}
 \label{requisito:ordemDeServico}
 A ordem de serviço é um documento que tem a função de definir as peças e serviços, suas quantidades e respectivos valores a respeito do que precisa ser efetuado no veículo do cliente do centro automotivo. Serve como um contrato entre o cliente e o centro automotivo. Permite ao cliente comprovar todo o histórico de manutenção de seus veículos.
 
 \begin{enumerate}
 \item Deve possuir uma data prevista para finalização;
+\item O formuário de cadastro deve possuir um campo para localizar o veículo que será relacionado;
+\item Somente veículos ativos devem ser listados no campo de busca;
 \item Status que identificará seu estágio atual:
 \begin{enumerate}
 \item Em andamento indica que está em andamente dentro do prazo de validade;
@@ -230,6 +247,7 @@ A ordem de serviço é um documento que tem a função de definir as peças e serviço
 \item Cinza cancelados, apresentá-los na listagem de cancelado;
 \item Azul finalizados, apresentá-los na listam de finalizados.
 \end{enumerate}
+\item Na listagem, quando a ordem de serviço for gerada através de um orçamento, o código do orçamento deve ser apresentado;
 \item Filtrar por ativos, finalizados ou cancelados;
 \item Acessar o formulário para edição;
 \item Possibilitar o cancelamento através do clique em um botão. O usuário deverá confirmar essa ação.
@@ -257,20 +275,109 @@ A ordem de serviço é um documento que tem a função de definir as peças e serviço
 \end{enumerate}
 \end{enumerate}
 
-\subsection{RF08 - Itens Orçamentos e Ordens de Serviço}
+\subsection{RF08:WEB - Itens Orçamentos e Ordens de Serviço}
 \label{requisito:itensOrcamentoOrdemDeServico}
+Os itens não são obrigatórios, um orçamento ou ordem de serviço pode possuir peças e serviços, somente peças, somente serviços ou nenhum dos dois.
+\begin{enumerate}
+\item Através da referência, um item pode ser localizado para ser adicionado à relação dos itens;
+\item Somente itens com o status ativo pode ser localizado pela busca;
+\item O valor sugerido pode ser alterado;
+\item A quantidade pode ser selecionada, não há restrições quanto a quantidade;
+\item Pode ser definido um desconto diretamente no item que pode ser em reais ou em porcentagem;
+\item Após ser acrescentado à listagem dos itens relacionados, o mesmo pode ser removido.
+\item Campos obrigatórios:
+\begin{enumerate}
+\item Referência.
+\end{enumerate}
+\end{enumerate}
 
-\subsection{RF09 - Aviso}
+\subsection{RF09:WEB - Aviso}
 \label{requisito:aviso}
+Aviso é um nome dado à funcionalidade que permitira que o centro automotivo envie notificações aos clientes que possuem o aplicativo instalado em seu smartphone informado sobre novidade ou promoções vigentes. Essa pode ser uma forma de estreitar o contato e fidelizar o cliente. 
+\begin{enumerate}
+\item Os avisos persistidos deverão ser apresentados em uma listagem para o usuário;
+\item A listagem deve possuir um campo para busca de um determinado aviso;
+\item Pela listagem deve ser possível:
+\begin{enumerate}
+\item Acessar o formulário para cadastro de um novo aviso;
+\item Atualizar a listagem com os dados mais recentes;
+\item Acessar o formulário para edição;
+\item Avisos enviados, ao invés de editar, a opção visualizar deve ser apresentada;
+\item Excluir um aviso, exclusão física;
+\item Copiar um determinado aviso, ou seja, gerar um novo à partir das informações do que foi copiado;
+\item Devem possuir os status:
+\begin{enumerate}
+\item Enviado, quando o aviso tiver sido enviado aos clientes. Nessa opção, a data de envio deve ser informada;
+\item Rascunho, quando um aviso foi criado, porém não enviado ainda;
+\item Falha no envio, quando ao tentar enviar, por algum motivo ocorra uma falha e a ação não seja concluída com sucesso.
+\end{enumerate}
+\end{enumerate}
+\item Campos obrigatórios:
+\begin{enumerate}
+\item Código numérico auto incremental
+\item Título;
+\item Resumo.
+\end{enumerate}
+\item Campos opcionais:
+\begin{enumerate}
+\item Código promocional;
+\item Data inicio;
+\item Data fim;
+\item Mensagem;
+\item Observações, esse campo não é enviado nas mensagens.
+\item Imagem*
+\end{enumerate}
+\item *Sobre a imagem:
+\begin{enumerate}
+\item Será persistida no banco de dados codificada em um hash em base64;
+\item Poderá ser nos formatos .jpeg ou .png;
+\item O tamanho máximo do arquivo não deve ultrapassar 1024kb;
+\item No formulário ao finalizar a criação de um aviso, o usuário poderá gravar como rascunho ou realizar o envio imediato.
+\end{enumerate}
+\end{enumerate}
 
-\subsection{RF10 - Dashboard - Painel de indicadores}
+\subsection{RF10:WEB - Dashboard - Painel de indicadores}
 \label{requisito:indicadores}
+O painel de indicadores apresentará ao cliente, relatários básicos 
+\begin{enumerate}
+\item Promoção em vigor:
+\begin{enumerate}
+\item Apresentar a promoção que possui a data de validade mais próxima da data atual;
+\item Campos:
+\begin{enumerate}
+\item Titulo;
+\item Código da promoção;
+\item Data inicio;
+\item Data fim;
+\item Thumb da imagem.
+\end{enumerate} 
+\end{enumerate}
+\item Quantitativo de orçamentos que:
+\begin{enumerate}
+\item Vencem hoje, ou seja, possuem a data de validade final igual a data atual;
+\item Vecem essa semana, ou seja, possuem a data valiadade à partir da data atual menos sete dias.
+\item Totalizador dos orçamentos ativos que não foram consolidados em um ordens de serviço.
+\end{enumerate}
+\item Top dez peças mais vendidas e serviços mais realizados pelo centro automotivo:
+\begin{enumerate}
+\item Apresenta o campo referência do item e o quantitativo.
+\end{enumerate}
+\item Totalizador Ordens de serviço:
+\begin{enumerate}
+\item Grafico no formato donut informado a quantidade total de ordens de serviços cadastradas no sistema, dividido por status:
+\begin{enumerate}
+\item Azul para abertas;
+\item Vermelho para atrasadas;
+\item Cinza para canceladas;
+\item Verde para finalizadas.
+\end{enumerate}
+\end{enumerate}
+\end{enumerate}
+
 
 Contudo, um sistema deve também atender a requisitos que não são necessariamente regras do negócio do Software. Assim, de nada adianta ter um sistema seguro, interativo e confiável se ele consome muitos recursos do computador e demora para executar a suas rotinas internas. Um sistema lento é alvo de crítica dos usuários, mesmo que seja funcional. A \textit{performance} do software pode ser melhorada utilizando técnicas de programação orientada a objetos, gerenciamento de memória, \textit{threads} e otimização de código.
   
-Dessa forma, foram definidos os seguintes Requisitos Não-Funcionais do sistema proposto, que podem ser observados na Tabela
-
-\ref{tabelaRequisitosNaoFuncionais}.
+Dessa forma, foram definidos os seguintes Requisitos Não-Funcionais do sistema proposto, que podem ser observados na Tabela \ref{tabelaRequisitosNaoFuncionais}.
 
 \begin{table}[htp]
 \centering
@@ -279,26 +386,34 @@ Dessa forma, foram definidos os seguintes Requisitos Não-Funcionais do sistema p
 \begin{tabular}{|c|c|p{150}|}\hline
 
 Cod. Requisito	 & Nome  & Descrição\\ \hline
-RNF01 &	O tempo de execução & O sistema deverá verificar se o usuário esta mais de 4 minutos logado sem nenhuma ação, o sistema devera após devera emitir um alerta de inativade.
-\\ \hline
-RNF02 & O sistema operacional do sistema & O sistema deverá ser acessado por varios tipos de sistemas operacionais ao mesmo tempo.
+RNF01 & O sistema operacional do sistema & O sistema deverá ser acessado por varios tipos de sistemas operacionais ao mesmo tempo.
 \\\hline
-RNF03 &	O desenvolvimento do sistema & O sistema deverá ser desenvolvido ele toda em linguagem de programação JavaScript, HTML, CSS
+RNF02 &	O desenvolvimento do sistema & O sistema deverá ser desenvolvido ele toda em linguagem de programação JavaScript.
 \\ \hline
-RNF04 &	Banco de dados do sistema & O sistema devera se comunicar com o Banco de Dados PostgreSQL
+RNF03 &	Objetos JSON & O sistema devera se comunicar com uma API que fornecerá os recursos necessários através de uma arquitetura do tipo RestFull. As respostas deverão ser no formato JSON.
  \\ \hline
-RNF05 &	Intregação com outro sistema & O sistema deverá ser feito que possibilite a intregração com outro sistema.
+RNF04 &	Intregação com outro sistema & O sistema deverá ser feito que possibilite a intregração com outro sistema.
  \\ \hline
-RNF06 &	O sistema deverá ter alta disponibilidade & O sistema deverá ter alta disponibilidade, por exemplo 99\% do tempo.
+RNF05 &	O sistema deverá ter alta disponibilidade & O sistema deverá ter alta disponibilidade, por exemplo 99\% do tempo.
 \\ \hline
-RNF07 &	Tempo de processamento & O sistema deverá processo N requisições por um determinado tempo.
+RNF06 &	Tempo de processamento & O sistema deverá processo N requisições por um determinado tempo.
 \\ \hline
-RNF08 &	Confiabilidade & O sistema não deverá apresentar aos usuários quaisquer dados de cunho privativo.
+RNF07 &	Confiabilidade & O sistema não deverá apresentar aos usuários quaisquer dados de cunho privativo.
 \\ \hline
 \end{tabular}
 }
 \label{tabelaRequisitosNaoFuncionais}
 \end{table}
+
+
+
+
+\section{Requisitos Cliente Mobile}
+\label{requisitos:clienteMobile}
+
+\subsection{RF01:MOBILE - Autenticação}
+\label{requisito:autenticacaoMobile}
+Para ter acesso aos dados,  em seu primeiro acesso, o aplicativo deverá apresentar um formulário em que o usuário deverá informar seu código de usuário, fornecido pelo centro automotivo, e seu número de documento e caso seja um usuário válido, deverá ser redirecionado para a primeira tela do aplicativo. Essa ação deve ser somente necessária no primeiro acesso. Caso não seja um usuário válido, ou tenha digitado alguma informação errada, uma mensagem deve ser apresentada ao usuário.
 
 \section{Mapa Mental}
 \label{sec:mapaMental}

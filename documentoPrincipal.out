@@ -32,49 +32,53 @@
 \BOOKMARK [1][-]{section.27}{3.8 Arquitetura de Software}{chapter.11}% 32
 \BOOKMARK [1][-]{section.28}{3.9 Design de Software}{chapter.11}% 33
 \BOOKMARK [0][-]{chapter.29}{4 Proposta}{}% 34
-\BOOKMARK [1][-]{section.30}{4.1 Requisitos de Software}{chapter.29}% 35
-\BOOKMARK [2][-]{subsection.31}{4.1.1 RF01 - Autentica\347\343o}{section.30}% 36
-\BOOKMARK [2][-]{subsection.39}{4.1.2 RF02 - Pe\347a}{section.30}% 37
-\BOOKMARK [2][-]{subsection.57}{4.1.3 RF03 - Servi\347o}{section.30}% 38
-\BOOKMARK [2][-]{subsection.74}{4.1.4 RF04 - Cliente}{section.30}% 39
-\BOOKMARK [2][-]{subsection.94}{4.1.5 RF05 - Ve\355culo}{section.30}% 40
-\BOOKMARK [2][-]{subsection.116}{4.1.6 RF06 - Or\347amento}{section.30}% 41
-\BOOKMARK [2][-]{subsection.152}{4.1.7 RF07 - Ordem de Servi\347o}{section.30}% 42
-\BOOKMARK [2][-]{subsection.197}{4.1.8 RF08 - Itens Or\347amentos e Ordens de Servi\347o}{section.30}% 43
-\BOOKMARK [2][-]{subsection.198}{4.1.9 RF09 - Aviso}{section.30}% 44
-\BOOKMARK [2][-]{subsection.199}{4.1.10 RF10 - Dashboard - Painel de indicadores}{section.30}% 45
-\BOOKMARK [1][-]{section.201}{4.2 Mapa Mental}{chapter.29}% 46
-\BOOKMARK [1][-]{section.202}{4.3 Design do Software}{chapter.29}% 47
-\BOOKMARK [0][-]{chapter.203}{5 Especifica\347\365es t\351cnicas}{}% 48
-\BOOKMARK [1][-]{section.204}{5.1 Diagramas da UML}{chapter.203}% 49
-\BOOKMARK [2][-]{subsection.206}{5.1.1 Diagrama de Classe}{section.204}% 50
-\BOOKMARK [2][-]{subsection.207}{5.1.2 Diagrama de Classe FATESG API}{section.204}% 51
-\BOOKMARK [2][-]{subsection.209}{5.1.3 Diagrama de Classe SGEP}{section.204}% 52
-\BOOKMARK [2][-]{subsection.211}{5.1.4 Diagrama de Caso de Uso}{section.204}% 53
-\BOOKMARK [2][-]{subsection.214}{5.1.5 Diagrama de Atividade}{section.204}% 54
-\BOOKMARK [2][-]{subsection.217}{5.1.6 Diagrama de Estado}{section.204}% 55
-\BOOKMARK [2][-]{subsection.219}{5.1.7 Diagrama de Componente}{section.204}% 56
-\BOOKMARK [2][-]{subsection.221}{5.1.8 Diagrama de Sequ\352ncia}{section.204}% 57
-\BOOKMARK [1][-]{section.224}{5.2 Banco De Dados }{chapter.203}% 58
-\BOOKMARK [1][-]{section.226}{5.3 Prototipa\347\343o}{chapter.203}% 59
-\BOOKMARK [2][-]{subsection.227}{5.3.1 Sistema Corporatum}{section.226}% 60
-\BOOKMARK [2][-]{subsection.232}{5.3.2 Tela Sistema SGEP}{section.226}% 61
-\BOOKMARK [1][-]{section.239}{5.4 Cod\355go}{chapter.203}% 62
-\BOOKMARK [1][-]{section.465}{5.5 Padr\365es de Projetos}{chapter.203}% 63
-\BOOKMARK [2][-]{subsection.466}{5.5.1 Singleton}{section.465}% 64
-\BOOKMARK [2][-]{subsection.467}{5.5.2 Adapter Factory}{section.465}% 65
-\BOOKMARK [2][-]{subsection.468}{5.5.3 Themplate Method}{section.465}% 66
-\BOOKMARK [2][-]{subsection.469}{5.5.4 Abstract Factory}{section.465}% 67
-\BOOKMARK [1][-]{section.470}{5.6 Frameworks e Ferramentas Adotadas}{chapter.203}% 68
-\BOOKMARK [2][-]{subsection.471}{5.6.1 Astah Community}{section.470}% 69
-\BOOKMARK [2][-]{subsection.472}{5.6.2 Eclipse}{section.470}% 70
-\BOOKMARK [2][-]{subsection.473}{5.6.3 Java}{section.470}% 71
-\BOOKMARK [2][-]{subsection.474}{5.6.4 Tomcat}{section.470}% 72
-\BOOKMARK [2][-]{subsection.475}{5.6.5 Java Server Faces}{section.470}% 73
-\BOOKMARK [2][-]{subsection.476}{5.6.6 Primefaces}{section.470}% 74
-\BOOKMARK [2][-]{subsection.477}{5.6.7 Spring}{section.470}% 75
-\BOOKMARK [2][-]{subsection.478}{5.6.8 Hibernate}{section.470}% 76
-\BOOKMARK [2][-]{subsection.479}{5.6.9 Maven}{section.470}% 77
-\BOOKMARK [2][-]{subsection.480}{5.6.10 Junit}{section.470}% 78
-\BOOKMARK [2][-]{subsection.481}{5.6.11 \040JasperReports e iReport}{section.470}% 79
-\BOOKMARK [0][-]{subsection.481}{Refer\352ncias Bibliogr\341ficas}{}% 80
+\BOOKMARK [1][-]{section.30}{4.1 Requisitos Servico API}{chapter.29}% 35
+\BOOKMARK [2][-]{subsection.31}{4.1.1 RF01:API - Autentica\347\343o}{section.30}% 36
+\BOOKMARK [2][-]{subsection.32}{4.1.2 RF02:API - Requisi\347\365es}{section.30}% 37
+\BOOKMARK [1][-]{section.33}{4.2 Requisitos Cliente WEB}{chapter.29}% 38
+\BOOKMARK [2][-]{subsection.34}{4.2.1 RF01:WEB - Autentica\347\343o}{section.33}% 39
+\BOOKMARK [2][-]{subsection.42}{4.2.2 RF02:WEB - Pe\347a}{section.33}% 40
+\BOOKMARK [2][-]{subsection.60}{4.2.3 RF03:WEB - Servi\347o}{section.33}% 41
+\BOOKMARK [2][-]{subsection.77}{4.2.4 RF04:WEB - Cliente}{section.33}% 42
+\BOOKMARK [2][-]{subsection.97}{4.2.5 RF05:WEB - Ve\355culo}{section.33}% 43
+\BOOKMARK [2][-]{subsection.121}{4.2.6 RF06:WEB - Or\347amento}{section.33}% 44
+\BOOKMARK [2][-]{subsection.159}{4.2.7 RF07:WEB - Ordem de Servi\347o}{section.33}% 45
+\BOOKMARK [2][-]{subsection.207}{4.2.8 RF08:WEB - Itens Or\347amentos e Ordens de Servi\347o}{section.33}% 46
+\BOOKMARK [2][-]{subsection.216}{4.2.9 RF09:WEB - Aviso}{section.33}% 47
+\BOOKMARK [2][-]{subsection.246}{4.2.10 RF10:WEB - Dashboard - Painel de indicadores}{section.33}% 48
+\BOOKMARK [1][-]{section.268}{4.3 Requisitos Cliente Mobile}{chapter.29}% 49
+\BOOKMARK [2][-]{subsection.269}{4.3.1 RF01:MOBILE - Autentica\347\343o}{section.268}% 50
+\BOOKMARK [1][-]{section.270}{4.4 Mapa Mental}{chapter.29}% 51
+\BOOKMARK [1][-]{section.271}{4.5 Design do Software}{chapter.29}% 52
+\BOOKMARK [0][-]{chapter.272}{5 Especifica\347\365es t\351cnicas}{}% 53
+\BOOKMARK [1][-]{section.273}{5.1 Diagramas da UML}{chapter.272}% 54
+\BOOKMARK [2][-]{subsection.275}{5.1.1 Diagrama de Classe}{section.273}% 55
+\BOOKMARK [2][-]{subsection.276}{5.1.2 Diagrama de Classe FATESG API}{section.273}% 56
+\BOOKMARK [2][-]{subsection.278}{5.1.3 Diagrama de Classe SGEP}{section.273}% 57
+\BOOKMARK [2][-]{subsection.280}{5.1.4 Diagrama de Caso de Uso}{section.273}% 58
+\BOOKMARK [2][-]{subsection.283}{5.1.5 Diagrama de Atividade}{section.273}% 59
+\BOOKMARK [2][-]{subsection.286}{5.1.6 Diagrama de Estado}{section.273}% 60
+\BOOKMARK [2][-]{subsection.288}{5.1.7 Diagrama de Componente}{section.273}% 61
+\BOOKMARK [2][-]{subsection.290}{5.1.8 Diagrama de Sequ\352ncia}{section.273}% 62
+\BOOKMARK [1][-]{section.293}{5.2 Banco De Dados }{chapter.272}% 63
+\BOOKMARK [1][-]{section.295}{5.3 Prototipa\347\343o}{chapter.272}% 64
+\BOOKMARK [2][-]{subsection.296}{5.3.1 Sistema Corporatum}{section.295}% 65
+\BOOKMARK [2][-]{subsection.301}{5.3.2 Tela Sistema SGEP}{section.295}% 66
+\BOOKMARK [1][-]{section.308}{5.4 Cod\355go}{chapter.272}% 67
+\BOOKMARK [1][-]{section.534}{5.5 Padr\365es de Projetos}{chapter.272}% 68
+\BOOKMARK [2][-]{subsection.535}{5.5.1 Singleton}{section.534}% 69
+\BOOKMARK [2][-]{subsection.536}{5.5.2 Adapter Factory}{section.534}% 70
+\BOOKMARK [2][-]{subsection.537}{5.5.3 Themplate Method}{section.534}% 71
+\BOOKMARK [2][-]{subsection.538}{5.5.4 Abstract Factory}{section.534}% 72
+\BOOKMARK [1][-]{section.539}{5.6 Frameworks e Ferramentas Adotadas}{chapter.272}% 73
+\BOOKMARK [2][-]{subsection.540}{5.6.1 Astah Community}{section.539}% 74
+\BOOKMARK [2][-]{subsection.541}{5.6.2 Eclipse}{section.539}% 75
+\BOOKMARK [2][-]{subsection.542}{5.6.3 Java}{section.539}% 76
+\BOOKMARK [2][-]{subsection.543}{5.6.4 Tomcat}{section.539}% 77
+\BOOKMARK [2][-]{subsection.544}{5.6.5 Java Server Faces}{section.539}% 78
+\BOOKMARK [2][-]{subsection.545}{5.6.6 Primefaces}{section.539}% 79
+\BOOKMARK [2][-]{subsection.546}{5.6.7 Spring}{section.539}% 80
+\BOOKMARK [2][-]{subsection.547}{5.6.8 Hibernate}{section.539}% 81
+\BOOKMARK [2][-]{subsection.548}{5.6.9 Maven}{section.539}% 82
+\BOOKMARK [2][-]{subsection.549}{5.6.10 Junit}{section.539}% 83
+\BOOKMARK [2][-]{subsection.550}{5.6.11 \040JasperReports e iReport}{section.539}% 84

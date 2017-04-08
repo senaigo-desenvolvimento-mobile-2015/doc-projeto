@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2017.1.2)  7 APR 2017 19:56
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2017.1.2)  8 APR 2017 03:28
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1121,7 +1121,14 @@ Writing nomenclature file documentoPrincipal.nlo
 (/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2013/08/26 1.5b listings language file
 )
-(./documentoPrincipal.aux)
+(./documentoPrincipal.aux
+
+LaTeX Warning: Label `requisito:autenticacao' multiply defined.
+
+
+LaTeX Warning: Label `requisito:autenticacao@cref' multiply defined.
+
+)
 \openout1 = `documentoPrincipal.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 86.
@@ -1133,8 +1140,7 @@ LaTeX Font Info:    ... okay on input line 86.
 LaTeX Font Info:    Checking defaults for OMS/pzccm/m/n on input line 86.
 LaTeX Font Info:    Try loading font information for OMS+pzccm on input line 86
 .
-
-(/usr/share/texlive/texmf-dist/tex/latex/psnfss/omspzccm.fd
+ (/usr/share/texlive/texmf-dist/tex/latex/psnfss/omspzccm.fd
 File: omspzccm.fd 2000/01/03 Fontinst v1.801 font definitions for OMS/pzccm.
 )
 LaTeX Font Info:    ... okay on input line 86.
@@ -1427,10 +1433,18 @@ Package babel Info: Redefining portuges shorthand "|
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 4.
 
+LaTeX Warning: Citation `sommerville:2008' on page 12 undefined on input line 1
+3.
+
+
 Underfull \hbox (badness 3646) in paragraph at lines 6--14
 []\T1/ptm/m/n/12 A en-ge-nha-ria de soft-ware é um ramo da en-ge-nha-ria cujo f
 oco é o
  []
+
+
+LaTeX Warning: Citation `carvalho:jucs07' on page 12 undefined on input line 27
+.
 
 
 Underfull \hbox (badness 3536) in paragraph at lines 17--28
@@ -1438,7 +1452,7 @@ Underfull \hbox (badness 3536) in paragraph at lines 17--28
 en-glo-bam lin-gua-gens de
  []
 
-<imagens/EngenhariaSoftware.jpg, id=386, 192.72pt x 144.54pt>
+<imagens/EngenhariaSoftware.jpg, id=397, 192.72pt x 144.54pt>
 File: imagens/EngenhariaSoftware.jpg Graphic file (type jpg)
 
 <use imagens/EngenhariaSoftware.jpg>
@@ -1477,7 +1491,12 @@ Package babel Info: Redefining portuges shorthand "|
 [14]
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 132.
- <imagens/ModeloCascata.jpg, id=405, 570.63188pt x 237.88875pt>
+
+
+LaTeX Warning: Citation `rezende2005engenharia' on page 15 undefined on input l
+ine 136.
+
+<imagens/ModeloCascata.jpg, id=413, 570.63188pt x 237.88875pt>
 File: imagens/ModeloCascata.jpg Graphic file (type jpg)
 
 <use imagens/ModeloCascata.jpg>
@@ -1486,12 +1505,20 @@ Package pdftex.def Info: imagens/ModeloCascata.jpg used on input line 147.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 151.
  [15]
+
+LaTeX Warning: Citation `SOMMERVILLE' on page 16 undefined on input line 160.
+
+
+LaTeX Warning: Citation `brookshear2003computer' on page 16 undefined on input 
+line 163.
+
+
 Underfull \hbox (badness 2478) in paragraph at lines 172--174
 []\T1/ptm/m/n/12 *Melhoramento Fun-ci-o-nal:Produzidas por exi-gên-cias va-riá-
 veis do cli-ente
  []
 
-<imagens/cicloDeVida.png, id=413, 642.4pt x 401.5pt>
+<imagens/cicloDeVida.png, id=418, 642.4pt x 401.5pt>
 File: imagens/cicloDeVida.png Graphic file (type png)
 
 <use imagens/cicloDeVida.png>
@@ -1502,20 +1529,32 @@ Package babel Info: Redefining portuges shorthand "|
  [16 <./imagens/ModeloCascata.jpg>]
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 194.
+
+
+LaTeX Warning: Citation `Kruchten' on page 17 undefined on input line 203.
+
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 222.
- [17 <./imagens/cicloDeVida.png>]
+[17 <./imagens/cicloDeVida.png>]
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 223.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 229.
+
+
+LaTeX Warning: Citation `gamma2006padrões' on page 18 undefined on input line 2
+36.
+
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 268.
- [18]
+[18]
 Underfull \hbox (badness 1655) in paragraph at lines 287--294
 []\T1/ptm/m/n/12 O Reuso é o ob-je-tivo prin-ci-pal da en-ge-nha-ria de soft-wa
 re ba-se-ada em
  []
+
+
+LaTeX Warning: Citation `Desmond' on page 19 undefined on input line 297.
 
 
 Underfull \hbox (badness 3179) in paragraph at lines 300--303
@@ -1560,15 +1599,13 @@ rem en-ga-nos,
  []
 
 
+LaTeX Warning: Citation `pressman2006engenharia' on page 22 undefined on input 
+line 418.
+
+
 Underfull \hbox (badness 2173) in paragraph at lines 415--419
 \T1/ptm/m/n/12 de-pen-dendo da or-ga-ni-za-ção e até mesmo do pro-jeto. Para a 
 boa for-ma-ção de
- []
-
-
-Underfull \hbox (badness 1342) in paragraph at lines 415--419
-\T1/ptm/m/n/12 a es-tru-tura das equi-pes, há di-ver-sos ti-pos de equi-pes, ta
-is como os ci-ta-dos por
  []
 
 Package babel Info: Redefining portuges shorthand "|
@@ -1576,6 +1613,10 @@ Package babel Info: Redefining portuges shorthand "|
 [22]
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 423.
+
+
+LaTeX Warning: Citation `Thayer' on page 23 undefined on input line 452.
+
 
 Underfull \hbox (badness 2005) in paragraph at lines 447--453
 []\T1/ptm/m/n/12 Um soft-ware não é uma ta-refa tri-vial, já que, além da ha-bi
@@ -1593,22 +1634,10 @@ qui-si-tos re-la-ci-o-na-dos ao
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 467.
 
-Underfull \hbox (badness 10000) in paragraph at lines 470--473
-[]\T1/ptm/m/n/12 Nas pa-la-vras de Mar-tin Fo-wler, ^^QO termo ar-qui-te-tura e
-n-volve a
- []
+LaTeX Warning: Citation `introdução' on page 24 undefined on input line 472.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 470--473
-\T1/ptm/m/n/12 no-ção dos prin-ci-pais ele-men-tos do sis-tema, as pe-ças que s
-ão di-fí-ceis
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 470--473
-\T1/ptm/m/n/12 de mu-dar. Uma fun-da-ção na qual o resto pre-cisa ser cons-truí
-do^^Q .
- []
+LaTeX Warning: Citation `introdução' on page 24 undefined on input line 485.
 
 
 Underfull \hbox (badness 1275) in paragraph at lines 474--486
@@ -1619,8 +1648,14 @@ olve os prin-ci-pais
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 486.
 [24]
+
+LaTeX Warning: Citation `introdução' on page 25 undefined on input line 494.
+
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 498.
+
+LaTeX Warning: Citation `introdução' on page 25 undefined on input line 510.
+
 
 Underfull \hbox (badness 7667) in paragraph at lines 501--511
 []\T1/ptm/m/n/12 Design é uma forma de in-ter-pre-tar a im-ple-men-ta-ção, ana-
@@ -1628,10 +1663,7 @@ li-sando e
  []
 
 
-Underfull \hbox (badness 1331) in paragraph at lines 512--519
-\T1/ptm/m/n/12 de-se-ja-das na vi-são de de-sign ou na vi-são de ar-qui-te-tura
-. A boa im-ple-men-ta-ção
- []
+LaTeX Warning: Citation `introdução' on page 25 undefined on input line 518.
 
 ) (./tex/cap4/cap_IV.tex
 Package babel Info: Redefining portuges shorthand "|
@@ -1642,63 +1674,77 @@ Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 1.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 5.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 8.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 12.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 16.
 
-Underfull \hbox (badness 1430) in paragraph at lines 7--8
+Underfull \hbox (badness 1430) in paragraph at lines 18--19
 []\T1/ptm/m/n/12 Os re-qui-si-tos de soft-ware des-cre-vem ex-pli-ci-ta-mente a
 s fun-ci-o-na-li-da-des e
  []
 
 
-Underfull \hbox (badness 1888) in paragraph at lines 7--8
+Underfull \hbox (badness 1888) in paragraph at lines 18--19
 \T1/ptm/m/n/12 seu com-por-ta-mento e sua saída, ou seja, en-volve cál-cu-los, 
 ló-gi-cas de tra-ba-lho,
  []
 
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 9.
+(babel)             in language  on input line 20.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 24.
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 32.
 [26
 
 ]
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 53.
+(babel)             in language  on input line 35.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 73.
+(babel)             in language  on input line 64.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 69.
  [27]
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 81.
+(babel)             in language  on input line 92.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 112.
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 117.
+(babel)             in language  on input line 107.
  [28]
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 146.
+(babel)             in language  on input line 123.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 155.
+(babel)             in language  on input line 147.
  [29]
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 187.
+(babel)             in language  on input line 159.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 180.
  [30]
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 197.
+(babel)             in language  on input line 212.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 219.
  [31]
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 256.
+(babel)             in language  on input line 247.
  [32]
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 260.
+(babel)             in language  on input line 278.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 263.
+(babel)             in language  on input line 287.
+ [33]
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 266.
-
-Underfull \hbox (badness 3623) in paragraph at lines 269--270
+(babel)             in language  on input line 294.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 327.
+ [34]
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 339.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 372.
+ [35]
+Underfull \hbox (badness 3623) in paragraph at lines 378--379
 []\T1/ptm/m/n/12 Contudo, um sis-tema deve tam-bém aten-der a re-qui-si-tos que
  não são
  []
@@ -1706,7 +1752,7 @@ Underfull \hbox (badness 3623) in paragraph at lines 269--270
 ! Illegal unit of measure (pt inserted).
 <to be read again> 
                    !
-l.299 }
+l.404 }
        
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
@@ -1718,7 +1764,7 @@ two letters. (See Chapter 27 of The TeXbook.)
 ! Illegal unit of measure (pt inserted).
 <to be read again> 
                    !
-l.299 }
+l.404 }
        
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
@@ -1728,31 +1774,14 @@ delete the erroneous units; e.g., type `2' to delete
 two letters. (See Chapter 27 of The TeXbook.)
 
 
-Underfull \hbox (badness 5077) in paragraph at lines 299--299
-\T1/ptm/m/n/12 sis-tema de-vera após de-vera
- []
-
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   !
-l.299 }
-       
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-
-Underfull \hbox (badness 1466) in paragraph at lines 299--299
+Underfull \hbox (badness 1466) in paragraph at lines 404--404
 \T1/ptm/m/n/12 por va-rios ti-pos de sis-te-mas
  []
 
 ! Illegal unit of measure (pt inserted).
 <to be read again> 
                    !
-l.299 }
+l.404 }
        
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
@@ -1762,24 +1791,24 @@ delete the erroneous units; e.g., type `2' to delete
 two letters. (See Chapter 27 of The TeXbook.)
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 299--299
+Underfull \hbox (badness 10000) in paragraph at lines 404--404
 []|\T1/ptm/m/n/12 O sis-tema de-verá ser
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 299--299
+Underfull \hbox (badness 10000) in paragraph at lines 404--404
 \T1/ptm/m/n/12 de-sen-vol-vido ele toda em
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 299--299
+Underfull \hbox (badness 10000) in paragraph at lines 404--404
 \T1/ptm/m/n/12 lin-gua-gem de pro-gra-ma-ção
  []
 
 ! Illegal unit of measure (pt inserted).
 <to be read again> 
                    !
-l.299 }
+l.404 }
        
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
@@ -1789,14 +1818,14 @@ delete the erroneous units; e.g., type `2' to delete
 two letters. (See Chapter 27 of The TeXbook.)
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 299--299
-\T1/ptm/m/n/12 com o Banco de Da-dos
+Underfull \hbox (badness 3407) in paragraph at lines 404--404
+\T1/ptm/m/n/12 de uma ar-qui-te-tura do tipo
  []
 
 ! Illegal unit of measure (pt inserted).
 <to be read again> 
                    !
-l.299 }
+l.404 }
        
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
@@ -1806,14 +1835,14 @@ delete the erroneous units; e.g., type `2' to delete
 two letters. (See Chapter 27 of The TeXbook.)
 
 
-Underfull \hbox (badness 1057) in paragraph at lines 299--299
+Underfull \hbox (badness 1057) in paragraph at lines 404--404
 \T1/ptm/m/n/12 pos-si-bi-lite a in-tre-gra-ção com
  []
 
 ! Illegal unit of measure (pt inserted).
 <to be read again> 
                    !
-l.299 }
+l.404 }
        
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
@@ -1823,19 +1852,19 @@ delete the erroneous units; e.g., type `2' to delete
 two letters. (See Chapter 27 of The TeXbook.)
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 299--299
+Underfull \hbox (badness 10000) in paragraph at lines 404--404
 []|\T1/ptm/m/n/12 O sis-tema de-verá ter alta
  []
 
 
-Underfull \hbox (badness 2158) in paragraph at lines 299--299
+Underfull \hbox (badness 2158) in paragraph at lines 404--404
 \T1/ptm/m/n/12 dis-po-ni-bi-li-dade, por exem-plo
  []
 
 ! Illegal unit of measure (pt inserted).
 <to be read again> 
                    !
-l.299 }
+l.404 }
        
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
@@ -1845,19 +1874,19 @@ delete the erroneous units; e.g., type `2' to delete
 two letters. (See Chapter 27 of The TeXbook.)
 
 
-Underfull \hbox (badness 7576) in paragraph at lines 299--299
+Underfull \hbox (badness 7576) in paragraph at lines 404--404
 []|\T1/ptm/m/n/12 O sis-tema de-verá pro-cesso
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 299--299
+Underfull \hbox (badness 10000) in paragraph at lines 404--404
 \T1/ptm/m/n/12 N re-qui-si-ções por um
  []
 
 ! Illegal unit of measure (pt inserted).
 <to be read again> 
                    !
-l.299 }
+l.404 }
        
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
@@ -1867,35 +1896,51 @@ delete the erroneous units; e.g., type `2' to delete
 two letters. (See Chapter 27 of The TeXbook.)
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 299--299
+Underfull \hbox (badness 10000) in paragraph at lines 404--404
 []|\T1/ptm/m/n/12 O sis-tema não de-verá
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 299--299
+Underfull \hbox (badness 10000) in paragraph at lines 404--404
 \T1/ptm/m/n/12 apre-sen-tar aos usuá-rios
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 299--299
+Underfull \hbox (badness 10000) in paragraph at lines 404--404
 \T1/ptm/m/n/12 quais-quer da-dos de cu-nho
  []
 
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 303.
+(babel)             in language  on input line 411.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 370.
+(babel)             in language  on input line 414.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 384.
-[33]) (./tex/cap5/cap_V.tex
+(babel)             in language  on input line 417.
+[36]
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 418.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 485.
+) (./tex/cap5/cap_V.tex
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 1.
- [34]
+ [37]
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 1.
+ [38]
 Cap\'{\i }tulo 5.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 1.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 4.
+
+LaTeX Warning: Citation `d'souza:interface' on page 39 undefined on input line 
+9.
+
+
+LaTeX Warning: Citation `Silva:2007:CiSE' on page 39 undefined on input line 16
+.
+
 
 Underfull \hbox (badness 2469) in paragraph at lines 11--17
 []\T1/ptm/m/n/12 A \T1/ptm/m/it/12 Uni-fied Mo-de-ling Lan-guage \T1/ptm/m/n/12
@@ -1909,16 +1954,12 @@ grá-fica de
  []
 
 
-Underfull \hbox (badness 3364) in paragraph at lines 11--17
-\T1/ptm/m/n/12 mo-de-la-gem para vi-su-a-li-zar, es-pe-ci-fi-car, cons-truir e 
-do-cu-men-tar os ar-te-fa-tos de
- []
+LaTeX Warning: Citation `Silva:2007:CiSE' on page 39 undefined on input line 20
+.
 
 
-Underfull \hbox (badness 1077) in paragraph at lines 11--17
-\T1/ptm/m/n/12 úl-tima ca-te-go-ria, existe uma sub-ca-te-go-ria que com-põe os
- di-a-gra-mas de in-te-ra-ção
- []
+LaTeX Warning: Citation `Silva:2007:CiSE' on page 39 undefined on input line 24
+.
 
 
 Underfull \hbox (badness 1931) in paragraph at lines 26--29
@@ -1944,17 +1985,23 @@ If that doesn't work, type  X <return>  to quit.
 
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 38.
-[35
+[39
 
 ]
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 39.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 49.
- [36]
+ [40]
+
+LaTeX Warning: Citation `bezerra2007princípios' on page 41 undefined on input l
+ine 52.
+
+
+LaTeX Warning: Citation `Silveira:2011' on page 41 undefined on input line 59.
+
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 62.
-
 
 LaTeX Warning: File `imagens/DiagramaClasses.png' not found on input line 68.
 
@@ -1973,7 +2020,7 @@ If that doesn't work, type  X <return>  to quit.
 
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 73.
-[37]
+[41]
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 81.
 
@@ -1996,7 +2043,7 @@ If that doesn't work, type  X <return>  to quit.
 
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 91.
-[38]
+[42]
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 96.
 
@@ -2013,7 +2060,7 @@ e-mos-tra as prin-ci-pais
 
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 106.
-[39]
+[43]
 
 LaTeX Warning: File `imagens/CasoDeUsoSgep.png' not found on input line 109.
 
@@ -2032,7 +2079,7 @@ If that doesn't work, type  X <return>  to quit.
 
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 128.
-[40]
+[44]
 
 LaTeX Warning: File `imagens/CasoDeUsoCorporatum.png' not found on input line 1
 43.
@@ -2057,7 +2104,7 @@ Overfull \hbox (56.9055pt too wide) in paragraph at lines 143--145
 
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 148.
-[41]
+[45]
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 152.
 
@@ -2080,7 +2127,7 @@ If that doesn't work, type  X <return>  to quit.
 
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 166.
-[42]
+[46]
 
 LaTeX Warning: File `imagens/DiagramaPesquisaAluno.png' not found on input line
  184.
@@ -2101,7 +2148,7 @@ If that doesn't work, type  X <return>  to quit.
 
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 197.
-[43]
+[47]
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 197.
 
@@ -2142,18 +2189,13 @@ If that doesn't work, type  X <return>  to quit.
 
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 222.
-[44]
+[48]
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 224.
 
-Underfull \hbox (badness 1845) in paragraph at lines 226--229
-\T1/ptm/m/n/12 en-tre os ob-je-tos são tro-ca-das no de-cor-rer do tempo para a
- re-a-li-za-ção de uma
- []
 
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 236.
-[45]
+LaTeX Warning: Citation `Fowler' on page 49 undefined on input line 228.
+
 
 LaTeX Warning: File `imagens/DiagramaSequenciaAutenticar.png' not found on inpu
 t line 239.
@@ -2172,7 +2214,9 @@ Using draft setting for this image.
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 243.
+[49]
 Underfull \hbox (badness 2237) in paragraph at lines 245--247
 []\T1/ptm/m/n/12 A fi-gura abaixo re-pre-senta o ca-das-tro de um aluno feito p
 elo usuá-rio
@@ -2198,7 +2242,7 @@ If that doesn't work, type  X <return>  to quit.
 
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 255.
-[46]
+[50]
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 256.
 
@@ -2209,7 +2253,15 @@ e banco de da-dos
 
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 271.
-[47]
+[51]
+
+LaTeX Warning: Citation `date1985introdução' on page 52 undefined on input line
+ 276.
+
+
+LaTeX Warning: Citation `date1985introdução' on page 52 undefined on input line
+ 281.
+
 
 LaTeX Warning: File `imagens/PostgreSQL.png' not found on input line 291.
 
@@ -2228,16 +2280,24 @@ If that doesn't work, type  X <return>  to quit.
 
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 296.
-[48]
+[52]
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 301.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 313.
- [49]
+ [53]
 Underfull \hbox (badness 2020) in paragraph at lines 314--318
 []\T1/ptm/m/n/12 Nos úl-ti-mos dez anos, tornou-se co-mum uma fi-lo-so-fia de p
 ro-to-ti-pa-gem
  []
+
+
+LaTeX Warning: Citation `rodriguescurso' on page 54 undefined on input line 323
+.
+
+
+LaTeX Warning: Citation `rodriguescurso' on page 54 undefined on input line 329
+.
 
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 331.
@@ -2259,7 +2319,7 @@ If that doesn't work, type  X <return>  to quit.
 
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 342.
-[50]
+[54]
 
 LaTeX Warning: File `imagens/TelaCronogramaAula.png' not found on input line 35
 4.
@@ -2279,7 +2339,7 @@ If that doesn't work, type  X <return>  to quit.
 
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 359.
-[51]
+[55]
 
 LaTeX Warning: File `imagens/TelaDisciplina.png' not found on input line 366.
 
@@ -2298,7 +2358,7 @@ If that doesn't work, type  X <return>  to quit.
 
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 371.
-[52]
+[56]
 
 LaTeX Warning: File `imagens/TelaPlanoEnsino.png' not found on input line 379.
 
@@ -2317,7 +2377,7 @@ If that doesn't work, type  X <return>  to quit.
 
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 384.
-[53]
+[57]
 Underfull \hbox (badness 2922) in paragraph at lines 384--387
 []\T1/ptm/m/n/12 Nesta fi-gura []5.16[] ca-das-tra o plano de en-sino, tendo co
 mo for-mu-lá-rio
@@ -2343,7 +2403,7 @@ If that doesn't work, type  X <return>  to quit.
 
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 399.
-[54]
+[58]
 
 LaTeX Warning: File `imagens/TelaCadastroQuestao.png' not found on input line 4
 06.
@@ -2363,7 +2423,7 @@ If that doesn't work, type  X <return>  to quit.
 
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 411.
-[55]
+[59]
 
 LaTeX Warning: File `imagens/TelaCadastroProva.png' not found on input line 420
 .
@@ -2383,7 +2443,7 @@ If that doesn't work, type  X <return>  to quit.
 
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 425.
-[56]
+[60]
 
 LaTeX Warning: File `imagens/TelaCadastroSecao.png' not found on input line 432
 .
@@ -2403,7 +2463,7 @@ If that doesn't work, type  X <return>  to quit.
 
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 437.
-[57]
+[61]
 
 LaTeX Warning: File `imagens/CadastroTelaTemplate.png' not found on input line 
 444.
@@ -2423,7 +2483,7 @@ If that doesn't work, type  X <return>  to quit.
 
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 449.
-[58]
+[62]
 
 LaTeX Warning: File `imagens/TelaGerarProva.png' not found on input line 456.
 
@@ -2442,7 +2502,7 @@ If that doesn't work, type  X <return>  to quit.
 
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 461.
-[59]
+[63]
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 464.
 Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on i
@@ -2452,7 +2512,7 @@ LaTeX Font Info:    Font shape `T1/pcr/bx/n' in size <10.95> not available
 (Font)              Font shape `T1/pcr/b/n' tried instead on input line 1.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 11.
- [60]
+ [64]
 Overfull \hbox (26.54233pt too wide) in paragraph at lines 17--18
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]  
  []
@@ -2464,10 +2524,10 @@ Overfull \hbox (6.83217pt too wide) in paragraph at lines 18--19
 
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 50.
-[61]
+[65]
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 92.
- [62]
+ [66]
 Overfull \hbox (0.26212pt too wide) in paragraph at lines 98--100
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]  
  []
@@ -2501,7 +2561,7 @@ Overfull \hbox (210.50381pt too wide) in paragraph at lines 119--120
 
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 133.
-[63]
+[67]
 Overfull \hbox (13.40222pt too wide) in paragraph at lines 136--138
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
 ][][]  
@@ -2587,7 +2647,7 @@ Overfull \hbox (26.54233pt too wide) in paragraph at lines 172--173
 
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 173.
-[64]
+[68]
 Overfull \hbox (65.96265pt too wide) in paragraph at lines 174--175
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
 ][][][][][][][][][][][][][][][][][]  
@@ -2640,7 +2700,7 @@ Overfull \hbox (72.5327pt too wide) in paragraph at lines 212--213
 
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 215.
-[65]
+[69]
 Overfull \hbox (33.11238pt too wide) in paragraph at lines 217--219
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
 ][]  
@@ -2670,14 +2730,14 @@ Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 487.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 506.
-[66]
+[70]
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 508.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 527.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 532.
- [67]
+ [71]
 Underfull \hbox (badness 1748) in paragraph at lines 533--534
 []\T1/ptm/m/n/12 MOTIVAÇÃO: Um método-template de-fine um al-go-ritmo em ter-mo
 s da
@@ -2687,7 +2747,7 @@ Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 557.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 569.
-[68]
+[72]
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 574.
 Package babel Info: Redefining portuges shorthand "|
@@ -2696,9 +2756,14 @@ Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 586.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 594.
+
+
+LaTeX Warning: Citation `someratreinamento' on page 73 undefined on input line 
+602.
+
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 604.
- [69]
+[73]
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 605.
 Package babel Info: Redefining portuges shorthand "|
@@ -2711,7 +2776,7 @@ Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 642.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 653.
- [70]
+ [74]
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 654.
 
@@ -2732,104 +2797,178 @@ Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 675.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 688.
-[71]) (./documentoPrincipal.bbl
-Underfull \hbox (badness 6725) in paragraph at lines 688--3
+[75])
+No file documentoPrincipal.bbl.
+
+AED: lastpage setting LastPage
+
+Underfull \hbox (badness 6725) in paragraph at lines 688--195
 []\T1/ptm/m/n/12 O iRe-port é uma fer-ra-menta de-sen-vol-vida pela mesma em-pr
 esa do
  []
 
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 3.
-[72]
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 3.
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 78.
- [73
-
-]
-Underfull \hbox (badness 10000) in paragraph at lines 80--84
-[]\T1/ptm/m/n/12 RODRIGUES, E. \T1/ptm/m/it/12 Curso de En-ge-nha-ria de Soft-w
-are\T1/ptm/m/n/12 .
- []
-
-
-Underfull \hbox (badness 7030) in paragraph at lines 80--84
-\T1/ptm/m/n/12 Uni-verso dos Li-vros Edi-tora, 2008. ISBN 9788578730109. Dis-po
--ní-vel em:
- []
-
-
-Underfull \hbox (badness 1331) in paragraph at lines 98--101
-[]\T1/ptm/m/n/12 SOMERA, G. \T1/ptm/m/it/12 Trei-na-mento Pro-fis-si-o-nal em J
-ava\T1/ptm/m/n/12 . [S.l.]: DI-GE-RATI
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 109--113
-[]\T1/ptm/m/n/12 SOMMERVILLE, I. et al. \T1/ptm/m/it/12 En-ge-nha-ria de soft-w
-are\T1/ptm/m/n/12 .
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 109--113
-\T1/ptm/m/n/12 AD-DI-SON WES-LEY BRA, 2008. ISBN 9788588639287. Dis-po-ní-vel e
-m:
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 116--120
-[]\T1/ptm/m/n/12 THAYER, R.; DORF-MAN, M. \T1/ptm/m/it/12 Sys-tem and soft-ware
-
- []
-
-) 
-AED: lastpage setting LastPage
-Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 195.
-[74]
+[76]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 195.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 195.
  (./documentoPrincipal.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 195.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 195.
-Package rerunfilecheck Info: File `documentoPrincipal.out' has not changed.
-(rerunfilecheck)             Checksum: 736859421F10F70F9D61309BAE67CDFC;5841.
+
+
+Package rerunfilecheck Warning: File `documentoPrincipal.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `documentoPrincipal.out':
+(rerunfilecheck)             Before: AB33255146416F7BDFE671539AD0E2CA;6133
+(rerunfilecheck)             After:  44F2B21327436E6ED1EA3AC470205B14;6217.
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: There were multiply-defined labels.
+
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 195.
  ) 
 Here is how much of TeX's memory you used:
- 23954 strings out of 495004
- 431605 string characters out of 6180663
+ 24048 strings out of 495004
+ 432447 string characters out of 6180663
  629875 words of memory out of 5000000
- 26114 multiletter control sequences out of 15000+600000
- 96006 words of font info for 130 fonts, out of 8000000 for 9000
+ 26124 multiletter control sequences out of 15000+600000
+ 95647 words of font info for 129 fonts, out of 8000000 for 9000
  16 hyphenation exceptions out of 8191
  43i,12n,45p,10428b,2346s stack positions out of 5000i,500n,10000p,200000b,80000s
-pdfTeX warning (dest): name{cite.date1985introdu\347\343o} has been reference
-d but does not exist, replaced by a fixed one
+pdfTeX warning (dest): name{figure.caption.301} has been referenced but does 
+not exist, replaced by a fixed one
 
-pdfTeX warning (dest): name{cite.bezerra2007princ\355pios} has been referenced 
-but does not exist, replaced by a fixed one
+pdfTeX warning (dest): name{figure.caption.296} has been referenced but does no
+t exist, replaced by a fixed one
 
-pdfTeX warning (dest): name{cite.introdu\347\343o} has been referenced but does
- not exist, replaced by a fixed one
+pdfTeX warning (dest): name{figure.caption.286} has been referenced but does no
+t exist, replaced by a fixed one
 
-pdfTeX warning (dest): name{cite.gamma2006padr\365es} has been referenced but d
-oes not exist, replaced by a fixed one
+pdfTeX warning (dest): name{figure.caption.283} has been referenced but does no
+t exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{figure.caption.278} has been referenced but does no
+t exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{table.caption.266} has been referenced but does not
+ exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{lstlisting.308} has been referenced but does not ex
+ist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.539} has been referenced but does not ex
+ist, replaced by a fixed one
+
+pdfTeX warning (dest): name{section.538} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.534} has been referenced but does not ex
+ist, replaced by a fixed one
+
+pdfTeX warning (dest): name{section.533} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{section.307} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.300} has been referenced but does not ex
+ist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.295} has been referenced but does not ex
+ist, replaced by a fixed one
+
+pdfTeX warning (dest): name{section.294} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{section.292} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.289} has been referenced but does not ex
+ist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.287} has been referenced but does not ex
+ist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.285} has been referenced but does not ex
+ist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.282} has been referenced but does not ex
+ist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.279} has been referenced but does not ex
+ist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.277} has been referenced but does not ex
+ist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.274} has been referenced but does not ex
+ist, replaced by a fixed one
+
+pdfTeX warning (dest): name{section.272} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{chapter.271} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{section.269} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.268} has been referenced but does not ex
+ist, replaced by a fixed one
+
+pdfTeX warning (dest): name{section.267} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.245} has been referenced but does not ex
+ist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.215} has been referenced but does not ex
+ist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.206} has been referenced but does not ex
+ist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.158} has been referenced but does not ex
+ist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.120} has been referenced but does not ex
+ist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.96} has been referenced but does not exi
+st, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.76} has been referenced but does not exi
+st, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.59} has been referenced but does not exi
+st, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.41} has been referenced but does not exi
+st, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.33} has been referenced but does not exi
+st, replaced by a fixed one
+
+pdfTeX warning (dest): name{section.32} has been referenced but does not exist,
+ replaced by a fixed one
 
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texlive/
-texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-
-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/f
-onts/type1/urw/courier/ucrb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/ur
-w/courier/ucrr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uh
-vb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></u
-sr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texliv
-e/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fo
-nts/type1/urw/times/utmri8a.pfb>
-Output written on documentoPrincipal.pdf (75 pages, 447054 bytes).
+texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-
+dist/fonts/type1/urw/courier/ucrb8a.pfb></usr/share/texlive/texmf-dist/fonts/ty
+pe1/urw/courier/ucrr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helve
+tic/uhvb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.p
+fb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/
+texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-d
+ist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on documentoPrincipal.pdf (77 pages, 440576 bytes).
 PDF statistics:
- 1297 PDF objects out of 1440 (max. 8388607)
- 1195 compressed objects within 12 object streams
- 588 named destinations out of 1000 (max. 500000)
- 656 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1387 PDF objects out of 1440 (max. 8388607)
+ 1283 compressed objects within 13 object streams
+ 675 named destinations out of 1000 (max. 500000)
+ 680 words of extra memory for PDF output out of 10000 (max. 10000000)
 
