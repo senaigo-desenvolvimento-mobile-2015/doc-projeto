@@ -1,21 +1,136 @@
-\chapter{Proposta}
-\label{sec:proposta}
+\chapter{Requisitos de software}
+\label{sec:requisitosDeSoftware}
 Esta seção tem por objetivo demonstrar o uso da Fundamentação teorica apresentada na Seção\ref{cap:fundamentacaoTeorica}. Assim, de maneira prática, apresentaremos o uso da Engenharia de Software na construção de um sistema computacional denominado \nomeTrabalho .
+
+Os requisitos de software descrevem explicitamente as funcionalidades e serviços do sistema. O requisitos funcionais são responsaveis por conjunto de entradas, seu comportamento e sua saída, ou seja, envolve cálculos, lógicas de trabalho, manipulação e processamento de dados, entre outros. As subseções asseguir descrevem os requisistos funcionais da sistema \nomeTrabalho .
 
 \section{Requisitos Servico API}
 \label{requisitos:api}
+A sigla API refere-se ao termo em inglês "Application Programming Interface" que significa em tradução para o português "Interface de Programação de Aplicativos". Será responsável por fornecer recursos para seus clientes mediante o fornecimento de um hash de autenticação. É responsável por realizar o acesso a base de dados e conter as regras de negócio do sistema. Deve prover a integração entre os sistemas.
 
-\subsection{RF01:API - Autenticação}
-\label{requisito:autenticacaoApi}
-Todos os recursos, somente podem ser acessados por usuários autenticados. Cada requisição deve conter um hash de acesso no cabeçalho que foi disponibilizado para o cliente no momento em que ele realizou a autenticação. Esse hash deve ser válido apenas por 24 horas contadas à partir de sua criação. 
-
-\subsection{RF02:API - Requisições}
+\subsection{RF01:API - Requisições Geral}
 \label{requisito:requisicaoApi}
-O serviço não deve armazenar o estado da requisição, toda requisição deve ser entendida como isolada, ou seja, deve se comportar como um serviço burro em que toda e qualquer ação, todas as informações necessárias devem ser enviados pelo cliente solicitante. Isso é conhecido como stateless. 
+O serviço não deve armazenar o estado da requisição, toda requisição deve ser entendida como isolada, ou seja, deve se comportar como um serviço burro em que toda e qualquer ação, todas as informações necessárias devem ser enviados pelo cliente solicitante. Isso é conhecido como uma API Stateless. 
+\begin{enumerate}
+\item As respostas aos clientes, devem seguir no formato JSON;
+\item Todas as requisições devem ser realizadas somente pelos protocolos HTTP:
+\begin{enumerate}
+\item GET - Recupera todos os registros;
+\item GET - Enviando um código identificador, recupera apenas o recurso informado;
+\item POST - Realiza o cadastro dos itens;
+\item PUT - Enviando um código identificador, deve atualizar o recurso informado;
+\item DELETE - Enviando um código identificador, deve excluir ou inativar o recurso.
+\end{enumerate}
+\end{enumerate}
+
+\subsection{RF02:API - Autenticação}
+\label{requisito:autenticacaoApi}
+Os recursos somente podem ser acessados por usuários autenticados. Cada requisição deve conter um hash de acesso no cabeçalho que foi disponibilizado para o cliente no momento em que ele realizou a autenticação. Esse hash deve ser válido apenas por 24 horas contadas à partir de sua criação. 
+
+\subsection{RF03:API - Peça}
+\label{requisito:pecaApi}
+\begin{enumerate}
+\item Listar todas as peças;
+\item Listar uma peça por identificador;
+\item Cadastrar uma peça;
+\item Editar uma peça;
+\item Excluir, exclusão lógica, uma peça;
+\end{enumerate}
+
+\subsection{RF04:API - Serviço}
+\label{requisito:servicoApi}
+\begin{enumerate}
+\item Listar todos os serviços;
+\item Listar um serviço por identificador;
+\item Cadastrar um serviço;
+\item Editar um serviço;
+\item Excluir, exclusão lógica, um serviço;
+\end{enumerate}
+
+\subsection{RF05:API - Cliente}
+\label{requisito:clienteApi}
+\begin{enumerate}
+\item Listar todos os clientes;
+\item Listar uma cliente por identificador;
+\item Cadastrar um cliente;
+\item Editar um cliente;
+\item Excluir, exclusão lógica, um cliente;
+\end{enumerate}
+
+\subsection{RF03:API - Veículo}
+\label{requisito:veiculoApi}
+\begin{enumerate}
+\item Listar todos os veículos;
+\item Listar um veículo por identificador;
+\item Cadastrar um veículo;
+\item Editar um veículo;
+\item Excluir, exclusão lógica, um veículo;
+\end{enumerate}
+
+\subsection{RF03:API - Orçamento}
+\label{requisito:orcamentoApi}
+\begin{enumerate}
+\item Listar todas os orçamentos;
+\item Listar um orçamento por identificador;
+\item Cadastrar um orçamento;
+\item Consolidar um orçamento em uma ordem de serviço;
+\item Editar um orçamento. Apenas orçamentos com prazo de validade maior que a data atual podem ser editados;
+\item Cancelar orçamentos que possuem prazo de validade menor que a data atual;
+\item Excluir, exclusão lógica, um orçamento;
+\end{enumerate}
+
+\subsection{RF03:API - Ordem de serviço}
+\label{requisito:ordemDeServicoApi}
+\begin{enumerate}
+\item Listar todas as ordens de serviço;
+\item Listar uma ordem de serviço por identificador;
+\item Cadastrar uma ordem de serviço;
+\item Editar uma ordem de serviço;
+\item Excluir, exclusão lógica, uma ordem de serviço;
+\end{enumerate}
+
+\subsection{RF03:API - Relatorios}
+\label{requisito:relatoriosApi}
+\begin{enumerate}
+\item Listar a última promoção válida cadastrada e enviada pelo sistema;
+\item Listar o totalizador de orçamentos que:
+\begin{enumerate}
+\item Vencem hoje;
+\item Vencem nessa semana;
+\item Não forma consolidados.
+\end{enumerate}
+\item Listar o top dez de:
+\begin{enumerate}
+\item Peças mais vendidadas;
+\item Serviços mais realizados;
+\end{enumerate}
+\item Totalizador de ordens de serviço.
+\end{enumerate}
+
+Contudo, um sistema deve também atender a requisitos que não são necessariamente regras do negócio do Software. Assim, de nada adianta ter um sistema seguro, interativo e confiável se ele consome muitos recursos do computador e demora para executar a suas rotinas internas. Um sistema lento é alvo de crítica dos usuários, mesmo que seja funcional. A \textit{performance} do software pode ser melhorada utilizando técnicas de programação orientada a objetos, gerenciamento de memória, \textit{threads} e otimização de código.
+  
+Dessa forma, foram definidos os seguintes Requisitos Não-Funcionais do sistema proposto, que podem ser observados na Tabela \ref{tabelaRequisitosNaoFuncionaisApi}.
+
+\begin{table}[htp]
+\centering
+\caption{Lista de Requisitos Não Funcionais API}
+\resizebox{14.0cm}{!} {
+\begin{tabular}{|c|c|p{150}|}\hline
+Cod. Requisito	 & Nome  & Descrição\\ \hline
+RNF01:API &	Disponibilidade & O sistema deverá ter alta disponibilidade, por exemplo 99\% do tempo.
+\\ \hline
+RNF02:API &	Processamento & O sistema deverá processo N requisições por um determinado tempo.
+\\ \hline
+RNF03:API &	Confiabilidade & O sistema não deverá apresentar aos usuários quaisquer dados de cunho privativo.
+ \\ \hline
+\end{tabular}
+}
+\label{tabelaRequisitosNaoFuncionaisApi}
+\end{table}
 
 \section{Requisitos Cliente WEB}
 \label{requisitos:clienteWeb}
-Os requisitos de software descrevem explicitamente as funcionalidades e serviços do sistema. O requisitos funcionais são responsaveis por conjunto de entradas, seu comportamento e sua saída, ou seja, envolve cálculos, lógicas de trabalho, manipulação e processamento de dados, entre outros. As subseções asseguir descrevem os requisistos funcionais da sistema cliente Web versão WEB.
+A versão Web da aplicação será a interface de integração para o centro automotivo. Ela deverá de forma simples, encapsular as regras de negócio e apresentá-las a seus usuários. 
 
 \subsection{RF01:WEB - Autenticação}
 \label{requisito:autenticacao}
@@ -374,10 +489,7 @@ O painel de indicadores apresentará ao cliente, relatários básicos
 \end{enumerate}
 \end{enumerate}
 
-
-Contudo, um sistema deve também atender a requisitos que não são necessariamente regras do negócio do Software. Assim, de nada adianta ter um sistema seguro, interativo e confiável se ele consome muitos recursos do computador e demora para executar a suas rotinas internas. Um sistema lento é alvo de crítica dos usuários, mesmo que seja funcional. A \textit{performance} do software pode ser melhorada utilizando técnicas de programação orientada a objetos, gerenciamento de memória, \textit{threads} e otimização de código.
-  
-Dessa forma, foram definidos os seguintes Requisitos Não-Funcionais do sistema proposto, que podem ser observados na Tabela \ref{tabelaRequisitosNaoFuncionais}.
+Requisitos Não-Funcionais do cliente Web podem ser observados na Tabela \ref{tabelaRequisitosNaoFuncionaisWeb}.
 
 \begin{table}[htp]
 \centering
@@ -386,34 +498,71 @@ Dessa forma, foram definidos os seguintes Requisitos Não-Funcionais do sistema p
 \begin{tabular}{|c|c|p{150}|}\hline
 
 Cod. Requisito	 & Nome  & Descrição\\ \hline
-RNF01 & O sistema operacional do sistema & O sistema deverá ser acessado por varios tipos de sistemas operacionais ao mesmo tempo.
-\\\hline
-RNF02 &	O desenvolvimento do sistema & O sistema deverá ser desenvolvido ele toda em linguagem de programação JavaScript.
+RNF01:WEB &	Codigo & O sistema deverá ser desenvolvido em JavaScript, Html5 e Css3.
 \\ \hline
-RNF03 &	Objetos JSON & O sistema devera se comunicar com uma API que fornecerá os recursos necessários através de uma arquitetura do tipo RestFull. As respostas deverão ser no formato JSON.
- \\ \hline
-RNF04 &	Intregação com outro sistema & O sistema deverá ser feito que possibilite a intregração com outro sistema.
- \\ \hline
-RNF05 &	O sistema deverá ter alta disponibilidade & O sistema deverá ter alta disponibilidade, por exemplo 99\% do tempo.
+RNF02:WEB &	Confiabilidade & O sistema não deverá apresentar aos usuários quaisquer dados de cunho privativo.
 \\ \hline
-RNF06 &	Tempo de processamento & O sistema deverá processo N requisições por um determinado tempo.
+RNF03:WEB &	Visual & A itenterface deve seguir a linguagem visual definidas no guia \href{https://material.io/guidelines/}{Material design} da Google.
 \\ \hline
-RNF07 &	Confiabilidade & O sistema não deverá apresentar aos usuários quaisquer dados de cunho privativo.
+RNF04:WEB &	Navegadores & Deve atender aos seguintes navegadores:
+\begin{enumerate}
+\item \href{https://www.google.com.br/chrome/browser/desktop/}{Gloogle chrome}
+\item \href{https://www.mozilla.org/pt-BR/firefox/new/}{Firefox}
+\item \href{http://www.opera.com/pt-br}{Opera}
+\item \href{https://support.apple.com/pt_BR/downloads/safari}{Safari}
+\end{enumerate}
+O navegador Internet explorer não é requisito funcional e não funcional.
 \\ \hline
 \end{tabular}
 }
-\label{tabelaRequisitosNaoFuncionais}
+\label{tabelaRequisitosNaoFuncionaisWeb}
 \end{table}
 
-
-
+\clearpage
 
 \section{Requisitos Cliente Mobile}
 \label{requisitos:clienteMobile}
+A interface mobile deve ser desenvolvida em Android nativo e atender as versões: mínima SDK 19, máxima SDK 25. O aplicativo deve ser disponibilizado para instalações nos dispositivos através da loja de aplicativos do Google, \href{https://play.google.com/store}{Google play}
 
 \subsection{RF01:MOBILE - Autenticação}
 \label{requisito:autenticacaoMobile}
-Para ter acesso aos dados,  em seu primeiro acesso, o aplicativo deverá apresentar um formulário em que o usuário deverá informar seu código de usuário, fornecido pelo centro automotivo, e seu número de documento e caso seja um usuário válido, deverá ser redirecionado para a primeira tela do aplicativo. Essa ação deve ser somente necessária no primeiro acesso. Caso não seja um usuário válido, ou tenha digitado alguma informação errada, uma mensagem deve ser apresentada ao usuário.
+\begin{enumerate}
+\item Para ter acesso aos dados,  em seu primeiro acesso, o aplicativo deverá apresentar um formulário em que o usuário deverá informar seu código de usuário, fornecido pelo centro automotivo, e seu número de documento e caso seja um usuário válido, deverá ser redirecionado para a primeira tela do aplicativo;
+\item A autenticação deve ser somente requerida no primeiro acesso do usuário;
+\item Caso não seja um usuário válido, ou tenha digitado alguma informação errada, uma mensagem deve ser apresentada contendo informações do erro ocorrido.
+\end{enumerate}
+
+\subsection{RF02:MOBILE - Cache de consultas}
+\label{requisito:cacheConsultas}
+\begin{enumerate}
+\item Para otimizar e economizar o acesso aos dados na API, o cliente mobile deve manter em cache as informações do usuário;
+\item Somente no primeiro acesso todos os dados devem ser consultados, nos demais, para atualizar as informações, a ação deve partir do usuário utilizando os métodos de atualização disponíveis no aplicativo.
+\end{enumerate}
+
+\subsection{RF02:MOBILE - Inicio}
+\label{requisito:incioMobile}
+\begin{enumerate}
+\item Apresentar para o cliente um gráfico contendo o somatório das ordens de serviço realizadas no centro automotivo;
+\item Apresentar os últimos orçamentos em aberto, ou seja, com data de validade maior que a data atual apenas para a conferência do usuário;
+\item Uma notificação, apresentada na caixa de notificações do sistema, deve informar ao usuário quando uma ordem de serviço for finalizada. Essa ação partirá do cliente Web \ref{requisito:ordemDeServico}
+\end{enumerate}
+
+\subsection{RF03:MOBILE - Relatório}
+\label{requisito:relatorioMobile}
+\begin{enumerate}
+\item O relatório deverá apresentar uma listagem com todas as ordens de serviço realizadas pelo usuário;
+\item Nessa listagem devem conter apenas ordens de serviço com o status finalizado;
+\item Deve possibilitar através de um clique em um item, acessar de forma completa a ordem de serviço em questão, ou seja, visualizar informações mais detalhadas como peças e serviços;
+\item Possibilitar que o usuário gere um arquivo em formato pdf com as informações da ordem de serviço em questão.
+\end{enumerate}
+
+\subsection{RF04:MOBILE - Mensagens}
+\label{requisito:mensagensMobile}
+\begin{enumerate}
+\item A última mensagem vigente deve ser apresentada;
+\item Em caso de uma nova mensagem, uma notificação deve ser apresentada na caixa de notificações do sistema contendo os dados básico dessa notificação como título e resumo e ao clicar no item, o usuário deverá ser redirecionado para a aba de notificações do aplicativo;
+\item A ação de notificação de mensagem partirá do cliente Web \ref{requisito:aviso}
+\end{enumerate}
 
 \section{Mapa Mental}
 \label{sec:mapaMental}
@@ -422,94 +571,21 @@ Um mapa mental é um diagrama que se elabora para representar ideias, tarefas ou 
 
 A sua principal função é geração, visualização e classificação taxonómica de ideias, pelo que serve de ajuda para o estudo, a organização de informações, a tomada de decisões e a escrita. Num mapa mental, os elementos são incluidos de forma intuitiva de acordo com a importancia dos conceitos, embora se organizem nos grupos, nos ramos ou nas áreas. Segundo especialistas, este tipo de representação gráfica auxilia a memória. Em um mapa mental, é recomendado utilizar um mínimo de palavras e iniciar a tarefa sempre no centro da folha, onde se coloca portanto a ideia central. Abaixo ilustração do mapa mental do sistema.
 
-%Incluir Mapa Global
-%\begin{figure}[H]
-%\centering
-%\includegraphics[width=15cm]{imagens/MapaMentalGlobal.png}
-%\includegraphics[scale=0.50]{imagens/MapaMentalGlobal.png}
-%\caption{ Mapa Mental do sistema computacional desenvolvido}
-%\label{Mapa Mental do sistema computacional desenvolvido}
-%\label{fig:MapaMentalGlobal}
-%\end{figure}
-
-%Como é possivel observar através da Figura \ref{fig:MapaMentalGlobal}, o sistema e constituido por repartições, que se comunicam entre elas. Abaixo temos o mapa mental do sistema Fatesg-API no qual tem a finalidade de interligar as demais repartições do sistema
-
-%\begin{figure}[H]
-%\centering
-%\includegraphics[width=15cm]{imagens/MapaMentalFatesgApi.png}
-%\includegraphics[scale=0.50]{imagens/MapaMentalApi.png}
-%\caption{ Mapa Mental do sistema Fatesg-API}
-%\label{Mapa Mental do sistema Fatesg-API desenvolvido}
-%\end{figure}
-
-%O modulo do Corporatum da a possibilidade de realizar vários tipos de cadastros, cadastros que são possíveis de se realizar e o que pode ser informado em cada um deles, cadastro de matriz, cadastro de instituição, cadastro de unidade de ensino, cadastro de curso, cadastro de colaborador, cadastro de aluno, cadastro de disciplina, cadastro de plano de ensino, cadastro de cronograma de aulas e cadastro de avaliações. Esses cadastros servirão de base para outros modulos.
-
-%\begin{figure}[H]
-%\centering
-%\includegraphics[width=15cm]{imagens/MapaMentalCorporatum.png}
-%\includegraphics[scale=0.50]{imagens/MapaMentalCorporatum.png}
-%\caption{ Mapa Mental do sistema Corporatum}
-%\label{Mapa Mental do sistema Corporatum desenvolvido}
-%\end{figure}
-
-%O modulo Sgpe tem a finalidade de gestão e elaboração de provas em instituição de ensino. Contará com a parte de cadastro e elaboração de prova e gerenciamento de questões. A principal função do sistema será na elaboração da prova, no qual possibilita recolhimento de questões elaboradas pelos docentes, sendo depois armazenadas em um banco de dados para que o coordenador de curso realize o procedimento de elaboração da prova. 
-
-%\begin{figure}[H]
-%\centering
-%\includegraphics[width=15cm]{imagens/MapaMentalSgep.png}
-%\includegraphics[scale=0.50]{imagens/MapaMentalSgep.png}
-%\caption{ Mapa Mental do sistema Sgpe}
-%\label{Mapa Mental do sistema Sgep desenvolvido}
-%\end{figure}
-
-%O modulo Estagio tem por finalidade ser um sistema computacional para a melhoria do processo de gestão de estágio, agilizar os processos de estágio, fazer controle de todo o processo de cadastro das empresas, divulgação das vagas de estágio, seleção dos alunos aptos a participarem do processo seletivo, matrícula dos alunos no programa de estágio e também possibilitar todo o processo de avaliação do desempenho do aluno no estágio, gerar relatórios que se fazerem necessários. Além das funcionalidades descritas acima, o sistema terá também a construção de um banco de dados com todas as informações referente ao estágio que posteriormente poderá ser consultado. O mapa mental a seguir não demonstra as funcionaliades do sistema devido que o mesmo será desenvolvido em trabalhos futuros.
-
-%\begin{figure}[H]
-%\centering
-%\includegraphics[width=15cm]{imagens/MapaMentalEstagio.png}
-%\includegraphics[scale=0.50]{imagens/MapaMentalEstagio.png}
-%\caption{Inicio do desenvolvimento do mapa mental do sistema Estagio}
-%\label{Mapa Mental do sistema Estagio}
-%\end{figure}
-
-%O modulo TCC tem a finalidade de ajudar no processo de Trabalho de Conclusão de Curso(TCC) agilizando os processos, fazendo controle de todo processo de inscrição junto a instiuição, designando orientadores de acordo com os requisistos do discente, consulta de trabalhos arquivados entre outras funções a serem analisadas. O mental a seguir não demonstra as funcionaliades do sistema devido que o mesmo será desenvolvido em trabalhos futuros.
-
-%\begin{figure}[H]
-%\centering
-%\includegraphics[width=15cm]{imagens/MapaMentalTcc.png}
-%\includegraphics[scale=0.50]{imagens/MapaMentalTcc.png}
-%\caption{Inicio do desenvolvimento do mapa mental do sistema TCC}
-%\label{Mapa Mental do sistema TCC}
-%\end{figure}
+\begin{figure}[H]
+\centering
+\includegraphics[width=15cm]{imagens/mapaMental.png}
+\caption{ Mapa Mental do sistema computacional desenvolvido}
+\label{Mapa Mental do sistema computacional desenvolvido}
+\label{fig:mapaMental}
+\end{figure}
 
 \section{Design do Software}
 \label{sec:arquitetura}
 
-O sistema pode ser acessado via internet pelo navegador web por rodar em um servidor que pode ser acessado de qualquer lugar do mundo via WWW (World Wide Web). A escolha da arquitetura orientada Web permite que varias maquinas acessem um abiente centralizado como mostra a figura.
-
-%\begin{figure}[H]
-%\centering
-%\includegraphics[scale=0.40]{imagens/ModeloSistemaWeb.png}
-%\caption{Modelo Sistema Web }
-%\label{Modelo Sistema Web }
-%\end{figure}
-%colar a fugura aqui
+O cliente Web pode ser acessado via internet pelo navegador que pode ser acessado de qualquer lugar do mundo via WWW (World Wide Web). A escolha da arquitetura orientada Web permite que varias maquinas acessem um abiente centralizado.
 
 Nessa estrutura, o navegador web e responsavel pela interpretação da linguagem HTML(Hyper Text Markup Language) que envia requisições dos dados quanto ao lado do provedor de dados. Esse protocolo  é chamado de HTTP(Hyper Text Transfer Protocol).
 
-No lado do provedor de dados, o servidor, está toda a complexidade do sistema em si onde são determinadas as questões como regras de negocio, requesitos como segurança e armazanamento de banco de dados.
+No lado do provedor de dados API, o serviço, está toda a complexidade do sistema em si onde são determinadas as questões como regras de negocio, requesitos como segurança e armazanamento de banco de dados.
 
 Uma grande vantagem do sistema para web é sua facil portabilidade, podendo migrar de ambiente pra outro sem a necessidade de muita configuração pós mudança.
-
-%Já o design de software trata dos componetes interno do sistema, que inclui o funcionamento dos sistema CORPORATUM e SGEP. Abaixo segue o diagrama de componentes dessa estrutura.
-
-%\begin{figure}[H]
-%\centering
-%\includegraphics[scale=0.33]{imagens/SistemaSgepCorporatum.png}
-%\caption{Arquitetura de software }
-%\label{Modelo Sistema Web }
-%\label{fig:SistemaSgepCorporatum}
-%\end{figure}
-
-%A API define um conjunto de classes que será comum para os demais modulos, como o Corporatum e o SGEP. O Modulo Corporatum concentra em cadastrar e manter os dados corporativos e também fornece mecanismos de acesso remoto para que outros sistemas consultem seus serviços através do WebService. O Modulo SGEP é responsável por cadastrar e manter um banco de questões,  bem como modelos de provas pré-cadastrados e gerar provas. O SGEP consome o WebService fornecido pelo Corporatum, obtendo dados já cadastrados e mantendo-os em sua base de dados. A figura \ref{fig:SistemaSgepCorporatum} pode-se identificar a iteração entre os componentes de cada modulo dos sistemas, componentes estes que serão demonstrados no Cap. \ref{sec:frameworksFerramentasAdotadas}
-%%% colocar aqui imagem do sistemas se comunicando
