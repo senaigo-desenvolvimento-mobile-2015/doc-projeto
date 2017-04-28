@@ -1,1 +1,1 @@
-\contentsline {lstlisting}{\numberline {5.1}Implementa o m\'etodo para requisi\c c\~oes ao servi\c co utilizando o Retrofit 2}{52}{lstlisting.369}
+\contentsline {lstlisting}{\numberline {5.1}Gerenciador das requisi\c c\~oes}{48}{lstlisting.368}

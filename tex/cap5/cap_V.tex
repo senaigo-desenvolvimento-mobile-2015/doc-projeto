@@ -1,57 +1,53 @@
 \chapter{Especificações técnicas}
 \label{cap:especificacoesTecnicas}
 
+As especificações técnicas (ET) descrevem, de forma precisa, completa e ordenada, os recursos, processos e procedimentos adotados na construção dos sistemas do projeto.
+
 \section{Diagramas da UML}
 \label{sec:diagramas}
-UML é uma linguagem que define uma série de artefatos que nos ajuda na tarefa de modelar e documentar os sistemas orientados a objetos que desenvolvemos. A maioria dos problemas encontrados em sistemas orientados a objetos tem sua origem na construção do modelo, no desenho do sistema. A UML não é uma metodologia de desenvolvimento, o que significa que ela não diz para você o que fazer primeiro e em seguida ou como projetar seu sistema, mas ela lhe auxilia a visualizar seu desenho e a comunicação entre objetos.\cite{d'souza:interface}
-
-A \textit{Unified Modeling Language}  - UML é uma especificação da Object Management Group - OMG (OMG, 1997 - 2011). É uma linguagem gráfica de modelagem para visualizar, especificar, construir e documentar os artefatos de sistemas de objetos distribuídos (UML, 2011). A UML possui treze modelos gráficos que estão divididos em duas categorias, os diagramas de aplicações estáticas que representam a estrutura e os diagramas de comportamentos, no entanto dentro desta última categoria, existe uma subcategoria que compõe os diagramas de interação \cite{Silva:2007:CiSE}.
-
-A categoria de diagramas de Estrutura inclui diagrama de classe, diagrama de objeto, diagrama de componentes, diagrama de estrutura composta, diagrama de pacote e diagrama de utilização\cite{Silva:2007:CiSE}. Os diagramas de Comportamento são: diagrama de caso de uso, diagrama de máquina de estados e diagrama de atividades. Em sua subcategoria Interação estão inclusos os diagramas de sequência, comunicação, visão geral de interação e por último, porém não menos importante o de temporização \cite{Silva:2007:CiSE}.
- 
-Na imagem a seguir podemos visualizar uma representação da organização dos modelos da UML.
+\textit{UML - Unified Modeling Language} é uma linguagem que define uma série de artefatos que nos ajuda na tarefa de modelar e documentar os sistemas orientados a objetos que desenvolvemos. A maioria dos problemas encontrados em sistemas orientados a objetos tem sua origem na construção do modelo, no desenho do sistema. 
 
 \begin{figure}[H]
 \centering
 \includegraphics[width=15cm]{imagens/diagramaUml.png}
-\caption{Diagrama de UML  }
-\label{Diagrama de UML }
+\caption{Representação dos diagramas da UML}
+\label{fig:diagramaUml}
 \end{figure}
+
+A \textit{UML} não é uma metodologia de desenvolvimento, o que significa que ela não diz para você o que fazer primeiro e em seguida ou como projetar seu sistema, mas ela lhe auxilia a visualizar seu desenho e a comunicação entre objetos \cite{d'souza:interface}.
+
+A \textit{UML} é uma especificação da \textit{Object Management Group - OMG (OMG, 1997 - 2011)}. É uma linguagem gráfica de modelagem para visualizar, especificar, construir e documentar os artefatos de sistemas de objetos distribuídos (UML, 2011). 
+
+A \textit{UML} possui treze modelos gráficos que estão divididos em duas categorias, os diagramas de aplicações estáticas que representam a estrutura e os diagramas de comportamentos, no entanto dentro desta última categoria, existe uma subcategoria que compõe os diagramas de interação \cite{Silva:2007:CiSE}. A categoria de diagramas de Estrutura inclui diagrama de classe, diagrama de objeto, diagrama de componentes, diagrama de estrutura composta, diagrama de pacote e diagrama de utilização\cite{Silva:2007:CiSE}. Os diagramas de Comportamento são: diagrama de caso de uso, diagrama de máquina de estados e diagrama de atividades. Em sua subcategoria Interação estão inclusos os diagramas de sequência, comunicação, visão geral de interação e por último, porém não menos importante o de temporização \cite{Silva:2007:CiSE}. 
+
+Pela Figura \ref{fig:diagramaUml} podemos visualizar uma representação da organização dos modelos da \textit{UML}.
 
 \subsection{Diagrama de Classe}
 \label{sec:diagramaClasse}
-É uma modelagem muito útil para o desenvolvimento de sistemas, pois define todas as classes que o sistema necessita possuir e é a base para a construção dos diagramas de comunicação, sequência e estados. O diagrama de classes representa a estrutura do sistema, recorrendo ao conceito de classe e suas relações. O modelo de classes resulta de um processo de abstração onde são identificados os objectos relevantes do sistema em estudo.
+É uma modelagem muito útil para o desenvolvimento de sistemas, pois define todas as classes que o sistema necessita possuir e é a base para a construção dos diagramas de comunicação, sequência e estados. O diagrama de classes representa a estrutura do sistema, recorrendo ao conceito de classe e suas relações. O modelo de classes resulta de um processo de abstração onde são identificados os objectos relevantes do sistema em estudo. A Figura \ref{fig:diagramaDeClasse} representa a estrutura de classes da \textit{API} do projeto.
 
-Cada classe é descrita através do seu nome, identificação de todos os seus atributos e identificação de todas as operações que traduzem o seu comportamento. O diagrama de classes mostra como cada classe se relaciona com as outras, tendo como objetivo, a satisfação dos requisitos funcionais definidos para o sistema em estudo. Qualquer classe e relação devem ter um nome elucidativo e claro para que o diagrama seja facilmente entendido. Depois de se terem identificado as classes e os seus atributos, há que identificar as relações que existem entre as diferentes classes, de forma a satisfazer os requisitos funcionais do sistema.
-
-É possível que na atividade de análise nem todos os atributos tenham seus tipos definidos. Neste caso, estes elementos poderão ser adicionados na atividade de projeto, na medida do necessário.  Além disso, os tipos abstratos de dados definidos nos papeis de associações poderão ser substituídos por tipos concretos \cite{bezerra2007princípios}
-
-O diagrama de de classes lista todos os conceitos do domínio que serão implementados no sistema e as relações entre os conceitos. Ele é muito importante pois define a estrutura do sistema a desenvolver. Elaborar de forma criteriosa diagramas de classes é um fator de sucesso de projetos de software por que, além do fato de ser um momento propenso à inserção de defeitos no software, são neles em que são transformados os problemas do usuário em uma solução computacional, servindo como uma ponte entre requisitos e codificação. Se esta ponte for mal projetada, o software também será.\cite{Silveira:2011}
-
-\subsection{Diagrama de Classe}
-\label{sec:diagramaDeClasse}
-
-Abaixo ilustração do Diagrama de Classes.
 \begin{figure}[H]
 \centering
-\includegraphics[width=11cm]{imagens/diagramaDeClasse.png}
-\caption{Diagrama de Classe }
-\label{Diagrama de Classe }
+\includegraphics[width=12cm]{imagens/diagramaDeClasse.png}
+\caption{Diagrama de Classe}
+\label{fig:diagramaDeClasse}
 \end{figure}
+
+Cada classe é descrita através do seu nome, identificação de todos os seus atributos e identificação de todas as operações que traduzem o seu comportamento. O diagrama de classes mostra como cada classe se relaciona com as outras, tendo como objetivo, a satisfação dos requisitos funcionais definidos para o sistema em estudo. Qualquer classe e relação devem ter um nome elucidativo e claro para que o diagrama seja facilmente entendido. Depois de se terem identificado as classes e os seus atributos, há que identificar as relações que existem entre as diferentes classes, de forma a satisfazer os requisitos funcionais do sistema. É possível que na atividade de análise nem todos os atributos tenham seus tipos definidos. Neste caso, estes elementos poderão ser adicionados na atividade de projeto, na medida do necessário.  Além disso, os tipos abstratos de dados definidos nos papeis de associações poderão ser substituídos por tipos concretos \cite{bezerra2007princípios}. O diagrama de de classes lista todos os conceitos do domínio que serão implementados no sistema e as relações entre os conceitos. Ele é muito importante pois define a estrutura do sistema a desenvolver. Elaborar de forma criteriosa diagramas de classes é um fator de sucesso de projetos de software por que, além do fato de ser um momento propenso à inserção de defeitos no software, são neles em que são transformados os problemas do usuário em uma solução computacional, servindo como uma ponte entre requisitos e codificação. Se esta ponte for mal projetada, o software também será \cite{Silveira:2011}.
 
 \subsection{Diagrama de Caso de Uso}
 \label{sec:diagramaCasoUso}
 
-O diagrama de casos de uso é um diagrama da UML cujo objetivo é representar um requisito do sistema que será automatizado. Considere como requisito uma necessidade do sistema. O diagrama ilustrado abaixo demostra as principais funcionalidade e os atores do sistema.
-
-Na figura \ref{fig:casoDeUso} é mostrado o diagrama de caso de uso do sistema que contém o Centro automotivo e seus clientes como atores de casos de usos. Os atores representam os usuarios de casos de uso desempenham quando interagem com sistema e os circulos suas possiveis interações. 
+O diagrama de casos de uso é um diagrama da \textit{UML} cujo objetivo é representar um requisito do sistema que será automatizado. Considere como requisito uma necessidade do sistema.
 
 \begin{figure}[H]
 \centering
-\includegraphics[width=15cm]{imagens/casoDeUso.png}
+\includegraphics[width=12cm]{imagens/casoDeUso.png}
 \caption{Caso de Uso }
 \label{fig:casoDeUso}
 \end{figure}
+
+Na Figura \ref{fig:casoDeUso} é mostrado o diagrama de caso de uso do sistema que contém o centro automotivo e seus clientes como atores de casos de usos. Os atores representam os usuarios de casos de uso desempenham quando interagem com sistema e os circulos suas possiveis interações. 
 
 \section{Banco De Dados }
 \label{sec:bancoDeDados}
@@ -80,149 +76,153 @@ O PostgreSQL oferece o mais baixo custo, reduzindo de forma significativa seus c
 \label{section:prototipacao}
 A prototipação é uma etapa fundamental na construção de software. Nesta etapa, é prudente que todos os envolvidos no projeto também estejam envolvidos em sua criação.
 
+\begin{figure}[H]
+\centering
+\includegraphics[width=14 cm]{imagens/loginFormulario.png}
+\caption{Protótipo - Tela login}
+\label{fig:loginFormulario}
+\end{figure}
+
 Dessa forma, as chances de acertar e criar um produto de qualidade são muito maiores. Apenas é preciso ter em mente que o protótipo é uma pequena parte de algo maior e que ele deve durar apenas o tempo necessário para que aja um direcionamento do sistema. No fim das contas, quem trará faturamento para a sua empresa é o software, não o protótipo. Mesmo com as métricas bem definidas e com os resultados na mão, chega uma hora em que é preciso abandonar o protótipo e se dedicar apenas ao software final. Nesses casos, quando o protótipo não possui uma arquitetura que possa evoluir, ele é chamado de descartável. É possível também criar um protótipo do tipo evolutivo, onde o software vai nascendo à medida em que o protótipo evolui. Protótipos podem melhorar a qualidade de requisitos e especificações fornecidas aos desenvolvedores. Após a versão final do software, qualquer tipo de mudança poderá aumentar exponencialmente o custo do software, além de estourar os prazos definidos no início.
 
 Nos últimos dez anos, tornou-se comum uma filosofia de prototipagem conhecida como “always beta”, ou sempre beta. Popular em empresas de internet, significa que o software será permanentemente um protótipo e que ele irá sendo melhorado de acordo com as necessidades do usuário.
 
-Um software normalmente é reproduzido em cópias originais e seu código-fonte é único, porém tem complexidades suficientes para necessitar de protótipos antes de seu total desenvolvimento. Os protótipos de software são representações que descrevem todas as características funcionais do software, ou seja, aquelas que serão utilizadas no dia-a-dia, pelo usuário.\cite{rodriguescurso}
-
-O usuário do sistema não tem, nem haveria de ter, muito conhecimento técnico para entender a documentação da fase de analise e projeto, por isso, os protótipos de software são ferramentas uteis para uma comunicação clara com o usuário. Ao protótipar estaremos permitindo que o usuário conheça o sistema antes mesmo de sua real codificação. \cite{rodriguescurso}
-
-\clearpage
-
-Seguem alguns protótipos funcionais do sistema.
-
 \begin{figure}[H]
 \centering
-\includegraphics[width=11 cm]{imagens/loginFormulario.png}
-\caption{Login}
-\label{fig:loginFormulario}
-\end{figure}
-
-\begin{figure}[H]
-\centering
-\includegraphics[width=11 cm]{imagens/pecasFormulario.png}
-\caption{Formulário peças}
+\includegraphics[width=14 cm]{imagens/pecasFormulario.png}
+\caption{Protótipo - Formulário de peças}
 \label{fig:pecaFormulario}
 \end{figure}
 
+Um software normalmente é reproduzido em cópias originais e seu código-fonte é único, porém tem complexidades suficientes para necessitar de protótipos antes de seu total desenvolvimento. Os protótipos de software são representações que descrevem todas as características funcionais do software, ou seja, aquelas que serão utilizadas no dia-a-dia, pelo usuário.\cite{rodriguescurso}
+
 \begin{figure}[H]
 \centering
-\includegraphics[width=11 cm]{imagens/clienteFormulario.png}
-\caption{Formulário cliente}
+\includegraphics[width=14 cm]{imagens/clienteFormulario.png}
+\caption{Protótipo - Formulário cliente}
 \label{fig:clienteFormulario}
 \end{figure}
 
+O usuário do sistema não tem, nem haveria de ter, muito conhecimento técnico para entender a documentação da fase de analise e projeto, por isso, os protótipos de software são ferramentas uteis para uma comunicação clara com o usuário. Ao protótipar estaremos permitindo que o usuário conheça o sistema antes mesmo de sua real codificação. \cite{rodriguescurso}
 
-\section{Codígo}
+As Figuras \ref{fig:loginFormulario}, \ref{fig:pecaFormulario} e \ref{fig:clienteFormulario} representam alguns protótipos do sistema.
+
+
+\section{Código}
 \label{sec:codigo}
 
 \lstinputlisting[
 	language=JAVA, 
 	basicstyle=\tiny,
-	label=recommenderIntro,
-	caption={Implementa o método para requisições ao serviço utilizando o Retrofit 2}
+	label=cod:retrofit,
+	caption={Gerenciador das requisições}
 ]{./prog/RecommenderIntro.java}
 
-Essa porção de código representa o modo de como as requisições devem ser realizadas pelo cliente mobile. A biblioteca Retrofit 2 é responsável por gerenciá-las. Sobre a API, um fork do projeto utilizado pode ser acessado em meu repositório no \href{https://github.com/nogsantos/nodal}{Github}
+O Código \ref{cod:retrofit} representa o modo de como as requisições devem ser realizadas pelo cliente mobile. A biblioteca Retrofit é responsável por gerenciá-las. 
 
 \section{Frameworks e Ferramentas}
 \label{sec:frameworksFerramentasAdotadas}
+
+\textit{Framework} em computação pode ser definido como uma abstração na qual o software que fornece funcionalidade genérica pode ser alterado seletivamente por código adicional. Em sistemas de computador, uma estrutura é muitas vezes uma estrutura em camadas indicando que tipo de programas podem ou devem ser construídos e como eles se inter-relacionariam. Algumas estruturas de sistema de computador também incluem programas reais, especificam interfaces de programação ou oferecem ferramentas de programação para usar os \textit{frameworks}. Um \textit{framework} pode ser para um conjunto de funções dentro de um sistema e como elas se inter-relacionam; As camadas de um sistema operacional; As camadas de um subsistema de aplicação; Como a comunicação deve ser padronizada em algum nível de uma rede; e assim por diante. Um quadro é geralmente mais abrangente do que um protocolo e mais prescritivo do que uma estrutura.
+
+Ferramentas, para este projeto, podem ser definidas como programas de computador que os desenvolvedores de software usam para criar, depurar, manter ou suportar outros programas e aplicativos. O termo geralmente se refere a programas relativamente simples, que podem ser combinados juntos para realizar uma tarefa, tanto quanto se pode usar várias ferramentas manuais para corrigir um objeto físico. A capacidade de usar uma variedade de ferramentas de forma produtiva é uma marca de um bom engenheiro de software.
 
 \subsection{Práticas adotadas em todo o projeto}
 \label{sec:praticasAdotadas}
 
 \subsubsection{Versionamento de código com Git}
 \label{subsec:visualStudioCode}
-O Git é um sistema de controle de versão distribuído gratuito e de código aberto projetado para lidar com  projetos pequenos a muito grandes, com velocidade e eficiência. \cite{projeto:git}
+O Git é um sistema de controle de versão distribuído gratuito e de código aberto projetado para lidar com  projetos pequenos a muito grandes, com velocidade e eficiência \cite{projeto:git}.
 
 \subsubsection{Estratégia de branchs para git e release de software}
 \label{subsec:gitFlow}
-O git-flow é um conjunto de extensões para o git que provê operações de alto-nível para repositórios usando o modelo de branches do Vincent Driessen. \cite{projeto:gitFlow}
+O git-flow é um conjunto de extensões para o git que provê operações de alto-nível para repositórios usando o modelo de branches do Vincent Driessen \cite{projeto:gitFlow}.
 
 \subsubsection{Versionamento semântico}
 \label{subsec:versionamentoSemantico}
-Um conjunto simples de regras e requisitos que ditam como os números das versões são atribuídos e incrementados. \cite{projeto:versionamentoSemantico}
+Um conjunto simples de regras e requisitos que ditam como os números das versões são atribuídos e incrementados \cite{projeto:versionamentoSemantico}.
 
 \subsection{Ferramentas Api}
 \label{sec:ferramentasApi}
 
 \subsubsection{Visual Studio code}
 \label{subsec:visualStudioCode}
-Visual Studio Code é um editor de código-fonte desenvolvido pela Microsoft para Windows, Linux e macOS. Ele inclui suporte para depuração, controle Git incorporado, realce de sintaxe, conclusão de código inteligente, trechos e refatoração de código. \cite{projeto:visualStudio}
+Visual Studio Code é um editor de código-fonte desenvolvido pela Microsoft para Windows, Linux e macOS. Ele inclui suporte para depuração, controle Git incorporado, realce de sintaxe, conclusão de código inteligente, trechos e refatoração de código \cite{projeto:visualStudio}.
 
 \subsubsection{Docker}
 \label{subsec:docker}
-Docker é a plataforma de contêiner de software líder mundial. Os desenvolvedores usam o Docker para eliminar problemas de "problemas com a minha máquina" ao colaborar em código com colegas de trabalho. Os operadores usam Docker para executar e gerenciar aplicativos lado a lado em contêineres isolados para obter uma melhor densidade de computação. As empresas usam o Docker para construir gasodutos de entrega de software ágeis para enviar novas funcionalidades de forma mais rápida, segura e confiável para os aplicativos Linux e Windows Server. \cite{projeto:docker}
+Docker é a plataforma de contêiner de software líder mundial. Os desenvolvedores usam o Docker para eliminar problemas de "problemas com a minha máquina" ao colaborar em código com colegas de trabalho. Os operadores usam Docker para executar e gerenciar aplicativos lado a lado em contêineres isolados para obter uma melhor densidade de computação. As empresas usam o Docker para construir gasodutos de entrega de software ágeis para enviar novas funcionalidades de forma mais rápida, segura e confiável para os aplicativos Linux e Windows Server \cite{projeto:docker}.
 
 \subsection{Frameworks Api}
 \label{sec:frameworksApi}
 
+O código do \textit{framework} utilizado na construção da \textit{API} pode ser acessado em meu repositório no \href{https://github.com/nogsantos/nodal}{Github}.
+
 \subsubsection{NodeJs}
 \label{subsec:nodejs}
-Node foi projetado para criar aplicativos de rede escaláveis. \cite{projeto:nodejs}
+Node foi projetado para criar aplicativos de rede escaláveis \cite{projeto:nodejs}.
 
 \subsubsection{Nodal}
 \label{subsec:nodal}
-Nodal é um servidor web para Node.js, otimizado para a criação de serviços API de forma rápida e eficiente. Porém, nesse para esse projeto, um fork do repositório foi criado e várias customizações realizadas. \cite{projeto:nodal} \cite{projeto:nodalfork}
+Nodal é um servidor web para Node.js, otimizado para a criação de serviços \textit{API} de forma rápida e eficiente. Porém, nesse para esse projeto, um \textit{fork} do repositório foi criado e várias customizações realizadas \cite{projeto:nodal}, \cite{projeto:nodalfork}.
 
 \subsection{Ferramentas Web}
 \label{sec:ferramentasWeb}
 
-Visual Studio Code \ref{subsec:visualStudioCode}
+Visual Studio Code \ref{subsec:visualStudioCode}.
 
 \subsection{Frameworks Web}
 \label{sec:frameworksWeb}
 
 \subsubsection{Aurelia}
 \label{subsec:aurelia}
-Aurelia é um framework JavaScript que aproveita convenções simples e modernas, facilitando o desenvolvimento de soluções robustas e escaláveis em JavaScript. \cite{projeto:aurelia}
+Aurelia é um \textit{framework} JavaScript que aproveita convenções simples e modernas, facilitando o desenvolvimento de soluções robustas e escaláveis em JavaScript \cite{projeto:aurelia}.
 
 \subsubsection{Typescript}
 \label{subsec:typescript}
-O TypeScript compila um código JavaScript simples e limpo que é executado em qualquer navegador, em Node.js ou em qualquer mecanismo que suporte JavaScript. \cite{projeto:typescript}
+O TypeScript compila um código JavaScript simples e limpo que é executado em qualquer navegador, em Node.js ou em qualquer mecanismo que suporte JavaScript \cite{projeto:typescript}.
 
 \subsection{Ferramentas Mobile}
 \label{sec:ferramentasMobile}
 
 \subsubsection{Android Studio}
 \label{subsec:androidStudio}
-O Android Studio oferece as ferramentas mais rápidas para a criação de aplicativos em todos os tipos de dispositivos Android. \cite{projeto:androidstudio}
+O Android Studio oferece as ferramentas mais rápidas para a criação de aplicativos em todos os tipos de dispositivos Android \cite{projeto:androidstudio}.
 
 \subsection{Frameworks Mobile}
 \label{sec:frameworksMobile}
 
 \subsubsection{Firebase}
 \label{subsec:firebase}
-Firebase é uma plataforma móvel que ajuda você a desenvolver rapidamente aplicativos de alta qualidade, aumentar sua base de usuários e ganhar mais dinheiro. Firebase é composto de recursos complementares que você pode misturar e combinar para atender às suas necessidades. \cite{projeto:firebase}
+Firebase é uma plataforma móvel que ajuda você a desenvolver rapidamente aplicativos de alta qualidade, aumentar sua base de usuários e ganhar mais dinheiro. Firebase é composto de recursos complementares que você pode misturar e combinar para atender às suas necessidades \cite{projeto:firebase}.
 
 \subsubsection{Retrofit}
 \label{subsec:retrofit}
 
-Um cliente HTTP seguro para Android e Java. \cite{projeto:retrofit}
+Um cliente HTTP seguro para Android e Java \cite{projeto:retrofit}.
 
 \subsubsection{Glide}
 \label{subsec:glide}
-Uma biblioteca de armazenamento e de carregamento de imagens para Android centrada na rolagem suave. \cite{projeto:glide}
+Uma biblioteca de armazenamento e de carregamento de imagens para Android centrada na rolagem suave \cite{projeto:glide}.
 
 \subsubsection{RxAndroid}
 \label{subsec:rxandroid}
-Tornar a escrita componentes reativos em aplicativos Android fácil e sem complicações. \cite{projeto:rxandroid}
+Tornar a escrita componentes reativos em aplicativos Android fácil e sem complicações \cite{projeto:rxandroid}.
 
 \subsubsection{EventBus}
 \label{subsec:eventbus}
 
-O EventBus permite a comunicação central para classes desacopladas com apenas algumas linhas de código simplificando o código, removendo dependências e acelerando o desenvolvimento de aplicativos. \cite{projeto:eventbus}
+O EventBus permite a comunicação central para classes desacopladas com apenas algumas linhas de código simplificando o código, removendo dependências e acelerando o desenvolvimento de aplicativos  \cite{projeto:eventbus}.
 
 \subsubsection{Hellocharts}
 \label{subsec:hellocharts}
 
-Biblioteca de gráficos para Android. \cite{projeto:hellocharts}
+Biblioteca de gráficos para Android \cite{projeto:hellocharts}.
 
 \subsubsection{Realm}
 \label{subsec:realm}
 
-O Realm Java permite que você escreva de forma eficiente a camada de modelo de seu aplicativo de forma segura, persistente e rápida. \cite{projeto:realm}
+O Realm Java permite que você escreva de forma eficiente a camada de modelo de seu aplicativo de forma segura, persistente e rápida \cite{projeto:realm}.
 
 \subsection{Documentação}
 \label{sec:documentacao}
@@ -230,4 +230,4 @@ O Realm Java permite que você escreva de forma eficiente a camada de modelo de s
 \subsubsection{Astah Community}
 \label{subsec:astahcommunity}
 
-Astah Community é um software para modelagem UML. É desenvolvido na plataforma Java, o que garante sua portabilidade para qualquer plataforma que possui uma máquina virtual Java. Foi utilizado para a modelagem UML por ser uma ferramenta gratuita, e atender totalmente as necessidades do projeto ao desenvolver os diagramas UML.
+Astah Community é um software para modelagem UML. É desenvolvido na plataforma Java, o que garante sua portabilidade para qualquer plataforma que possui uma máquina virtual Java. Foi utilizado para a modelagem \textit{UML} por ser uma ferramenta gratuita, e atender totalmente as necessidades do projeto ao desenvolver os diagramas \textit{UML}.

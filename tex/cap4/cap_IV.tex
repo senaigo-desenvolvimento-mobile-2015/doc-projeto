@@ -1,12 +1,10 @@
 \chapter{Requisitos de software}
 \label{sec:requisitosDeSoftware}
-Esta seção tem por objetivo demonstrar o uso da Fundamentação teorica apresentada na Seção\ref{cap:fundamentacaoTeorica}. Assim, de maneira prática, apresentaremos o uso da Engenharia de Software na construção de um sistema computacional denominado \nomeTrabalho .
-
 Os requisitos de software descrevem explicitamente as funcionalidades e serviços do sistema. O requisitos funcionais são responsaveis por conjunto de entradas, seu comportamento e sua saída, ou seja, envolve cálculos, lógicas de trabalho, manipulação e processamento de dados, entre outros. As subseções asseguir descrevem os requisistos funcionais da sistema \nomeTrabalho .
 
 \section{Requisitos Servico API}
 \label{requisitos:api}
-A sigla API refere-se ao termo em inglês "Application Programming Interface" que significa em tradução para o português "Interface de Programação de Aplicativos". Será responsável por fornecer recursos para seus clientes mediante o fornecimento de um hash de autenticação. É responsável por realizar o acesso a base de dados e conter as regras de negócio do sistema. Deve prover a integração entre os sistemas.
+A sigla \textit{API} refere-se ao termo em inglês \textit{"Application Programming Interface"} que significa em tradução para o português "Interface de Programação de Aplicativos". Será responsável por fornecer recursos para seus clientes mediante o fornecimento de um hash de autenticação. É responsável por realizar o acesso a base de dados e conter as regras de negócio do sistema. Deve prover a integração entre os sistemas.
 
 \subsection{RF01:API - Requisições Geral}
 \label{requisito:requisicaoApi}
@@ -522,7 +520,7 @@ O navegador Internet explorer não é requisito funcional e não funcional.
 
 \section{Requisitos Cliente Mobile}
 \label{requisitos:clienteMobile}
-A interface mobile deve ser desenvolvida em Android nativo e atender as versões: mínima SDK 19, máxima SDK 25. O aplicativo deve ser disponibilizado para instalações nos dispositivos através da loja de aplicativos do Google, \href{https://play.google.com/store}{Google play}
+A interface mobile deve ser desenvolvida em Android nativo e atender as versões: mínima SDK 19, máxima SDK 25. O aplicativo deve ser disponibilizado para instalações nos dispositivos através da loja de aplicativos do Google, \href{https://play.google.com/store}{Google play}.
 
 \subsection{RF01:MOBILE - Autenticação}
 \label{requisito:autenticacaoMobile}
@@ -561,7 +559,7 @@ A interface mobile deve ser desenvolvida em Android nativo e atender as versões:
 \begin{enumerate}
 \item A última mensagem vigente deve ser apresentada;
 \item Em caso de uma nova mensagem, uma notificação deve ser apresentada na caixa de notificações do sistema contendo os dados básico dessa notificação como título e resumo e ao clicar no item, o usuário deverá ser redirecionado para a aba de notificações do aplicativo;
-\item A ação de notificação de mensagem partirá do cliente Web \ref{requisito:aviso}
+\item A ação de notificação de mensagem partirá do cliente Web \ref{requisito:aviso}.
 \end{enumerate}
 
 \section{Mapa Mental}
@@ -569,23 +567,24 @@ A interface mobile deve ser desenvolvida em Android nativo e atender as versões:
 
 Um mapa mental é um diagrama que se elabora para representar ideias, tarefas ou outros conceitos que se contram relacionados com uma palavra-chave ou uma ideia central, e cujas informações relacionadas em si são irradiadas.
 
-A sua principal função é geração, visualização e classificação taxonómica de ideias, pelo que serve de ajuda para o estudo, a organização de informações, a tomada de decisões e a escrita. Num mapa mental, os elementos são incluidos de forma intuitiva de acordo com a importancia dos conceitos, embora se organizem nos grupos, nos ramos ou nas áreas. Segundo especialistas, este tipo de representação gráfica auxilia a memória. Em um mapa mental, é recomendado utilizar um mínimo de palavras e iniciar a tarefa sempre no centro da folha, onde se coloca portanto a ideia central. Abaixo ilustração do mapa mental do sistema.
-
 \begin{figure}[H]
 \centering
-\includegraphics[width=15cm]{imagens/mapaMental.png}
-\caption{ Mapa Mental do sistema computacional desenvolvido}
+\includegraphics[width=14cm]{imagens/mapaMental.png}
+\caption{Mapa Mental do projeto}
 \label{Mapa Mental do sistema computacional desenvolvido}
 \label{fig:mapaMental}
 \end{figure}
 
+A sua principal função é geração, visualização e classificação taxonómica de ideias, pelo que serve de ajuda para o estudo, a organização de informações, a tomada de decisões e a escrita. Num mapa mental, os elementos são incluidos de forma intuitiva de acordo com a importancia dos conceitos, embora se organizem nos grupos, nos ramos ou nas áreas. Segundo especialistas, este tipo de representação gráfica auxilia a memória. Em um mapa mental, é recomendado utilizar um mínimo de palavras e iniciar a tarefa sempre no centro da folha, onde se coloca portanto a ideia central. Na Figura \ref{fig:mapaMental} é possível visualizar o mapa mental proposto para o projeto.
+
+
 \section{Design do Software}
 \label{sec:arquitetura}
 
-O cliente Web pode ser acessado via internet pelo navegador que pode ser acessado de qualquer lugar do mundo via WWW (World Wide Web). A escolha da arquitetura orientada Web permite que varias maquinas acessem um abiente centralizado.
+O cliente Web pode ser acessado via internet pelo navegador que pode ser acessado de qualquer lugar do mundo via \textit{WWW (World Wide Web)}. A escolha da arquitetura orientada Web permite que varias maquinas acessem um abiente centralizado.
 
-Nessa estrutura, o navegador web e responsavel pela interpretação da linguagem HTML(Hyper Text Markup Language) que envia requisições dos dados quanto ao lado do provedor de dados. Esse protocolo  é chamado de HTTP(Hyper Text Transfer Protocol).
+Nessa estrutura, o navegador web e responsavel pela interpretação da linguagem \textit{HTML(Hyper Text Markup Language)} que envia requisições dos dados quanto ao lado do provedor de dados. Esse protocolo  é chamado de \textit{HTTP(Hyper Text Transfer Protocol)}.
 
-No lado do provedor de dados API, o serviço, está toda a complexidade do sistema em si onde são determinadas as questões como regras de negocio, requesitos como segurança e armazanamento de banco de dados.
+No lado do provedor de dados \textit{API}, o serviço, está toda a complexidade do sistema em si onde são determinadas as questões como regras de negocio, requesitos como segurança e armazanamento de banco de dados.
 
 Uma grande vantagem do sistema para web é sua facil portabilidade, podendo migrar de ambiente pra outro sem a necessidade de muita configuração pós mudança.
