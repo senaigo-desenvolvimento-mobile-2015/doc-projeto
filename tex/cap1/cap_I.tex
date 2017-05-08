@@ -1,7 +1,32 @@
 \chapter{Introdução}
 \label{cap:introducao}
+Através de uma pesquisa empírica sobre o mercado de softwares para centros
+automotivos, é possível observar que em sua grande
+maioria, as soluções estão disponíveis apenas para a plataforma Windows e
+praticamente todos os que foram tomados na amostragem, não possuíam uma forma de
+integração com outras plataformas, nem mesmo com dispositivos móveis. 
 
-A principal finalidade do trabalho será a arquiteturação de uma plataforma \textit{Restful} integrada que seja altamente escalável, modular e ao mesmo tempo simplificada, aberta a agregação e desenvolvimento de novos módulos com um mínimo esforço necessário. E para isso, o presente trabalho terá como foco o desenvolvimento de uma solução para centros automotivos. Uma ferramenta simples onde será possível gerar orçamentos e convertê-los em ordens de serviço. Serão desenvolvidos três atores, uma \textit{API (Application Programming Interface)} ou \textit{WebService}, que funcionará de forma independente e será responsável por integrar e disponibilizar serviços para seus clientes. Um cliente Web responsável por controlar e cadastrar dados na \textit{API}, funcionará como a View, pensando em um sistema desenvolvido no modelo \textit{MVC (Model View Controller)} e um cliente móvel, desenvolvido em Android que será disponibilizado para os clientes (humano) do centro automotivo que possibilitará a consulta de seus dados, visualizar seus orçamentos e Ordens de serviço, receber informativos enviados pelo centro automotivo, ser informado quando uma Ordem de serviço for finalizada. O cliente web deverá contar com um controle de autenticação, tanto quanto o cliente móvel, isso quer dizer que, a \textit{API} deverá disponibilizar um serviço de geração de \textit{Hash} de segurança para identificação de seus clientes. Isso de se deve ao fato de que os dados gerados serão sensíveis e pessoais.
+\begin{figure}[!hbt]
+	\centering
+	\includegraphics[width=6cm]{imagens/listagemProgramasPart1.png} \quad
+	\includegraphics[width=6cm]{imagens/listagemProgramasPart2.png}
+	\caption{Listagem de programas amostragem}
+	\label{fig:listagemProgramasAmostragem}
+\end{figure}
+
+
+
+A Figura \ref{fig:listagemProgramasAmostragem} apresenta a pesquisa realizada
+no popular site para downloads Baixaki\footnote{http://www.baixaki.com.br}, em
+em $10$ de Abril de $2017$.
+
+
+Diante deste cenário, a principal finalidade do trabalho será a criação de uma
+arquitetura de Software baseada na plataforma \textit{Restful}. A plataforma \textit{Restful} possibilitará a criação e disponibilização de Serviços Web de maneira simples e transparente. Além disso, \textit{Restful} possibilita escalar, modularizar, e disponibilizar novos módulos da a aplicação criada com um esforço inferior a outras arquiteturas disponíveis como SOA por exemplo.
+
+A ferramenta proposta tem o objetivo de ser simples, onde será possível gerar orçamentos e convertê-los em ordens de serviço. Serão desenvolvidos três módulos para isso: a) uma \textit{API (Application Programming Interface)} ou \textit{WebService}, que funcionará de forma independente e será responsável por integrar e disponibilizar serviços para seus clientes; b) um cliente Web responsável por controlar e cadastrar dados na \textit{API}, funcionará como a View, pensando em um sistema desenvolvido no modelo \textit{MVC (Model View Controller)}; c) e um cliente móvel, desenvolvido em Android para que seja possível disponibilizar a aplicação aos usuários. O módulo descrito no Item c, tem o objetivo também de ser utilizado pelos clientes do centro automotivo, permitindo que eles possam consultar seus dados, visualizar seus orçamentos e Ordens de serviço, receber informativos enviados pelo centro automotivo, e por fim, ser informado quando uma Ordem de serviço for finalizada. 
+
+O cliente web contará com um controle de autenticação, assim como o cliente móvel, isso quer dizer que, o módulo \textit{API} deverá disponibilizar um serviço de geração de \textit{Hash} de segurança para identificação de seus clientes. Isso se deve ao fato de que os dados gerados serão sensíveis e pessoais, exigindo privacidade e controle da informação.
 
 \section{Finalidade}
 \label{sec:finalidade}
@@ -10,4 +35,4 @@ O presente trabalho tem por finalidade aplicar os conhecimentos adquiridos ao lo
 
 \section{Objetivo Geral}
 \label{sec:objetivoGeral}
-A pesquisa tem como objetivo geral: a integração entre os sistemas através de um serviço web \textit{RestFul}. 
+A trabalho tem como objetivo geral: a integração entre os sistemas através de um serviço web \textit{RestFul}. 

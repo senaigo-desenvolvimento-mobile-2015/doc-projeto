@@ -3,123 +3,6 @@
 
 As especificações técnicas (ET) descrevem, de forma precisa, completa e ordenada, os recursos, processos e procedimentos adotados na construção dos sistemas do projeto.
 
-\section{Diagramas da UML}
-\label{sec:diagramas}
-\textit{UML - Unified Modeling Language} é uma linguagem que define uma série de artefatos que nos ajuda na tarefa de modelar e documentar os sistemas orientados a objetos que desenvolvemos. A maioria dos problemas encontrados em sistemas orientados a objetos tem sua origem na construção do modelo, no desenho do sistema. 
-
-\begin{figure}[H]
-\centering
-\includegraphics[width=15cm]{imagens/diagramaUml.png}
-\caption{Representação dos diagramas da UML}
-\label{fig:diagramaUml}
-\end{figure}
-
-A \textit{UML} não é uma metodologia de desenvolvimento, o que significa que ela não diz para você o que fazer primeiro e em seguida ou como projetar seu sistema, mas ela lhe auxilia a visualizar seu desenho e a comunicação entre objetos \cite{d'souza:interface}.
-
-A \textit{UML} é uma especificação da \textit{Object Management Group - OMG (OMG, 1997 - 2011)}. É uma linguagem gráfica de modelagem para visualizar, especificar, construir e documentar os artefatos de sistemas de objetos distribuídos (UML, 2011). 
-
-A \textit{UML} possui treze modelos gráficos que estão divididos em duas categorias, os diagramas de aplicações estáticas que representam a estrutura e os diagramas de comportamentos, no entanto dentro desta última categoria, existe uma subcategoria que compõe os diagramas de interação \cite{Silva:2007:CiSE}. A categoria de diagramas de Estrutura inclui diagrama de classe, diagrama de objeto, diagrama de componentes, diagrama de estrutura composta, diagrama de pacote e diagrama de utilização\cite{Silva:2007:CiSE}. Os diagramas de Comportamento são: diagrama de caso de uso, diagrama de máquina de estados e diagrama de atividades. Em sua subcategoria Interação estão inclusos os diagramas de sequência, comunicação, visão geral de interação e por último, porém não menos importante o de temporização \cite{Silva:2007:CiSE}. 
-
-Pela Figura \ref{fig:diagramaUml} podemos visualizar uma representação da organização dos modelos da \textit{UML}.
-
-\subsection{Diagrama de Classe}
-\label{sec:diagramaClasse}
-É uma modelagem muito útil para o desenvolvimento de sistemas, pois define todas as classes que o sistema necessita possuir e é a base para a construção dos diagramas de comunicação, sequência e estados. O diagrama de classes representa a estrutura do sistema, recorrendo ao conceito de classe e suas relações. O modelo de classes resulta de um processo de abstração onde são identificados os objectos relevantes do sistema em estudo. A Figura \ref{fig:diagramaDeClasse} representa a estrutura de classes da \textit{API} do projeto.
-
-\begin{figure}[H]
-\centering
-\includegraphics[width=12cm]{imagens/diagramaDeClasse.png}
-\caption{Diagrama de Classe}
-\label{fig:diagramaDeClasse}
-\end{figure}
-
-Cada classe é descrita através do seu nome, identificação de todos os seus atributos e identificação de todas as operações que traduzem o seu comportamento. O diagrama de classes mostra como cada classe se relaciona com as outras, tendo como objetivo, a satisfação dos requisitos funcionais definidos para o sistema em estudo. Qualquer classe e relação devem ter um nome elucidativo e claro para que o diagrama seja facilmente entendido. Depois de se terem identificado as classes e os seus atributos, há que identificar as relações que existem entre as diferentes classes, de forma a satisfazer os requisitos funcionais do sistema. É possível que na atividade de análise nem todos os atributos tenham seus tipos definidos. Neste caso, estes elementos poderão ser adicionados na atividade de projeto, na medida do necessário.  Além disso, os tipos abstratos de dados definidos nos papeis de associações poderão ser substituídos por tipos concretos \cite{bezerra2007princípios}. O diagrama de de classes lista todos os conceitos do domínio que serão implementados no sistema e as relações entre os conceitos. Ele é muito importante pois define a estrutura do sistema a desenvolver. Elaborar de forma criteriosa diagramas de classes é um fator de sucesso de projetos de software por que, além do fato de ser um momento propenso à inserção de defeitos no software, são neles em que são transformados os problemas do usuário em uma solução computacional, servindo como uma ponte entre requisitos e codificação. Se esta ponte for mal projetada, o software também será \cite{Silveira:2011}.
-
-\subsection{Diagrama de Caso de Uso}
-\label{sec:diagramaCasoUso}
-
-O diagrama de casos de uso é um diagrama da \textit{UML} cujo objetivo é representar um requisito do sistema que será automatizado. Considere como requisito uma necessidade do sistema.
-
-\begin{figure}[H]
-\centering
-\includegraphics[width=12cm]{imagens/casoDeUso.png}
-\caption{Caso de Uso }
-\label{fig:casoDeUso}
-\end{figure}
-
-Na Figura \ref{fig:casoDeUso} é mostrado o diagrama de caso de uso do sistema que contém o centro automotivo e seus clientes como atores de casos de usos. Os atores representam os usuarios de casos de uso desempenham quando interagem com sistema e os circulos suas possiveis interações. 
-
-\section{Banco De Dados }
-\label{sec:bancoDeDados}
-Na realidade econômica em que vivemos a disputa entre as empresas para conquistar uma fatia do mercado ou, pelo menos, manter os clientes que possui, as informações tornaram-se elementos essenciais para o bom funcionamento dos negócios. E se uma empresa pretende expandir seus negócios, é fundamental que as informações estejam disponíveis sempre que forem necessárias. Para isto, é imprescindível a utilização de um Sistema de Gerenciamento de Banco de Dados (SGBD).
-
-Atualmente existem diversos softwares gerenciadores de banco de dados disponíveis no mercado. É possível classificá-los quanto a sua distribuição que pode ser livre ou proprietária. Dentre os proprietários estão, entre outros, o Oracle® e o SQL Server®. Dentre os livres o PostgreSQL é o que mais se destaca por possuir recursos que o equipara aos bancos de dados proprietários. Este fator tem contribuído para que seu uso aumente significativamente. 
-
-Banco de dados é um conjunto de dados persistentes, com o intuito de armazenar informações de uma determinada organização. Esses dados são mantidos por um software chamado de Sistema Gerenciador de Banco de Dados (SGBD), onde os usuários desse sistema podem realizar busca, exclusão, inserção e alteração nesses arquivos de banco de dados \cite{date1985introdução}.
-
-Alguns autores definem que dados e informações tem o mesmo significado, por outro lado, outros definem dados como os valores fisicamente armazenados no banco de dados e informações como o significado gerado a partir de um determinado dado \cite{date1985introdução}.
-
-Neste projeto utilizamos o PostgreSQL por ser um banco de dados livre, avançado e seguro. Hoje o PostgreSQL é um poderoso software para gerenciamento de banco de dados, agregando algumas funções dos SGBDs mais avançados, como por exemplo, os softwares proprietários \textit{Oracle ou SQL Server}. É conhecido pela sua robustez e extrema segurança. Abaixo simbolo do PostgreSQL
-
-\begin{figure}[H]
-\centering
-\includegraphics[width=6cm]{imagens/postgreSQL.png}
-\caption{PostgreSQL}
-\label{PostgreSQL }
-\end{figure}
-
-O PostgreSQL oferece o mais baixo custo, reduzindo de forma significativa seus custos de administração, suporte e licenciamento e, ao mesmo tempo, fornecendo alta performance, confiabilidade e escalabilidade.
-
-É uma solução perfeita e viável para as necessidades de pequenas e médias empresas, sendo uma alternativa aos tradicionais Bancos de dados.
-
-\section{Prototipação}
-\label{section:prototipacao}
-A prototipação é uma etapa fundamental na construção de software. Nesta etapa, é prudente que todos os envolvidos no projeto também estejam envolvidos em sua criação.
-
-\begin{figure}[H]
-\centering
-\includegraphics[width=14 cm]{imagens/loginFormulario.png}
-\caption{Protótipo - Tela login}
-\label{fig:loginFormulario}
-\end{figure}
-
-Dessa forma, as chances de acertar e criar um produto de qualidade são muito maiores. Apenas é preciso ter em mente que o protótipo é uma pequena parte de algo maior e que ele deve durar apenas o tempo necessário para que aja um direcionamento do sistema. No fim das contas, quem trará faturamento para a sua empresa é o software, não o protótipo. Mesmo com as métricas bem definidas e com os resultados na mão, chega uma hora em que é preciso abandonar o protótipo e se dedicar apenas ao software final. Nesses casos, quando o protótipo não possui uma arquitetura que possa evoluir, ele é chamado de descartável. É possível também criar um protótipo do tipo evolutivo, onde o software vai nascendo à medida em que o protótipo evolui. Protótipos podem melhorar a qualidade de requisitos e especificações fornecidas aos desenvolvedores. Após a versão final do software, qualquer tipo de mudança poderá aumentar exponencialmente o custo do software, além de estourar os prazos definidos no início.
-
-Nos últimos dez anos, tornou-se comum uma filosofia de prototipagem conhecida como “always beta”, ou sempre beta. Popular em empresas de internet, significa que o software será permanentemente um protótipo e que ele irá sendo melhorado de acordo com as necessidades do usuário.
-
-\begin{figure}[H]
-\centering
-\includegraphics[width=14 cm]{imagens/pecasFormulario.png}
-\caption{Protótipo - Formulário de peças}
-\label{fig:pecaFormulario}
-\end{figure}
-
-Um software normalmente é reproduzido em cópias originais e seu código-fonte é único, porém tem complexidades suficientes para necessitar de protótipos antes de seu total desenvolvimento. Os protótipos de software são representações que descrevem todas as características funcionais do software, ou seja, aquelas que serão utilizadas no dia-a-dia, pelo usuário.\cite{rodriguescurso}
-
-\begin{figure}[H]
-\centering
-\includegraphics[width=14 cm]{imagens/clienteFormulario.png}
-\caption{Protótipo - Formulário cliente}
-\label{fig:clienteFormulario}
-\end{figure}
-
-O usuário do sistema não tem, nem haveria de ter, muito conhecimento técnico para entender a documentação da fase de analise e projeto, por isso, os protótipos de software são ferramentas uteis para uma comunicação clara com o usuário. Ao protótipar estaremos permitindo que o usuário conheça o sistema antes mesmo de sua real codificação. \cite{rodriguescurso}
-
-As Figuras \ref{fig:loginFormulario}, \ref{fig:pecaFormulario} e \ref{fig:clienteFormulario} representam alguns protótipos do sistema.
-
-
-\section{Código}
-\label{sec:codigo}
-
-\lstinputlisting[
-	language=JAVA, 
-	basicstyle=\tiny,
-	label=cod:retrofit,
-	caption={Gerenciador das requisições}
-]{./prog/RecommenderIntro.java}
-
-O Código \ref{cod:retrofit} representa o modo de como as requisições devem ser realizadas pelo cliente mobile. A biblioteca Retrofit é responsável por gerenciá-las. 
-
 \section{Frameworks e Ferramentas}
 \label{sec:frameworksFerramentasAdotadas}
 
@@ -127,10 +10,15 @@ O Código \ref{cod:retrofit} representa o modo de como as requisições devem ser r
 
 Ferramentas, para este projeto, podem ser definidas como programas de computador que os desenvolvedores de software usam para criar, depurar, manter ou suportar outros programas e aplicativos. O termo geralmente se refere a programas relativamente simples, que podem ser combinados juntos para realizar uma tarefa, tanto quanto se pode usar várias ferramentas manuais para corrigir um objeto físico. A capacidade de usar uma variedade de ferramentas de forma produtiva é uma marca de um bom engenheiro de software.
 
-\subsection{Práticas adotadas em todo o projeto}
-\label{sec:praticasAdotadas}
+Nas próximas Sub-Seções, serão descritos as ferramentas e as boas práticas
+adotadas no decorrer do desenvolvimento deste projeto.
 
-\subsubsection{Versionamento de código com Git}
+\subsection{Astah Community}
+\label{subsec:astahcommunity}
+
+Astah Community é um software para modelagem UML. É desenvolvido na plataforma Java, o que garante sua portabilidade para qualquer plataforma que possui uma máquina virtual Java. Foi utilizado para a modelagem \textit{UML} por ser uma ferramenta gratuita, e atender totalmente as necessidades do projeto ao desenvolver os diagramas \textit{UML}.
+
+\subsection{Versionamento de código com Git}
 \label{subsec:visualStudioCode}
 O Git é um sistema de controle de versão distribuído gratuito e de código aberto projetado para lidar com  projetos pequenos a muito grandes, com velocidade e eficiência \cite{projeto:git}.
 
@@ -224,10 +112,162 @@ Biblioteca de gráficos para Android \cite{projeto:hellocharts}.
 
 O Realm Java permite que você escreva de forma eficiente a camada de modelo de seu aplicativo de forma segura, persistente e rápida \cite{projeto:realm}.
 
-\subsection{Documentação}
-\label{sec:documentacao}
+\subsection{Codificação}
+\label{sec:codigo}
+Para a codificação do sistema foram utilizadas as tecnologias descritas no
+capítulo de Fundamentação Teórica \ref{cap:tecnologiasUtilizadas}, o banco de
+dados descrito na Seção \ref{sec:bancoDeDados} e os frameworks descritos na
+Seção \ref{sec:frameworksFerramentasAdotadas}.
 
-\subsubsection{Astah Community}
-\label{subsec:astahcommunity}
+ \lstinputlisting[
+	language=JAVA, 
+	basicstyle=\tiny,
+	label=cod:retrofit,
+	caption={Gerenciador das requisições}
+]{./prog/RecommenderIntro.java}
 
-Astah Community é um software para modelagem UML. É desenvolvido na plataforma Java, o que garante sua portabilidade para qualquer plataforma que possui uma máquina virtual Java. Foi utilizado para a modelagem \textit{UML} por ser uma ferramenta gratuita, e atender totalmente as necessidades do projeto ao desenvolver os diagramas \textit{UML}.
+Como exemplo de codificação, demonstramos o Código \ref{cod:retrofit}, que 
+representa o modo de como as requisições devem ser realizadas pelo cliente mobile. A biblioteca Retrofit é responsável por gerenciá-las.
+
+
+\section{Diagramas da UML}
+\label{sec:diagramas}
+\textit{UML - Unified Modeling Language} é uma linguagem que define uma série de artefatos que nos ajuda na tarefa de modelar e documentar os sistemas orientados a objetos que desenvolvemos. A maioria dos problemas encontrados em sistemas orientados a objetos tem sua origem na construção do modelo, no desenho do sistema. 
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=15cm]{imagens/diagramaUml.png}
+\caption{Representação dos diagramas da UML}
+\label{fig:diagramaUml}
+\end{figure}
+
+A \textit{UML} não é uma metodologia de desenvolvimento, o que significa que ela não diz para você o que fazer primeiro e em seguida ou como projetar seu sistema, mas ela lhe auxilia a visualizar seu desenho e a comunicação entre objetos \cite{d'souza:interface}.
+
+A \textit{UML} é uma especificação da \textit{Object Management Group - OMG (OMG, 1997 - 2011)}. É uma linguagem gráfica de modelagem para visualizar, especificar, construir e documentar os artefatos de sistemas de objetos distribuídos (UML, 2011). 
+
+A \textit{UML} possui treze modelos gráficos que estão divididos em duas categorias, os diagramas de aplicações estáticas que representam a estrutura e os diagramas de comportamentos, no entanto dentro desta última categoria, existe uma subcategoria que compõe os diagramas de interação \cite{Silva:2007:CiSE}. A categoria de diagramas de Estrutura inclui diagrama de classe, diagrama de objeto, diagrama de componentes, diagrama de estrutura composta, diagrama de pacote e diagrama de utilização\cite{Silva:2007:CiSE}. Os diagramas de Comportamento são: diagrama de caso de uso, diagrama de máquina de estados e diagrama de atividades. Em sua subcategoria Interação estão inclusos os diagramas de sequência, comunicação, visão geral de interação e por último, porém não menos importante o de temporização \cite{Silva:2007:CiSE}. 
+
+Pela Figura \ref{fig:diagramaUml} podemos visualizar uma representação da organização dos modelos da \textit{UML}.
+
+\subsection{Diagrama de Classe}
+\label{sec:diagramaClasse}
+É uma modelagem muito útil para o desenvolvimento de sistemas, pois define todas as classes que o sistema necessita possuir e é a base para a construção dos diagramas de comunicação, sequência e estados. O diagrama de classes representa a estrutura do sistema, recorrendo ao conceito de classe e suas relações. O modelo de classes resulta de um processo de abstração onde são identificados os objectos relevantes do sistema em estudo. A Figura \ref{fig:diagramaDeClasse} representa a estrutura de classes da \textit{API} do projeto.
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=12cm]{imagens/diagramaDeClasse.png}
+\caption{Diagrama de Classe}
+\label{fig:diagramaDeClasse}
+\end{figure}
+
+Cada classe é descrita através do seu nome, identificação de todos os seus atributos e identificação de todas as operações que traduzem o seu comportamento. O diagrama de classes mostra como cada classe se relaciona com as outras, tendo como objetivo, a satisfação dos requisitos funcionais definidos para o sistema em estudo. Qualquer classe e relação devem ter um nome elucidativo e claro para que o diagrama seja facilmente entendido. Depois de se terem identificado as classes e os seus atributos, há que identificar as relações que existem entre as diferentes classes, de forma a satisfazer os requisitos funcionais do sistema. É possível que na atividade de análise nem todos os atributos tenham seus tipos definidos. Neste caso, estes elementos poderão ser adicionados na atividade de projeto, na medida do necessário.  Além disso, os tipos abstratos de dados definidos nos papeis de associações poderão ser substituídos por tipos concretos \cite{bezerra2007princípios}. O diagrama de de classes lista todos os conceitos do domínio que serão implementados no sistema e as relações entre os conceitos. Ele é muito importante pois define a estrutura do sistema a desenvolver. Elaborar de forma criteriosa diagramas de classes é um fator de sucesso de projetos de software por que, além do fato de ser um momento propenso à inserção de defeitos no software, são neles em que são transformados os problemas do usuário em uma solução computacional, servindo como uma ponte entre requisitos e codificação. Se esta ponte for mal projetada, o software também será \cite{Silveira:2011}.
+
+\subsection{Diagrama de Caso de Uso}
+\label{sec:diagramaCasoUso}
+
+O diagrama de casos de uso é um diagrama da \textit{UML} cujo objetivo é representar um requisito do sistema que será automatizado. Considere como requisito uma necessidade do sistema.
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=12cm]{imagens/casoDeUso.png}
+\caption{Caso de Uso }
+\label{fig:casoDeUso}
+\end{figure}
+
+Na Figura \ref{fig:casoDeUso} é mostrado o diagrama de caso de uso do sistema que contém o centro automotivo e seus clientes como atores de casos de usos. Os atores representam os usuarios de casos de uso desempenham quando interagem com sistema e os circulos suas possiveis interações. 
+
+\section{Banco De Dados }
+\label{sec:bancoDeDados}
+Na realidade econômica em que vivemos a disputa entre as empresas para conquistar uma fatia do mercado ou, pelo menos, manter os clientes que possui, as informações tornaram-se elementos essenciais para o bom funcionamento dos negócios. E se uma empresa pretende expandir seus negócios, é fundamental que as informações estejam disponíveis sempre que forem necessárias. Para isto, é imprescindível a utilização de um Sistema de Gerenciamento de Banco de Dados (SGBD).
+
+Atualmente existem diversos softwares gerenciadores de banco de dados disponíveis no mercado. É possível classificá-los quanto a sua distribuição que pode ser livre ou proprietária. Dentre os proprietários estão, entre outros, o Oracle® e o SQL Server®. Dentre os livres o PostgreSQL é o que mais se destaca por possuir recursos que o equipara aos bancos de dados proprietários. Este fator tem contribuído para que seu uso aumente significativamente. 
+
+Banco de dados é um conjunto de dados persistentes, com o intuito de armazenar informações de uma determinada organização. Esses dados são mantidos por um software chamado de Sistema Gerenciador de Banco de Dados (SGBD), onde os usuários desse sistema podem realizar busca, exclusão, inserção e alteração nesses arquivos de banco de dados \cite{date1985introdução}.
+
+Alguns autores definem que dados e informações tem o mesmo significado, por outro lado, outros definem dados como os valores fisicamente armazenados no banco de dados e informações como o significado gerado a partir de um determinado dado \cite{date1985introdução}.
+
+Neste projeto utilizamos o PostgreSQL por ser um banco de dados livre, avançado
+e seguro. Hoje o PostgreSQL é um poderoso software para gerenciamento de banco
+de dados, agregando algumas funções dos SGBDs mais avançados, como por exemplo,
+os softwares proprietários \textit{Oracle ou SQL Server}. É conhecido pela sua
+robustez e extrema segurança. Abaixo, na Figura \ref{PostgreSQL} a logo do
+Banco de Dados PostgreSQL.
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=6cm]{imagens/postgreSQL.png}
+\caption{PostgreSQL}
+\label{PostgreSQL}
+\end{figure}
+
+O PostgreSQL oferece o mais baixo custo, reduzindo de forma significativa seus custos de administração, suporte e licenciamento e, ao mesmo tempo, fornecendo alta performance, confiabilidade e escalabilidade.
+
+É uma solução perfeita e viável para as necessidades de pequenas e médias empresas, sendo uma alternativa aos tradicionais Bancos de dados.
+
+\section{Prototipação}
+\label{section:prototipacao}
+A prototipação é uma etapa fundamental na construção de software. Nesta etapa, é prudente que todos os envolvidos no projeto também estejam envolvidos em sua criação.
+Ao envolver todos os interessados no projeto, \textit{stakeholders}, as chances
+de acertar e criar um produto de qualidade são muito maiores. Deve-se ter
+em mente que o protótipo é uma forma de validação de requisitos, e é uma pequena
+parte de algo maior e que ele deve durar apenas o tempo necessário para que aja
+um direcionamento do sistema. 
+No fim das contas, quem trará faturamento para a
+sua empresa é o software, não o protótipo. Mesmo com as métricas bem definidas e
+com os resultados na mão, chega uma hora em que é preciso abandonar o
+protótipo e se dedicar apenas ao software final. 
+
+Nesses casos, quando o protótipo não possui uma arquitetura que possa evoluir,
+ele é chamado de descartável. É possível também criar um protótipo do tipo evolutivo, onde o
+software vai nascendo à medida em que o protótipo evolui. Protótipos podem
+melhorar a qualidade de requisitos e especificações fornecidas aos
+desenvolvedores. Após a versão final do software, qualquer tipo de mudança
+poderá aumentar exponencialmente o custo do software, além de estourar os prazos
+definidos no início.   
+
+A Figura \ref{fig:loginFormulario} apresenta a tela inicial do sistema, onde o
+usuário deverá entrar com suas credenciais de acesso.
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=14 cm]{imagens/loginFormulario.png}
+\caption{Protótipo - Tela login}
+\label{fig:loginFormulario}
+\end{figure}
+
+Nos últimos dez anos, tornou-se comum uma filosofia de prototipagem conhecida
+como \textit{always beta}, ou sempre beta. Popular em empresas de internet,
+significa que o software será permanentemente um protótipo e que ele irá sendo melhorado de acordo com as necessidades do usuário.
+
+A Figura \ref{fig:pecaFormulario} apresenta uma forma de alteração das
+informações acerca do Produto. Note que do ponto de vista de implementação, esta
+funcionalidade (Alterar Produto) poderia ser criada de várias maneiras.
+
+ \begin{figure}[H]
+\centering
+\includegraphics[width=14 cm]{imagens/pecasFormulario.png}
+\caption{Protótipo - Formulário de peças}
+\label{fig:pecaFormulario}
+\end{figure}
+
+Um software normalmente é reproduzido em cópias originais e seu código-fonte é
+único, porém tem complexidades suficientes para necessitar de protótipos antes
+de seu total desenvolvimento. Os protótipos de software são representações que
+descrevem todas as características funcionais do software, ou seja, aquelas que
+serão utilizadas no dia-a-dia, pelo usuário \cite{rodriguescurso}.      
+
+A Figura \ref{fig:clienteFormulario}, demonstra como ficará a Tela onde o
+usuário poderá alterar seus dados pessoais, dentro do sistema. 
+
+ \begin{figure}[H]
+\centering
+\includegraphics[width=14 cm]{imagens/clienteFormulario.png}
+\caption{Protótipo - Formulário cliente}
+\label{fig:clienteFormulario}
+\end{figure}
+
+O usuário do sistema não tem muito conhecimento
+técnico para entender a documentação da fase de análise e projeto, por isso, os
+protótipos de software são ferramentas uteis para uma comunicação clara com o usuário. 
+Ao protótipar estaremos permitindo que o usuário conheça o sistema antes mesmo
+de sua real codificação \cite{rodriguescurso}.

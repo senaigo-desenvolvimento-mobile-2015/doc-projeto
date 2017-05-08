@@ -11,89 +11,86 @@
 \BOOKMARK [0][-]{Doc-Start}{Lista de Figuras}{}% 11
 \BOOKMARK [0][-]{Doc-Start}{Lista de Tabelas}{}% 12
 \BOOKMARK [0][-]{chapter.1}{1 Introdu\347\343o}{}% 13
-\BOOKMARK [1][-]{section.2}{1.1 Finalidade}{chapter.1}% 14
-\BOOKMARK [1][-]{section.3}{1.2 Objetivo Geral}{chapter.1}% 15
-\BOOKMARK [0][-]{chapter.4}{2 Escopo do Projeto}{}% 16
-\BOOKMARK [1][-]{section.5}{2.1 Situa\347\343o Atual}{chapter.4}% 17
-\BOOKMARK [2][-]{subsection.7}{2.1.1 Motiva\347\343o}{section.5}% 18
-\BOOKMARK [2][-]{subsection.8}{2.1.2 Problema}{section.5}% 19
-\BOOKMARK [2][-]{subsection.9}{2.1.3 Justificativa}{section.5}% 20
-\BOOKMARK [1][-]{section.10}{2.2 Objetivos}{chapter.4}% 21
-\BOOKMARK [2][-]{subsection.11}{2.2.1 Objetivos Gerais}{section.10}% 22
-\BOOKMARK [2][-]{subsection.12}{2.2.2 Objetivos Espec\355ficos}{section.10}% 23
-\BOOKMARK [0][-]{chapter.13}{3 Fundamenta\347\343o Te\363rica}{}% 24
-\BOOKMARK [1][-]{section.14}{3.1 Android}{chapter.13}% 25
-\BOOKMARK [1][-]{section.16}{3.2 Doze-fatores}{chapter.13}% 26
-\BOOKMARK [1][-]{section.22}{3.3 Versionamento Sem\342ntico 2.0.0}{chapter.13}% 27
-\BOOKMARK [1][-]{section.26}{3.4 Web service RestFul}{chapter.13}% 28
-\BOOKMARK [2][-]{subsection.27}{3.4.1 Cliente-Servidor}{section.26}% 29
-\BOOKMARK [2][-]{subsection.29}{3.4.2 Stateless}{section.26}% 30
-\BOOKMARK [0][-]{chapter.31}{4 Requisitos de software}{}% 31
-\BOOKMARK [1][-]{section.32}{4.1 Requisitos Servico API}{chapter.31}% 32
-\BOOKMARK [2][-]{subsection.33}{4.1.1 RF01:API - Requisi\347\365es Geral}{section.32}% 33
-\BOOKMARK [2][-]{subsection.41}{4.1.2 RF02:API - Autentica\347\343o}{section.32}% 34
-\BOOKMARK [2][-]{subsection.42}{4.1.3 RF03:API - Pe\347a}{section.32}% 35
-\BOOKMARK [2][-]{subsection.48}{4.1.4 RF04:API - Servi\347o}{section.32}% 36
-\BOOKMARK [2][-]{subsection.54}{4.1.5 RF05:API - Cliente}{section.32}% 37
-\BOOKMARK [2][-]{subsection.60}{4.1.6 RF03:API - Ve\355culo}{section.32}% 38
-\BOOKMARK [2][-]{subsection.66}{4.1.7 RF03:API - Or\347amento}{section.32}% 39
-\BOOKMARK [2][-]{subsection.74}{4.1.8 RF03:API - Ordem de servi\347o}{section.32}% 40
-\BOOKMARK [2][-]{subsection.80}{4.1.9 RF03:API - Relatorios}{section.32}% 41
-\BOOKMARK [1][-]{section.91}{4.2 Requisitos Cliente WEB}{chapter.31}% 42
-\BOOKMARK [2][-]{subsection.92}{4.2.1 RF01:WEB - Autentica\347\343o}{section.91}% 43
-\BOOKMARK [2][-]{subsection.100}{4.2.2 RF02:WEB - Pe\347a}{section.91}% 44
-\BOOKMARK [2][-]{subsection.118}{4.2.3 RF03:WEB - Servi\347o}{section.91}% 45
-\BOOKMARK [2][-]{subsection.135}{4.2.4 RF04:WEB - Cliente}{section.91}% 46
-\BOOKMARK [2][-]{subsection.155}{4.2.5 RF05:WEB - Ve\355culo}{section.91}% 47
-\BOOKMARK [2][-]{subsection.179}{4.2.6 RF06:WEB - Or\347amento}{section.91}% 48
-\BOOKMARK [2][-]{subsection.217}{4.2.7 RF07:WEB - Ordem de Servi\347o}{section.91}% 49
-\BOOKMARK [2][-]{subsection.265}{4.2.8 RF08:WEB - Itens Or\347amentos e Ordens de Servi\347o}{section.91}% 50
-\BOOKMARK [2][-]{subsection.274}{4.2.9 RF09:WEB - Aviso}{section.91}% 51
-\BOOKMARK [2][-]{subsection.304}{4.2.10 RF10:WEB - Dashboard - Painel de indicadores}{section.91}% 52
-\BOOKMARK [1][-]{section.330}{4.3 Requisitos Cliente Mobile}{chapter.31}% 53
-\BOOKMARK [2][-]{subsection.331}{4.3.1 RF01:MOBILE - Autentica\347\343o}{section.330}% 54
-\BOOKMARK [2][-]{subsection.335}{4.3.2 RF02:MOBILE - Cache de consultas}{section.330}% 55
-\BOOKMARK [2][-]{subsection.338}{4.3.3 RF02:MOBILE - Inicio}{section.330}% 56
-\BOOKMARK [2][-]{subsection.342}{4.3.4 RF03:MOBILE - Relat\363rio}{section.330}% 57
-\BOOKMARK [2][-]{subsection.347}{4.3.5 RF04:MOBILE - Mensagens}{section.330}% 58
-\BOOKMARK [1][-]{section.351}{4.4 Mapa Mental}{chapter.31}% 59
-\BOOKMARK [1][-]{section.353}{4.5 Design do Software}{chapter.31}% 60
-\BOOKMARK [0][-]{chapter.354}{5 Especifica\347\365es t\351cnicas}{}% 61
-\BOOKMARK [1][-]{section.355}{5.1 Diagramas da UML}{chapter.354}% 62
-\BOOKMARK [2][-]{subsection.357}{5.1.1 Diagrama de Classe}{section.355}% 63
-\BOOKMARK [2][-]{subsection.359}{5.1.2 Diagrama de Caso de Uso}{section.355}% 64
-\BOOKMARK [1][-]{section.361}{5.2 Banco De Dados }{chapter.354}% 65
-\BOOKMARK [1][-]{section.363}{5.3 Prototipa\347\343o}{chapter.354}% 66
-\BOOKMARK [1][-]{section.367}{5.4 C\363digo}{chapter.354}% 67
-\BOOKMARK [1][-]{section.429}{5.5 Frameworks e Ferramentas}{chapter.354}% 68
-\BOOKMARK [2][-]{subsection.430}{5.5.1 Pr\341ticas adotadas em todo o projeto}{section.429}% 69
-\BOOKMARK [3][-]{section*.431}{Versionamento de c\363digo com Git}{subsection.430}% 70
-\BOOKMARK [3][-]{section*.432}{Estrat\351gia de branchs para git e release de software}{subsection.430}% 71
-\BOOKMARK [3][-]{section*.433}{Versionamento sem\342ntico}{subsection.430}% 72
-\BOOKMARK [2][-]{subsection.434}{5.5.2 Ferramentas Api}{section.429}% 73
-\BOOKMARK [3][-]{section*.435}{Visual Studio code}{subsection.434}% 74
-\BOOKMARK [3][-]{section*.436}{Docker}{subsection.434}% 75
-\BOOKMARK [2][-]{subsection.437}{5.5.3 Frameworks Api}{section.429}% 76
-\BOOKMARK [3][-]{section*.438}{NodeJs}{subsection.437}% 77
-\BOOKMARK [3][-]{section*.439}{Nodal}{subsection.437}% 78
-\BOOKMARK [2][-]{subsection.440}{5.5.4 Ferramentas Web}{section.429}% 79
-\BOOKMARK [2][-]{subsection.441}{5.5.5 Frameworks Web}{section.429}% 80
-\BOOKMARK [3][-]{section*.442}{Aurelia}{subsection.441}% 81
-\BOOKMARK [3][-]{section*.443}{Typescript}{subsection.441}% 82
-\BOOKMARK [2][-]{subsection.444}{5.5.6 Ferramentas Mobile}{section.429}% 83
-\BOOKMARK [3][-]{section*.445}{Android Studio}{subsection.444}% 84
-\BOOKMARK [2][-]{subsection.446}{5.5.7 Frameworks Mobile}{section.429}% 85
-\BOOKMARK [3][-]{section*.447}{Firebase}{subsection.446}% 86
-\BOOKMARK [3][-]{section*.448}{Retrofit}{subsection.446}% 87
-\BOOKMARK [3][-]{section*.449}{Glide}{subsection.446}% 88
-\BOOKMARK [3][-]{section*.450}{RxAndroid}{subsection.446}% 89
-\BOOKMARK [3][-]{section*.451}{EventBus}{subsection.446}% 90
-\BOOKMARK [3][-]{section*.452}{Hellocharts}{subsection.446}% 91
-\BOOKMARK [3][-]{section*.453}{Realm}{subsection.446}% 92
-\BOOKMARK [2][-]{subsection.454}{5.5.8 Documenta\347\343o}{section.429}% 93
-\BOOKMARK [3][-]{section*.455}{Astah Community}{subsection.454}% 94
-\BOOKMARK [0][-]{chapter.456}{6 Considera\347\365es Finais}{}% 95
-\BOOKMARK [1][-]{section.457}{6.1 Conclus\343o}{chapter.456}% 96
-\BOOKMARK [2][-]{subsection.458}{6.1.1 Contribui\347\343o}{section.457}% 97
-\BOOKMARK [1][-]{section.459}{6.2 Trabalhos Futuros}{chapter.456}% 98
-\BOOKMARK [0][-]{Item.465}{Refer\352ncias Bibliogr\341ficas}{}% 99
+\BOOKMARK [1][-]{section.4}{1.1 Finalidade}{chapter.1}% 14
+\BOOKMARK [1][-]{section.5}{1.2 Objetivo Geral}{chapter.1}% 15
+\BOOKMARK [0][-]{chapter.6}{2 Escopo do Projeto}{}% 16
+\BOOKMARK [1][-]{subsection.7}{2.0.1 Motiva\347\343o}{chapter.6}% 17
+\BOOKMARK [2][-]{subsection.8}{2.0.2 Problema}{subsection.7}% 18
+\BOOKMARK [2][-]{subsection.9}{2.0.3 Justificativa}{subsection.7}% 19
+\BOOKMARK [1][-]{section.10}{2.1 Objetivos}{chapter.6}% 20
+\BOOKMARK [2][-]{subsection.11}{2.1.1 Objetivos Gerais}{section.10}% 21
+\BOOKMARK [2][-]{subsection.12}{2.1.2 Objetivos Espec\355ficos}{section.10}% 22
+\BOOKMARK [0][-]{chapter.13}{3 Fundamenta\347\343o Te\363rica}{}% 23
+\BOOKMARK [1][-]{section.14}{3.1 Android}{chapter.13}% 24
+\BOOKMARK [1][-]{section.16}{3.2 Doze-fatores}{chapter.13}% 25
+\BOOKMARK [1][-]{section.22}{3.3 Versionamento Sem\342ntico 2.0.0}{chapter.13}% 26
+\BOOKMARK [1][-]{section.26}{3.4 Web service RestFul}{chapter.13}% 27
+\BOOKMARK [2][-]{subsection.27}{3.4.1 Cliente-Servidor}{section.26}% 28
+\BOOKMARK [2][-]{subsection.29}{3.4.2 Stateless}{section.26}% 29
+\BOOKMARK [0][-]{chapter.31}{4 Requisitos de software}{}% 30
+\BOOKMARK [1][-]{section.32}{4.1 Requisitos Servico API}{chapter.31}% 31
+\BOOKMARK [2][-]{subsection.33}{4.1.1 RF01:API - Requisi\347\365es Geral}{section.32}% 32
+\BOOKMARK [2][-]{subsection.41}{4.1.2 RF02:API - Autentica\347\343o}{section.32}% 33
+\BOOKMARK [2][-]{subsection.42}{4.1.3 RF03:API - Pe\347a}{section.32}% 34
+\BOOKMARK [2][-]{subsection.48}{4.1.4 RF04:API - Servi\347o}{section.32}% 35
+\BOOKMARK [2][-]{subsection.54}{4.1.5 RF05:API - Cliente}{section.32}% 36
+\BOOKMARK [2][-]{subsection.60}{4.1.6 RF03:API - Ve\355culo}{section.32}% 37
+\BOOKMARK [2][-]{subsection.66}{4.1.7 RF03:API - Or\347amento}{section.32}% 38
+\BOOKMARK [2][-]{subsection.74}{4.1.8 RF03:API - Ordem de servi\347o}{section.32}% 39
+\BOOKMARK [2][-]{subsection.80}{4.1.9 RF03:API - Relatorios}{section.32}% 40
+\BOOKMARK [1][-]{section.91}{4.2 Requisitos Cliente WEB}{chapter.31}% 41
+\BOOKMARK [2][-]{subsection.92}{4.2.1 RF01:WEB - Autentica\347\343o}{section.91}% 42
+\BOOKMARK [2][-]{subsection.100}{4.2.2 RF02:WEB - Pe\347a}{section.91}% 43
+\BOOKMARK [2][-]{subsection.118}{4.2.3 RF03:WEB - Servi\347o}{section.91}% 44
+\BOOKMARK [2][-]{subsection.135}{4.2.4 RF04:WEB - Cliente}{section.91}% 45
+\BOOKMARK [2][-]{subsection.155}{4.2.5 RF05:WEB - Ve\355culo}{section.91}% 46
+\BOOKMARK [2][-]{subsection.179}{4.2.6 RF06:WEB - Or\347amento}{section.91}% 47
+\BOOKMARK [2][-]{subsection.217}{4.2.7 RF07:WEB - Ordem de Servi\347o}{section.91}% 48
+\BOOKMARK [2][-]{subsection.265}{4.2.8 RF08:WEB - Itens Or\347amentos e Ordens de Servi\347o}{section.91}% 49
+\BOOKMARK [2][-]{subsection.274}{4.2.9 RF09:WEB - Aviso}{section.91}% 50
+\BOOKMARK [2][-]{subsection.304}{4.2.10 RF10:WEB - Dashboard - Painel de indicadores}{section.91}% 51
+\BOOKMARK [1][-]{section.330}{4.3 Requisitos Cliente Mobile}{chapter.31}% 52
+\BOOKMARK [2][-]{subsection.331}{4.3.1 RF01:MOBILE - Autentica\347\343o}{section.330}% 53
+\BOOKMARK [2][-]{subsection.335}{4.3.2 RF02:MOBILE - Cache de consultas}{section.330}% 54
+\BOOKMARK [2][-]{subsection.338}{4.3.3 RF02:MOBILE - Inicio}{section.330}% 55
+\BOOKMARK [2][-]{subsection.342}{4.3.4 RF03:MOBILE - Relat\363rio}{section.330}% 56
+\BOOKMARK [2][-]{subsection.347}{4.3.5 RF04:MOBILE - Mensagens}{section.330}% 57
+\BOOKMARK [1][-]{section.351}{4.4 Mapa Mental}{chapter.31}% 58
+\BOOKMARK [1][-]{section.353}{4.5 Design do Software}{chapter.31}% 59
+\BOOKMARK [0][-]{chapter.354}{5 Especifica\347\365es t\351cnicas}{}% 60
+\BOOKMARK [1][-]{section.355}{5.1 Frameworks e Ferramentas}{chapter.354}% 61
+\BOOKMARK [2][-]{subsection.356}{5.1.1 Astah Community}{section.355}% 62
+\BOOKMARK [2][-]{subsection.357}{5.1.2 Versionamento de c\363digo com Git}{section.355}% 63
+\BOOKMARK [3][-]{section*.358}{Estrat\351gia de branchs para git e release de software}{subsection.357}% 64
+\BOOKMARK [3][-]{section*.359}{Versionamento sem\342ntico}{subsection.357}% 65
+\BOOKMARK [2][-]{subsection.360}{5.1.3 Ferramentas Api}{section.355}% 66
+\BOOKMARK [3][-]{section*.361}{Visual Studio code}{subsection.360}% 67
+\BOOKMARK [3][-]{section*.362}{Docker}{subsection.360}% 68
+\BOOKMARK [2][-]{subsection.363}{5.1.4 Frameworks Api}{section.355}% 69
+\BOOKMARK [3][-]{section*.364}{NodeJs}{subsection.363}% 70
+\BOOKMARK [3][-]{section*.365}{Nodal}{subsection.363}% 71
+\BOOKMARK [2][-]{subsection.366}{5.1.5 Ferramentas Web}{section.355}% 72
+\BOOKMARK [2][-]{subsection.367}{5.1.6 Frameworks Web}{section.355}% 73
+\BOOKMARK [3][-]{section*.368}{Aurelia}{subsection.367}% 74
+\BOOKMARK [3][-]{section*.369}{Typescript}{subsection.367}% 75
+\BOOKMARK [2][-]{subsection.370}{5.1.7 Ferramentas Mobile}{section.355}% 76
+\BOOKMARK [3][-]{section*.371}{Android Studio}{subsection.370}% 77
+\BOOKMARK [2][-]{subsection.372}{5.1.8 Frameworks Mobile}{section.355}% 78
+\BOOKMARK [3][-]{section*.373}{Firebase}{subsection.372}% 79
+\BOOKMARK [3][-]{section*.374}{Retrofit}{subsection.372}% 80
+\BOOKMARK [3][-]{section*.375}{Glide}{subsection.372}% 81
+\BOOKMARK [3][-]{section*.376}{RxAndroid}{subsection.372}% 82
+\BOOKMARK [3][-]{section*.377}{EventBus}{subsection.372}% 83
+\BOOKMARK [3][-]{section*.378}{Hellocharts}{subsection.372}% 84
+\BOOKMARK [3][-]{section*.379}{Realm}{subsection.372}% 85
+\BOOKMARK [2][-]{subsection.380}{5.1.9 Codifica\347\343o}{section.355}% 86
+\BOOKMARK [1][-]{section.442}{5.2 Diagramas da UML}{chapter.354}% 87
+\BOOKMARK [2][-]{subsection.444}{5.2.1 Diagrama de Classe}{section.442}% 88
+\BOOKMARK [2][-]{subsection.446}{5.2.2 Diagrama de Caso de Uso}{section.442}% 89
+\BOOKMARK [1][-]{section.448}{5.3 Banco De Dados }{chapter.354}% 90
+\BOOKMARK [1][-]{section.450}{5.4 Prototipa\347\343o}{chapter.354}% 91
+\BOOKMARK [0][-]{chapter.454}{6 Considera\347\365es Finais}{}% 92
+\BOOKMARK [1][-]{section.455}{6.1 Conclus\343o}{chapter.454}% 93
+\BOOKMARK [2][-]{subsection.456}{6.1.1 Contribui\347\343o}{section.455}% 94
+\BOOKMARK [1][-]{section.457}{6.2 Trabalhos Futuros}{chapter.454}% 95
+\BOOKMARK [0][-]{Item.463}{Refer\352ncias Bibliogr\341ficas}{}% 96
